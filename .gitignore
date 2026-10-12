@@ -47,3 +47,6 @@ Desktop.ini
 
 # Local OpenAI batch requests, snapshots and state
 /data/_openai_batch_runs/
+
+# Local model weights, embedding caches and scratch files
+/work/
