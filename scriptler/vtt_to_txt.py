@@ -8,7 +8,7 @@ import re
 import unicodedata
 from pathlib import Path
 
-TIME = r"(?:\d{2,}:)?\d{2}:\d{2}\.\d{3}"
+TIME = r"(?:\d{2,}:)?\d{2}:\d{2}[.,]\d{3}"
 TIMING = re.compile(rf"^({TIME})\s+-->\s+({TIME})(?:\s.*)?$")
 WORDS = re.compile(r"\w+(?:['’]\w+)*|[^\w\s]", re.UNICODE)
 ROOT = Path(__file__).resolve().parent.parent
@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 def seconds(value: str) -> float:
     result = 0.0
     for part in value.split(":"):
-        result = result * 60 + float(part)
+        result = result * 60 + float(part.replace(",", "."))
     return result
 
 

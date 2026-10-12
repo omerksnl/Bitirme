@@ -41,6 +41,10 @@ class VttTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             convert("WEBVTT\n", {})
 
+    def test_srt_timestamps_and_cue_numbers_are_removed(self):
+        text, _ = convert("1\n00:00:00,000 --> 00:00:02,000\nİlk haber.\n\n2\n00:00:02,000 --> 00:00:04,000\nİkinci haber.\n", {})
+        self.assertEqual(text, "İlk haber. İkinci haber.\n")
+
 
 if __name__ == "__main__":
     unittest.main()

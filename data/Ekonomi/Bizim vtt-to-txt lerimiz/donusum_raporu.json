@@ -27,7 +27,7 @@
     },
     "KanalD": {
       "count": 10,
-      "mode": "copied_existing_txt"
+      "mode": "converted_srt_in_txt"
     },
     "KRT": {
       "count": 10,
@@ -599,61 +599,91 @@
       "channel": "KanalD",
       "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250205_567050702_subtitle_tr-auto.txt",
       "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250205_567050702_subtitle_tr-auto.txt",
-      "mode": "copied_existing_txt"
+      "mode": "converted_srt_in_txt",
+      "cue_count": 593,
+      "removed_overlap_tokens": 8,
+      "word_corrections": {}
     },
     {
       "channel": "KanalD",
       "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250204_566937482_subtitle_tr-auto.txt",
       "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250204_566937482_subtitle_tr-auto.txt",
-      "mode": "copied_existing_txt"
+      "mode": "converted_srt_in_txt",
+      "cue_count": 647,
+      "removed_overlap_tokens": 6,
+      "word_corrections": {}
     },
     {
       "channel": "KanalD",
       "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250203_566850744_subtitle_tr-auto.txt",
       "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250203_566850744_subtitle_tr-auto.txt",
-      "mode": "copied_existing_txt"
+      "mode": "converted_srt_in_txt",
+      "cue_count": 800,
+      "removed_overlap_tokens": 4,
+      "word_corrections": {}
     },
     {
       "channel": "KanalD",
       "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250131_566586348_subtitle_tr-auto.txt",
       "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250131_566586348_subtitle_tr-auto.txt",
-      "mode": "copied_existing_txt"
+      "mode": "converted_srt_in_txt",
+      "cue_count": 619,
+      "removed_overlap_tokens": 0,
+      "word_corrections": {}
     },
     {
       "channel": "KanalD",
       "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250130_566515824_subtitle_tr-auto.txt",
       "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250130_566515824_subtitle_tr-auto.txt",
-      "mode": "copied_existing_txt"
+      "mode": "converted_srt_in_txt",
+      "cue_count": 602,
+      "removed_overlap_tokens": 16,
+      "word_corrections": {}
     },
     {
       "channel": "KanalD",
       "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250129_566409786_subtitle_tr-auto.txt",
       "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250129_566409786_subtitle_tr-auto.txt",
-      "mode": "copied_existing_txt"
+      "mode": "converted_srt_in_txt",
+      "cue_count": 579,
+      "removed_overlap_tokens": 0,
+      "word_corrections": {}
     },
     {
       "channel": "KanalD",
       "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250128_566313004_subtitle_tr-auto.txt",
       "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250128_566313004_subtitle_tr-auto.txt",
-      "mode": "copied_existing_txt"
+      "mode": "converted_srt_in_txt",
+      "cue_count": 556,
+      "removed_overlap_tokens": 0,
+      "word_corrections": {}
     },
     {
       "channel": "KanalD",
       "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250127_566227234_subtitle_tr-auto.txt",
       "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250127_566227234_subtitle_tr-auto.txt",
-      "mode": "copied_existing_txt"
+      "mode": "converted_srt_in_txt",
+      "cue_count": 611,
+      "removed_overlap_tokens": 0,
+      "word_corrections": {}
     },
     {
       "channel": "KanalD",
       "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250124_566010314_subtitle_tr-auto.txt",
       "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250124_566010314_subtitle_tr-auto.txt",
-      "mode": "copied_existing_txt"
+      "mode": "converted_srt_in_txt",
+      "cue_count": 584,
+      "removed_overlap_tokens": 7,
+      "word_corrections": {}
     },
     {
       "channel": "KanalD",
       "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250123_565894262_subtitle_tr-auto.txt",
       "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250123_565894262_subtitle_tr-auto.txt",
-      "mode": "copied_existing_txt"
+      "mode": "converted_srt_in_txt",
+      "cue_count": 1509,
+      "removed_overlap_tokens": 0,
+      "word_corrections": {}
     },
     {
       "channel": "KRT",
