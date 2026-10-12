@@ -20,7 +20,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_INPUT = ROOT / "data/Ekonomi/Bizim vtt-to-txt lerimiz"
-DEFAULT_JOB = ROOT / "data/_openai_batch_runs/pilot"
+DEFAULT_JOB = ROOT / "data/_openai_batch_runs/pilot-v2"
 DEFAULT_MODEL = "gpt-4.1-mini-2025-04-14"
 KINDS = ["news", "opening", "headlines", "closing", "other"]
 
@@ -38,12 +38,16 @@ Açılış opening, kapanış closing, reklam/jenerik diğer metinler other olsu
 Açılış olmadan başlayan kayıtta ilk bölüm news olabilir. Herhangi bir haber
 konusunu filtreleme: tüm bülteni kapsa, hiçbir metni atlama veya yeniden yazma.
 
-Her bölüm için start_quote alanında bölümün başladığı yerden 12-25 ardışık
-kelimeyi metinden birebir al. Büyük/küçük harf, yazım hataları ve noktalama dahil
-AYNEN kopyala. Çok kısa son bölüm için mevcut kelimeleri kullan. Alıntı metinde
-tek bir yere karşılık gelmeli; belirsizse daha uzun alıntı kullanabilirsin.
-İlk bölümün alıntısı bültenin ilk kelimesinden başlasın. Bölümler metindeki
-sırada olsun. Bir sonraki bölümün başlangıcı öncekinin bitişidir. title kısa
+Metin 8 kelimelik satırlarda veriliyor. [000001-000008] gibi işaretler satırdaki
+ilk ve son kelimenin 1'den başlayan numaralarıdır; bültenin parçası değildir.
+Satır sınırları HABER SINIRI DEĞİLDİR. Haber başlangıcını satır içindeki kelimede
+de seçebilirsin. Her bölüm için start_word alanına bölümün başladığı kelimenin
+numarasını yaz. Satır içindeki kelimeleri sayarak tam numarayı belirle.
+Önceki haberin son kelimelerini yeni habere katma, aynı haberin muhabir paketi
+ve röportajını yeni bir haber sayma. Metinden alıntı kopyalama veya sayı uydurma.
+İlk bölüm start_word=1 olsun. Sonraki numaralar kesin olarak artmalı; tekrar,
+geriye dönüş ve bültenin farklı yerlerini bir bölümde birleştirme yasaktır.
+Bir sonraki bölümün başlangıcı öncekinin bitişidir. title kısa
 Türkçe başlık, topic kısa konu, reason sınırın gerekçesi, confidence 0-1 arası
 öz değerlendirme olsun. confidence doğrulanmış bir olasılık değildir.
 JSON şemasına uy; kaynak metni çıktı içinde tekrar üretme veya özetleme.
@@ -54,14 +58,14 @@ SEGMENT_SCHEMA = {
     "properties": {
         "segments": {"type": "array", "items": {
             "type": "object", "properties": {
-                "start_quote": {"type": "string"},
+                "start_word": {"type": "integer"},
                 "title": {"type": "string"},
                 "topic": {"type": "string"},
                 "kind": {"type": "string", "enum": KINDS},
                 "confidence": {"type": "number"},
                 "reason": {"type": "string"},
             },
-            "required": ["start_quote", "title", "topic", "kind", "confidence", "reason"],
+            "required": ["start_word", "title", "topic", "kind", "confidence", "reason"],
             "additionalProperties": False,
         }},
     }, "required": ["segments"], "additionalProperties": False,
@@ -83,6 +87,11 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
+def numbered_text(text: str) -> str:
+    words = text.split()
+    return "\n".join(f"[{start + 1:06d}-{min(start + 8, len(words)):06d}] " + " ".join(words[start:start + 8]) for start in range(0, len(words), 8))
+
+
 def make_request(custom_id: str, text: str, channel: str, model: str) -> dict:
     return {
         "custom_id": custom_id, "method": "POST", "url": "/v1/responses",
@@ -90,7 +99,7 @@ def make_request(custom_id: str, text: str, channel: str, model: str) -> dict:
             "model": model, "store": False, "max_output_tokens": 16000,
             "input": [
                 {"role": "system", "content": INSTRUCTIONS},
-                {"role": "user", "content": f"Kanal: {channel}\nBülten metni:\n{text}"},
+                {"role": "user", "content": f"Kanal: {channel}\nToplam kelime: {len(text.split())}\nNumaralı bülten metni:\n{numbered_text(text)}"},
             ],
             "text": {"format": {"type": "json_schema", "name": "broadcast_segments", "strict": True, "schema": SEGMENT_SCHEMA}},
         },
@@ -114,7 +123,7 @@ def prepare(args) -> int:
         raise ValueError("Kanal alt klasörlerinde TXT bulunamadı")
     if len(selected) > 50000:
         raise ValueError("Bir Batch için 50.000 istek sınırı aşıldı")
-    manifest = {"version": 1, "created_at": datetime.now(timezone.utc).isoformat(), "model": args.model, "source_root": str(source), "requests": []}
+    manifest = {"version": 2, "created_at": datetime.now(timezone.utc).isoformat(), "model": args.model, "source_root": str(source), "requests": []}
     requests = []
     snapshots = []
     total_words = 0
@@ -166,6 +175,8 @@ def api_client():
 def submit(args) -> int:
     job = args.job.resolve()
     manifest = load_json(job / "manifest.json")
+    if manifest.get("version") != 2:
+        raise ValueError("Bu iş eski alıntı yöntemiyle hazırlanmış. prepare ile yeni --job altında numaralı kelime istekleri hazırla.")
     raw = (job / "requests.jsonl").read_bytes()
     if digest(raw) != manifest["requests_sha256"]:
         raise ValueError("Hazırlanan istek dosyası değiştirilmiş; yeni iş hazırla")
@@ -227,17 +238,30 @@ def split_original(text: str, payload: dict) -> list[dict]:
         raise ValueError("Boş/geçersiz bölüm listesi")
     positions = []
     segments = []
+    words = list(re.finditer(r"\S+", text))
+    # Old downloaded responses remain inspectable. New paid submissions use
+    # word positions only, avoiding fragile quotes and normalization guesses.
+    method = "start_word" if "start_word" in payload["segments"][0] else "start_quote"
+    required = {method, "title", "topic", "kind", "confidence", "reason"}
     for item in payload["segments"]:
-        if not isinstance(item, dict) or set(item) != set(SEGMENT_SCHEMA["properties"]["segments"]["items"]["required"]):
+        if not isinstance(item, dict) or set(item) != required:
             raise ValueError("Bölüm alanları şemaya uymuyor")
         if item["kind"] not in KINDS:
             raise ValueError("Geçersiz bölüm türü")
-        if not all(isinstance(item[name], str) and item[name].strip() for name in ["start_quote", "title", "topic", "reason"]):
+        if not all(isinstance(item[name], str) and item[name].strip() for name in ["title", "topic", "reason"]):
             raise ValueError("Bölüm metin alanları boş veya geçersiz")
         confidence = item["confidence"]
         if type(confidence) not in (float, int) or not 0 <= confidence <= 1:
             raise ValueError("Güven değeri 0-1 arasında olmalı")
-        position = locate_quote(text, item["start_quote"])
+        if method == "start_word":
+            index = item["start_word"]
+            if type(index) is not int or not 1 <= index <= len(words):
+                raise ValueError("Başlangıç kelime numarası metin sınırları dışında/geçersiz")
+            position = words[index - 1].start()
+        else:
+            if not isinstance(item["start_quote"], str):
+                raise ValueError("Geçersiz başlangıç alıntısı")
+            position = locate_quote(text, item["start_quote"])
         if positions and position <= positions[-1]:
             raise ValueError("Bölümler sırasız veya aynı yerden başlıyor")
         positions.append(position)
@@ -246,7 +270,7 @@ def split_original(text: str, payload: dict) -> list[dict]:
     positions[0] = 0
     for number, item in enumerate(payload["segments"]):
         end = positions[number + 1] if number + 1 < len(positions) else len(text)
-        segments.append({**item, "start_char": positions[number], "end_char": end, "text": text[positions[number]:end]})
+        segments.append({**item, "start_char": positions[number], "end_char": end, "text": text[positions[number]:end], "start_excerpt": text[positions[number]:min(end, positions[number] + 200)]})
     if "".join(item["text"] for item in segments) != text:
         raise ValueError("Kaynak metin eksiksiz korunamadı")
     return segments
@@ -370,7 +394,7 @@ def main() -> int:
         command.add_argument("--job", type=Path, default=DEFAULT_JOB)
         command.set_defaults(run=action)
         if name == "collect":
-            command.add_argument("--output", type=Path, default=ROOT / "data/Ekonomi/Bizim haberlerimiz/pilot")
+            command.add_argument("--output", type=Path, default=ROOT / "data/Ekonomi/Bizim haberlerimiz/pilot-v2")
     export = commands.add_parser("export", help="İndirilmiş Batch sonucunu API çağrısı olmadan dışa aktar")
     export.add_argument("--job", type=Path, default=DEFAULT_JOB)
     export.add_argument("--results", type=Path, required=True)

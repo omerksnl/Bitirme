@@ -3,7 +3,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from openai_news_batch import digest, export_results, make_request, save_json, split_original
+from openai_news_batch import digest, export_results, make_request, numbered_text, save_json, split_original
 
 
 def segment(quote, kind="news", confidence=0.9):
@@ -15,6 +15,35 @@ def response(identifier, payload):
 
 
 class BatchTests(unittest.TestCase):
+    def test_word_boundaries_preserve_source_and_split_inside_numbered_line(self):
+        text = "  İlk  haberin metni.\n\nYeni haber başladı.\n"
+        first = segment("unused")
+        second = segment("unused")
+        first.pop("start_quote")
+        second.pop("start_quote")
+        first["start_word"] = 1
+        second["start_word"] = 4
+        parts = split_original(text, {"segments": [first, second]})
+        self.assertEqual(parts[1]["text"], "Yeni haber başladı.\n")
+        self.assertEqual("".join(p["text"] for p in parts), text)
+
+    def test_numbering_does_not_impose_story_boundaries(self):
+        text = " ".join(f"kelime{i}" for i in range(1, 11))
+        lines = numbered_text(text).splitlines()
+        self.assertTrue(lines[0].startswith("[000001-000008] kelime1"))
+        self.assertTrue(lines[1].startswith("[000009-000010] kelime9"))
+
+    def test_invalid_duplicate_and_out_of_order_word_numbers_are_rejected(self):
+        for indices in [[0], [True], [4], [2], [1, 1], [1, 3, 2]]:
+            parts = []
+            for index in indices:
+                part = segment("unused")
+                part.pop("start_quote")
+                part["start_word"] = index
+                parts.append(part)
+            with self.assertRaises(ValueError):
+                split_original("Bir iki üç", {"segments": parts})
+
     def test_slices_preserve_all_original_whitespace_and_typos(self):
         text = "  İyi akşamlar.\n\nEnflayon arttı.  Yeni konu başladı.\n"
         parts = split_original(text, {"segments": [segment("İyi akşamlar.", "opening"), segment("Enflayon arttı."), segment("Yeni konu başladı.")]})
