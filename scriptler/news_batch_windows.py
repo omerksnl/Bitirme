@@ -205,7 +205,7 @@ def snapshot_text(job: Path, document: dict) -> str:
     return text
 
 
-def validate_payload(payload: dict, window: dict, stage: str, owned_candidates: list[dict] | None = None) -> tuple[list[dict], list[dict]]:
+def validate_payload(payload: dict, window: dict, stage: str, owned_candidates: list[dict] | None = None, diagnostics: list | None = None) -> tuple[list[dict], list[dict]]:
     keys = {"boundaries", "discarded"} if stage == "review" else {"boundaries"}
     if not isinstance(payload, dict) or set(payload) != keys or not isinstance(payload["boundaries"], list):
         raise ValueError("Yanıt şeması geçersiz")
@@ -213,6 +213,7 @@ def validate_payload(payload: dict, window: dict, stage: str, owned_candidates: 
     boundaries = []
     previous = -1
     known = {item["candidate_id"]: item for item in owned_candidates or []}
+    visible = {item["candidate_id"]: item for item in window.get("visible_candidates", owned_candidates or [])}
     accounted = set()
     for item in payload["boundaries"]:
         if not isinstance(item, dict) or set(item) != required:
@@ -221,10 +222,15 @@ def validate_payload(payload: dict, window: dict, stage: str, owned_candidates: 
         if type(local) is not int:
             raise ValueError("Kelime kimliği tamsayı olmalı")
         position = window["view_start"] + local - 1
-        if not window["core_start"] <= position < window["core_end"] or local < 1:
-            raise ValueError("Sınır sahip olunan pencere bölgesinin dışında")
+        if not 1 <= local <= window["view_end"] - window["view_start"]:
+            if diagnostics is None:
+                raise ValueError("Kelime kimliği görünen kaynak metnin dışında")
+            diagnostics.append({"code": "out_of_view_token", "window_id": window["custom_id"], "proposal": item})
+            continue
         if position <= previous:
-            raise ValueError("Sınırlar sırasız veya tekrarlı")
+            if diagnostics is None:
+                raise ValueError("Sınırlar sırasız veya tekrarlı")
+            diagnostics.append({"code": "proposal_order_normalized", "window_id": window["custom_id"], "proposal": item})
         previous = position
         if item["kind"] not in KINDS or not all(isinstance(item[name], str) and item[name].strip() for name in ["title", "topic", "reason"]):
             raise ValueError("Sınır başlığı/konusu/türü geçersiz")
@@ -236,6 +242,10 @@ def validate_payload(payload: dict, window: dict, stage: str, owned_candidates: 
             if not isinstance(identifier, str) or item["verdict"] not in {"supported", "uncertain"}:
                 raise ValueError("İkinci kontrol alanları geçersiz")
             if identifier:
+                if identifier not in known and identifier in visible:
+                    if diagnostics is not None:
+                        diagnostics.append({"code": "context_review_owned_elsewhere", "window_id": window["custom_id"], "proposal": item})
+                    continue
                 if identifier not in known or identifier in accounted:
                     raise ValueError("Öneri kimliği geçersiz, bağlamda veya birden çok kez kullanılmış")
                 accounted.add(identifier)
@@ -251,6 +261,10 @@ def validate_payload(payload: dict, window: dict, stage: str, owned_candidates: 
             if not isinstance(item, dict) or set(item) != {"candidate_id", "reason"} or not isinstance(item["candidate_id"], str):
                 raise ValueError("Silinen öneri alanları geçersiz")
             identifier = item["candidate_id"]
+            if identifier not in known and identifier in visible:
+                if diagnostics is not None:
+                    diagnostics.append({"code": "context_discard_owned_elsewhere", "window_id": window["custom_id"], "proposal": item})
+                continue
             if identifier not in known or identifier in accounted or not isinstance(item["reason"], str) or not item["reason"].strip():
                 raise ValueError("Silinen öneri kimliği/geçerliliği hatalı")
             accounted.add(identifier)
@@ -260,13 +274,38 @@ def validate_payload(payload: dict, window: dict, stage: str, owned_candidates: 
     return boundaries, discarded
 
 
+def normalize_boundaries(item: dict, owned_windows: list[dict], stage: str) -> None:
+    """Give every observed source position one owner, keeping all evidence.
+
+    Context observations are useful proposals, not failed API responses.
+    Only exact positions are coalesced; nearby semantic boundaries are never
+    silently shifted or merged.
+    """
+    grouped = {}
+    for boundary in item["boundaries"]:
+        grouped.setdefault(boundary["global_word"], []).append(boundary)
+    if stage == "detect" and 0 not in grouped:
+        first = owned_windows[0]
+        grouped[0] = [{"start_token": 1, "global_word": 0, "window_id": first["custom_id"], "title": "Kaydın başlangıcı: kontrol bekliyor",
+            "topic": "Belirlenmedi", "kind": "other", "confidence": 0.0,
+            "reason": "Kaynak girişini koruyan teknik yer tutucu. İkinci kontrol gerçek türü/başlığı belirlemeli.", "synthetic_source_start": True}]
+        item["warnings"].append({"code": "synthetic_source_start", "reason": "Model girişteki kelimeleri bölüm başlangıcına almamış"})
+    normalized = []
+    for position, observations in sorted(grouped.items()):
+        owner = next(window for window in owned_windows if window["core_start"] <= position < window["core_end"])
+        chosen = next((boundary for boundary in observations if boundary["window_id"] == owner["custom_id"]), observations[0])
+        normalized.append({**chosen, "owner_window_id": owner["custom_id"], "observed_window_ids": sorted({boundary["window_id"] for boundary in observations}),
+                           "observations": observations, "context_reassigned": any(boundary["window_id"] != owner["custom_id"] for boundary in observations)})
+    item["boundaries"] = normalized
+
+
 def assemble(job: Path, results: Path) -> dict:
     manifest = load_json(job / "manifest.json")
     stage = manifest["stage"]
     records = load_results(results, manifest)
     report = {"version": 3, "stage": stage, "model": manifest["model"], "documents": []}
     for document in manifest["documents"]:
-        item = {**document, "boundaries": [], "discarded": [], "errors": []}
+        item = {**document, "boundaries": [], "discarded": [], "errors": [], "warnings": []}
         expected_windows = sorted((window for window in manifest["requests"] if window["doc_id"] == document["doc_id"]), key=lambda window: window["core_start"])
         try:
             snapshot_text(job, document)
@@ -283,13 +322,14 @@ def assemble(job: Path, results: Path) -> dict:
                     continue
                 try:
                     owned = window.get("owned_candidates", [])
-                    boundaries, discarded = validate_payload(response_payload(records[identifier]), window, stage, owned)
+                    boundaries, discarded = validate_payload(response_payload(records[identifier]), window, stage, owned, item["warnings"])
                     item["boundaries"].extend(boundaries)
                     item["discarded"].extend(discarded)
                 except (ValueError, KeyError, TypeError) as error:
                     item["errors"].append(f"{identifier}: {error}")
             if cursor != document["words"]:
                 raise ValueError("Bültenin sonuna kadar pencere kapsamı yok")
+            normalize_boundaries(item, expected_windows, stage)
             if not item["boundaries"] or item["boundaries"][0]["global_word"] != 0:
                 raise ValueError("Bültenin başlangıcı atlanmış")
         except (ValueError, OSError, KeyError, TypeError) as error:
@@ -320,6 +360,7 @@ def prepare_review(job: Path, report: dict) -> int:
     for document in report["documents"]:
         source = {key: document[key] for key in ["doc_id", "source", "channel", "snapshot", "sha256", "words"]}
         source["detection_errors"] = document["errors"]
+        source["detection_warnings"] = document.get("warnings", [])
         reviewed_manifest["documents"].append(source)
         text = snapshot_text(job, document)
         snapshots[source["snapshot"]] = text.encode("utf-8")
@@ -330,6 +371,7 @@ def prepare_review(job: Path, report: dict) -> int:
                 continue
             window = {**original, "custom_id": f"{document['doc_id']}-r{original['number']:04d}"}
             window["owned_candidates"] = [boundary for boundary in document["boundaries"] if window["core_start"] <= boundary["global_word"] < window["core_end"]]
+            window["visible_candidates"] = [boundary for boundary in document["boundaries"] if window["view_start"] <= boundary["global_word"] < window["view_end"]]
             reviewed_manifest["requests"].append(window)
             requests.append(request_for(text, window, manifest["review_model"], document["channel"], "review", document["boundaries"]))
     if not requests:
@@ -391,7 +433,7 @@ def export_review(job: Path, report: dict, output: Path) -> int:
                 segment["file"] = name
             save_json(destination / "haberler.json", {"source": document["source"], "sha256": document["sha256"], "model": report["model"],
                 "text_preserved": True, "model_review_completed": True, "semantic_review_completed": False,
-                "needs_review": True, "discarded_candidates": document["discarded"], "segments": segments})
+                "needs_review": True, "discarded_candidates": document["discarded"], "detection_warnings": document.get("detection_warnings", []), "review_warnings": document.get("warnings", []), "segments": segments})
             entry.update(status="draft_exported", news_count=news_count, segment_count=len(segments),
                 moved_boundaries=sum(segment["review_action"] == "moved" for segment in segments),
                 added_boundaries=sum(segment["review_action"] == "added" for segment in segments),

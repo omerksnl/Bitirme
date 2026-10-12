@@ -50,10 +50,10 @@ class WindowTests(unittest.TestCase):
         window = test_window(20, 8, 2, 1)
         self.assertEqual(validate_payload({"boundaries": []}, window, "detect"), ([], []))
 
-    def test_context_boundary_cannot_be_owned_twice(self):
+    def test_context_observation_is_valid_and_can_be_reassigned(self):
         window = test_window(20, 8, 2, 1)
-        with self.assertRaises(ValueError):
-            validate_payload({"boundaries": [boundary(2)]}, window, "detect")
+        context, _ = validate_payload({"boundaries": [boundary(2)]}, window, "detect")
+        self.assertEqual(context[0]["global_word"], 7)
         valid, _ = validate_payload({"boundaries": [boundary(3)]}, window, "detect")
         self.assertEqual(valid[0]["global_word"], 8)
 
@@ -134,6 +134,47 @@ class WindowTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 assemble(job, results)
 
+    def test_context_duplicates_missing_intro_and_bad_id_are_recoverable_for_review(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            job, results, records, _ = self.fixture(root)
+            manifest = load_json(job / "manifest.json")
+            # Actual failure pattern: intro starts at ID 2, a context boundary
+            # repeats an owned proposal, and one ID is outside the view.
+            first = manifest["requests"][0]
+            records[0] = api_result(first["custom_id"], {"boundaries": [boundary(2, kind="opening"), boundary(4)]})
+            middle = manifest["requests"][1]
+            records[1] = api_result(middle["custom_id"], {"boundaries": [boundary(1, title="Context hypothesis")]})
+            last = manifest["requests"][2]
+            records[2] = api_result(last["custom_id"], {"boundaries": [boundary(3), boundary(999)]})
+            write_results(results, records)
+            report = assemble(job, results)
+            self.assertEqual(report["successful_documents"], 1)
+            document = report["documents"][0]
+            self.assertEqual(document["boundaries"][0]["global_word"], 0)
+            self.assertTrue(document["boundaries"][0]["synthetic_source_start"])
+            duplicates = [item for item in document["boundaries"] if item["global_word"] == 3]
+            self.assertEqual(len(duplicates), 1)
+            self.assertEqual(len(duplicates[0]["observations"]), 2)
+            self.assertEqual(duplicates[0]["owner_window_id"], first["custom_id"])
+            self.assertEqual(duplicates[0]["title"], "Haber")
+            self.assertEqual({item["code"] for item in document["warnings"]}, {"synthetic_source_start", "out_of_view_token"})
+
+    def test_review_ignores_context_candidate_owned_by_another_window(self):
+        window = test_window(20, 8, 2, 1)
+        window["visible_candidates"] = [{"candidate_id": "context", "global_word": 7}]
+        diagnostics = []
+        result, _ = validate_payload({"boundaries": [boundary(2, review_of="context", verdict="supported")], "discarded": []}, window, "review", [], diagnostics)
+        self.assertEqual(result, [])
+        self.assertEqual(diagnostics[0]["code"], "context_review_owned_elsewhere")
+
+    def test_unordered_detection_proposals_are_reported_instead_of_losing_window(self):
+        window = test_window(8, 8, 2)
+        diagnostics = []
+        proposals, _ = validate_payload({"boundaries": [boundary(4), boundary(1)]}, window, "detect", diagnostics=diagnostics)
+        self.assertEqual(len(proposals), 2)
+        self.assertEqual(diagnostics[0]["code"], "proposal_order_normalized")
+
     def test_two_stage_pipeline_moves_boundaries_preserves_bytes_and_never_submits(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
@@ -188,6 +229,13 @@ class WindowTests(unittest.TestCase):
             with patch.object(cli, "api_client") as client:
                 with self.assertRaises(ValueError):
                     cli.submit(Namespace(job=job))
+                client.assert_not_called()
+
+    def test_review_submit_before_collect_has_clear_error_and_no_api_call(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            with patch.object(cli, "api_client") as client:
+                with self.assertRaisesRegex(ValueError, "Önce collect"):
+                    cli.submit(Namespace(job=Path(temporary) / "review"))
                 client.assert_not_called()
 
 

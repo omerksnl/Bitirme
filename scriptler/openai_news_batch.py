@@ -131,6 +131,10 @@ def api_client():
 
 def submit(args) -> int:
     job = args.job.resolve()
+    if not (job / "manifest.json").exists():
+        if job.name == "review":
+            raise ValueError("İkinci kontrol henüz hazırlanmamış. Önce collect ile ilk aşamanın sonuçlarını topla.")
+        raise ValueError("İş hazırlanmış değil. Önce prepare çalıştır veya --job yolunu kontrol et.")
     manifest = load_json(job / "manifest.json")
     if manifest.get("version") not in (2, 3):
         raise ValueError("Bu iş eski alıntı yöntemiyle hazırlanmış. prepare ile yeni --job altında numaralı kelime istekleri hazırla.")
