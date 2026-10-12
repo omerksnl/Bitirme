@@ -34,3 +34,9 @@ Desktop.ini
 
 # Generated share archive
 /web-prototype-share.zip
+
+# Local project reports and generated analysis
+/EKONOMI_VERI_ANALIZI.md
+/SEGMENTATION_ANALYSIS.md
+/dataset_analysis.json
+/Proje_Ozeti_Kisisellestirilmis_Egitim_Asistani.pdf
