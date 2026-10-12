@@ -44,3 +44,6 @@ Desktop.ini
 # Local documentation
 /README.md
 /web-prototype/README.md
+
+# Local OpenAI batch requests, snapshots and state
+/data/_openai_batch_runs/
