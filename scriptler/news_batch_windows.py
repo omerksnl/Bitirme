@@ -247,9 +247,14 @@ def validate_payload(payload: dict, window: dict, stage: str, owned_candidates: 
                         diagnostics.append({"code": "context_review_owned_elsewhere", "window_id": window["custom_id"], "proposal": item})
                     continue
                 if identifier not in known or identifier in accounted:
-                    raise ValueError("Öneri kimliği geçersiz, bağlamda veya birden çok kez kullanılmış")
-                accounted.add(identifier)
-                boundary["review_action"] = "confirmed" if position == known[identifier]["global_word"] else "moved"
+                    if diagnostics is None:
+                        raise ValueError("Öneri kimliği geçersiz, bağlamda veya birden çok kez kullanılmış")
+                    diagnostics.append({"code": "unresolved_review_reference", "window_id": window["custom_id"], "proposal": item})
+                    boundary["review_action"] = "unresolved_reference"
+                    boundary["verdict"] = "uncertain"
+                else:
+                    accounted.add(identifier)
+                    boundary["review_action"] = "confirmed" if position == known[identifier]["global_word"] else "moved"
             else:
                 boundary["review_action"] = "added"
         boundaries.append(boundary)
@@ -266,11 +271,24 @@ def validate_payload(payload: dict, window: dict, stage: str, owned_candidates: 
                     diagnostics.append({"code": "context_discard_owned_elsewhere", "window_id": window["custom_id"], "proposal": item})
                 continue
             if identifier not in known or identifier in accounted or not isinstance(item["reason"], str) or not item["reason"].strip():
-                raise ValueError("Silinen öneri kimliği/geçerliliği hatalı")
+                if diagnostics is None:
+                    raise ValueError("Silinen öneri kimliği/geçerliliği hatalı")
+                diagnostics.append({"code": "unresolved_discard_reference", "window_id": window["custom_id"], "proposal": item})
+                continue
             accounted.add(identifier)
             discarded.append(item)
         if accounted != set(known):
-            raise ValueError("İkinci kontrol bazı önerileri açıklamadan atlamış")
+            if diagnostics is None:
+                raise ValueError("İkinci kontrol bazı önerileri açıklamadan atlamış")
+            for identifier in sorted(set(known) - accounted):
+                original = known[identifier]
+                fallback = {name: original[name] for name in BOUNDARY_FIELDS}
+                fallback.update(start_token=original["global_word"] - window["view_start"] + 1,
+                    global_word=original["global_word"], window_id=window["custom_id"], review_of=identifier,
+                    review_action="unreviewed_fallback", verdict="uncertain", confidence=0.0,
+                    original_reason=original["reason"], reason="İkinci model bu öneriyi açıklamamış; ilk öneri yalnız insan incelemesi için korundu.")
+                boundaries.append(fallback)
+                diagnostics.append({"code": "unreviewed_candidate_preserved", "window_id": window["custom_id"], "candidate_id": identifier})
     return boundaries, discarded
 
 
@@ -284,11 +302,13 @@ def normalize_boundaries(item: dict, owned_windows: list[dict], stage: str) -> N
     grouped = {}
     for boundary in item["boundaries"]:
         grouped.setdefault(boundary["global_word"], []).append(boundary)
-    if stage == "detect" and 0 not in grouped:
+    if 0 not in grouped:
         first = owned_windows[0]
         grouped[0] = [{"start_token": 1, "global_word": 0, "window_id": first["custom_id"], "title": "Kaydın başlangıcı: kontrol bekliyor",
             "topic": "Belirlenmedi", "kind": "other", "confidence": 0.0,
             "reason": "Kaynak girişini koruyan teknik yer tutucu. İkinci kontrol gerçek türü/başlığı belirlemeli.", "synthetic_source_start": True}]
+        if stage == "review":
+            grouped[0][0].update(review_of="", review_action="unreviewed_source_start", verdict="uncertain")
         item["warnings"].append({"code": "synthetic_source_start", "reason": "Model girişteki kelimeleri bölüm başlangıcına almamış"})
     normalized = []
     for position, observations in sorted(grouped.items()):
@@ -417,6 +437,9 @@ def export_review(job: Path, report: dict, output: Path) -> int:
                 raise ValueError(" | ".join(document["errors"]))
             text = snapshot_text(job, document)
             segments = slices(text, document["boundaries"])
+            unresolved = any(segment["review_action"].startswith("unreviewed") or segment["review_action"] == "unresolved_reference" or segment["verdict"] == "uncertain" for segment in segments) or any(warning["code"].startswith("unresolved") or warning["code"] in {"unreviewed_candidate_preserved", "synthetic_source_start", "out_of_view_token"} for warning in document.get("warnings", []))
+            if unresolved:
+                summary["model_review_completed"] = False
             relative = Path(document["source"])
             if relative.is_absolute() or ".." in relative.parts:
                 raise ValueError("Geçersiz kaynak yolu")
@@ -432,9 +455,10 @@ def export_review(job: Path, report: dict, output: Path) -> int:
                 (destination / name).write_bytes(segment.pop("text").encode("utf-8"))
                 segment["file"] = name
             save_json(destination / "haberler.json", {"source": document["source"], "sha256": document["sha256"], "model": report["model"],
-                "text_preserved": True, "model_review_completed": True, "semantic_review_completed": False,
+                "text_preserved": True, "model_review_completed": not unresolved, "semantic_review_completed": False,
                 "needs_review": True, "discarded_candidates": document["discarded"], "detection_warnings": document.get("detection_warnings", []), "review_warnings": document.get("warnings", []), "segments": segments})
             entry.update(status="draft_exported", news_count=news_count, segment_count=len(segments),
+                model_review_completed=not unresolved,
                 moved_boundaries=sum(segment["review_action"] == "moved" for segment in segments),
                 added_boundaries=sum(segment["review_action"] == "added" for segment in segments),
                 discarded_boundaries=len(document["discarded"]),
@@ -444,6 +468,7 @@ def export_review(job: Path, report: dict, output: Path) -> int:
             entry.update(status="failed", error=str(error))
             summary["failed"] += 1
         summary["files"].append(entry)
+    summary["model_review_completed"] = summary["model_review_completed"] and summary["failed"] == 0
     save_json(output / "ayirma_raporu.json", summary)
     print(f"Taslak oluşturulan: {summary['exported']} | Eksik/hatalı: {summary['failed']}\nÇıktı: {output}\nTüm sınırlar insan incelemesi bekliyor.")
     return 1 if summary["failed"] else 0

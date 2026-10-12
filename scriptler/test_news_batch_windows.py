@@ -63,6 +63,34 @@ class WindowTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_payload({"boundaries": [boundary(1, review_of="c0001", verdict="supported")], "discarded": []}, window, "review", candidates)
 
+    def test_unaccounted_candidate_is_preserved_as_unreviewed_draft(self):
+        window = test_window(8, 8, 2)
+        candidates = [{**boundary(1), "candidate_id": "c1", "global_word": 0}, {**boundary(4), "candidate_id": "c2", "global_word": 3}]
+        warnings = []
+        result, _ = validate_payload({"boundaries": [boundary(1, review_of="c1", verdict="supported")], "discarded": []}, window, "review", candidates, warnings)
+        fallback = next(item for item in result if item["review_of"] == "c2")
+        self.assertEqual(fallback["review_action"], "unreviewed_fallback")
+        self.assertEqual(fallback["verdict"], "uncertain")
+        self.assertEqual(fallback["global_word"], 3)
+        self.assertEqual(warnings[0]["code"], "unreviewed_candidate_preserved")
+
+    def test_reused_reference_does_not_become_supported(self):
+        window = test_window(8, 8, 2)
+        candidates = [{**boundary(1), "candidate_id": "c1", "global_word": 0}]
+        warnings = []
+        result, _ = validate_payload({"boundaries": [boundary(1, review_of="c1", verdict="supported"), boundary(4, review_of="c1", verdict="supported")], "discarded": []}, window, "review", candidates, warnings)
+        self.assertEqual(result[1]["verdict"], "uncertain")
+        self.assertEqual(result[1]["review_action"], "unresolved_reference")
+
+    def test_conflicting_discard_does_not_delete_returned_boundary(self):
+        window = test_window(8, 8, 2)
+        candidates = [{**boundary(1), "candidate_id": "c1", "global_word": 0}]
+        warnings = []
+        result, discarded = validate_payload({"boundaries": [boundary(1, review_of="c1", verdict="supported")], "discarded": [{"candidate_id": "c1", "reason": "remove"}]}, window, "review", candidates, warnings)
+        self.assertEqual(len(result), 1)
+        self.assertEqual(discarded, [])
+        self.assertEqual(warnings[0]["code"], "unresolved_discard_reference")
+
     def test_review_can_move_add_and_discard_with_trace(self):
         window = test_window(12, 8, 2)
         candidates = [{"candidate_id": "c0001", "global_word": 1}, {"candidate_id": "c0002", "global_word": 4}]
