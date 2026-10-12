@@ -1,0 +1,92 @@
+[
+  {
+    "channel_id": "atv",
+    "channel": "ATV",
+    "program": "Ana Haber",
+    "date": "05.08.2024",
+    "title": "Yıllık enflasyon yüzde 61,5’e geriledi",
+    "summary": "Temmuz ayında aylık enflasyon yüzde 3,23 olurken yıllık enflasyonun yüzde 61,5 seviyesine gerilediği aktarıldı.",
+    "text": "Enflasyon temmuzda yüzde 3,23 olarak gerçekleşti, yıllık enflasyon yüzde 61,5’e gerilemiş durumda."
+  },
+  {
+    "channel_id": "now",
+    "channel": "NOW",
+    "program": "Ana Haber",
+    "date": "05.08.2024",
+    "title": "Enflasyon gerçekten ne zaman düşecek?",
+    "summary": "Ekonomi yönetiminin düşüş mesajlarına rağmen açıklanan rakamların ters yönde olduğu vurgulandı.",
+    "text": "Yakında enflasyon düşecek diyor ama bugün açıklanan rakamlar tersini söylüyor."
+  },
+  {
+    "channel_id": "haberturk",
+    "channel": "HaberTürk",
+    "program": "Ana Haber",
+    "date": "05.08.2024",
+    "title": "Ekonomistlerden yıllık enflasyonda düşüş beklentisi",
+    "summary": "Ekonomistlerin yıllık enflasyonun yüzde 71,60’tan yüzde 62,23’e gerilemesini beklediği aktarıldı.",
+    "text": "Yıllık enflasyonun yüzde 62,23’e ineceği öngörülüyor."
+  },
+  {
+    "channel_id": "kanald",
+    "channel": "Kanal D",
+    "program": "Ana Haber",
+    "date": "05.08.2024",
+    "title": "Aylık enflasyon arttı, kira artış oranı yükseldi",
+    "summary": "Yıllık orandaki düşüşe rağmen aylık enflasyon artışı ve yüzde 65,93 kira artış oranı öne çıkarıldı.",
+    "text": "Aylık enflasyon arttı. Kira artış oranı da yüzde 65,93 olarak belirlendi."
+  },
+  {
+    "channel_id": "krt",
+    "channel": "KRT",
+    "program": "Ana Haber",
+    "date": "05.08.2024",
+    "title": "Kabinenin gündeminde enflasyonla mücadele",
+    "summary": "Enflasyonu düşürmek için uygulanabilecek ilave tedbirlerin kabine toplantısında değerlendirileceği bildirildi.",
+    "text": "Enflasyonu kalıcı olarak düşürmeye dair alınabilecek ilave tedbirler görüşülecek."
+  },
+  {
+    "channel_id": "show",
+    "channel": "Show TV",
+    "program": "Ana Haber",
+    "date": "05.08.2024",
+    "title": "Aylık enflasyon hızlandı",
+    "summary": "Yıllık orandaki yavaşlamaya karşılık aylık enflasyonun yüzde 3,23 arttığı vurgulandı.",
+    "text": "Aylık enflasyon hızlandı, yıllık enflasyon hız kesti."
+  },
+  {
+    "channel_id": "sozcu",
+    "channel": "Sözcü TV",
+    "program": "Ana Haber",
+    "date": "05.08.2024",
+    "title": "Tetikleyici zamlar Temmuz enflasyonunu yükseltti",
+    "summary": "Temmuz ayında yapılan zamların aylık enflasyonu yukarı taşıdığı değerlendirmesi aktarıldı.",
+    "text": "Tetikleyici zamlar Temmuz enflasyonunu yükseltti."
+  },
+  {
+    "channel_id": "star",
+    "channel": "Star TV",
+    "program": "Ana Haber",
+    "date": "05.08.2024",
+    "title": "Yıllık enflasyonda 10 puanlık gerileme",
+    "summary": "Yıllık enflasyonun bir önceki aya göre yaklaşık 10 puan gerilediği belirtildi.",
+    "text": "Geçtiğimiz ay enflasyon bir önceki aya göre 10 puan geriledi."
+  },
+  {
+    "channel_id": "trt",
+    "channel": "TRT",
+    "program": "Ana Haber",
+    "date": "05.08.2024",
+    "title": "Enflasyonu kalıcı düşürmek için ilave tedbirler",
+    "summary": "Ekonomi programı kapsamında enflasyonu kalıcı biçimde düşürmeye yönelik tedbirlerin görüşüleceği aktarıldı.",
+    "text": "Programın temel hedefi olan enflasyonu kalıcı olarak düşürmeye dair alınabilecek ilave tedbirler görüşülecek."
+  },
+  {
+    "channel_id": "tv100",
+    "channel": "TV100",
+    "program": "Ana Haber",
+    "date": "05.08.2024",
+    "title": "Enflasyondaki gerilemenin sürmesi bekleniyor",
+    "summary": "Yıllık enflasyondaki düşüşün Temmuz ayında devam ettiği ve ilerleyen dönemde daha fazla hissedileceği ifade edildi.",
+    "text": "Enflasyondaki gerileme Temmuz ayında da devam etti. Düşüş daha çok hissedilecek."
+  }
+]

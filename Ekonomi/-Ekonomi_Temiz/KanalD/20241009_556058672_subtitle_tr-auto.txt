@@ -1,0 +1,2100 @@
+1
+00:00:00,000 --> 00:00:09,720
+İyi akşamlar sevgili seyirciler, kanalda habere hoş geldiniz. Ben Deniz Bayramoğlu, bugün 9 Ekim çarşamba.
+
+2
+00:00:09,720 --> 00:00:16,640
+İstanbul'da iki genç kadının vahşice katledilmesi sonrası gözler, katilin de kullandığı ve son dönemde
+
+3
+00:00:16,640 --> 00:00:23,300
+Taciz, tehdit ve şantaj iddialarıyla gündeme gelen medya uygulaması Discord'a çevrilmişti.
+
+4
+00:00:23,300 --> 00:00:26,880
+Ve dün gece mahkemeden erişim engeli kararı geldi.
+
+5
+00:00:27,080 --> 00:00:33,420
+Karardan sonra Discord kapatıldı, şimdi sırada TikTok ve Twitch mi var diye sormaya başladı herkes.
+
+6
+00:00:33,420 --> 00:00:35,420
+İşte o sorunun yanıtı.
+
+7
+00:00:37,980 --> 00:00:39,340
+Discord kapatıldı.
+
+8
+00:00:39,340 --> 00:00:45,260
+Çok tartışılan o platforma mahkeme kararı ile erişim engeli getirildi, Discord kapatıldı.
+
+9
+00:00:45,260 --> 00:00:50,420
+Gerekçe çocukların cinsel istismarı ve müstehcenlik suçlarının işlenmesi.
+
+10
+00:00:51,420 --> 00:00:59,900
+İstanbul'da iki genç kadının vahşice katledilmesinin ardından katil semihçeliğin internet geçmişindeki Discord detayı dikkat çekmişti.
+
+11
+00:00:59,900 --> 00:01:06,480
+Gözler bu platformlarda büyüyen ve gençleri zaman zaman şiddete yönlendiren tehlikeli gruplara çevrildi.
+
+12
+00:01:06,480 --> 00:01:13,640
+Bizim giremediğimiz mecrada ne olduğunu bilemeyebiliyoruz ve bu Discord'da kendi bilgilerinin
+
+13
+00:01:13,640 --> 00:01:23,760
+IP adresleri dahil ve içerikleri dahil bizim güvenlik birimlerimizle paylaşmayı reddettiği için biz de zorunlu olarak erişime engel getirdik.
+
+14
+00:01:23,760 --> 00:01:29,440
+Ankara 1. Suç Ceza Hakimliği'nin kapatma kararını Adalet Bakanı Yılmaz Tunç duyurdu.
+
+15
+00:01:29,440 --> 00:01:34,960
+Sosyal medya şirketlerinin ülkemizin hukuk sistemine saygı göstermesi lazım.
+
+16
+00:01:34,960 --> 00:01:41,640
+İçişleri Bakanı Ali Yerlikaya'da Discord'da suç unsuru içerikli videoları düzenlediği tespit edilen bir çocukla
+
+17
+00:01:41,720 --> 00:01:47,560
+Telegram'da suç unsuru içeren paylaşımlar yapan bir başka çocukla ilgili işlem başlatıldığını açıkladı.
+
+18
+00:01:48,840 --> 00:01:54,080
+Yine Discord üzerinden işlenen bir başka suçla ilgili tutuklama kararıysa Ankara'dan geldi.
+
+19
+00:01:56,080 --> 00:02:00,720
+Genç kızın tehdit edildiğini söylediği bu görüntülerin kurgu olduğu anlaşılmıştı.
+
+20
+00:02:00,720 --> 00:02:08,440
+Videoyu halka yanıltıcı şekilde internette yaydığı gerekçesiyle gözaltına alınan 18 yaşındaki zanlı bugün tutuklandı.
+
+21
+00:02:09,440 --> 00:02:15,440
+Peki hep konuşulan Twitch ve TikTok gibi platformlara da erişim engeli getirilmesi gündemde mi?
+
+22
+00:02:21,440 --> 00:02:25,160
+Cumhurbaşkanı Erdoğan AK Parti grup toplantısında kürsüdeydi bugün.
+
+23
+00:02:25,160 --> 00:02:32,040
+Son günlerde artan şiddet olayları ve cinayetlerin ardından ceza infaz sisteminde yapılacak köklü değişiklikleri açıkladı.
+
+24
+00:02:32,040 --> 00:02:39,040
+Örneğin, denetimli serbestlikten yararlanabilmek için cezanın en az %10'unun hapiste geçirileceğini duyurdu.
+
+25
+00:02:44,040 --> 00:02:49,040
+Söze böyle başladı Cumhurbaşkanı. Sonra ceza infaz sisteminde yapılacak değişiklikleri sıraladı.
+
+26
+00:02:49,040 --> 00:02:54,640
+Denetimli serbestlikten yararlanabilmek için cezanın %10'unun cezaevinde geçirilmesi şartı getirilecek.
+
+27
+00:03:02,040 --> 00:03:11,040
+Son olarak İstanbul'da polis memuru Şeyda Yılmaz'ın şehit edilmesiyle gündeme gelmişti.
+
+28
+00:03:11,040 --> 00:03:14,040
+Katilinin çok sayıda suç kaydı vardı ama dışarıdaydı.
+
+29
+00:03:25,040 --> 00:03:29,040
+Zincirleme suç işleyenlerin tutuklu yargılanması da kolaylaştırılacak.
+
+30
+00:03:29,040 --> 00:03:32,040
+Bunun için Adalet Bakanlığı bünyesinde yeni birim kurulacak.
+
+31
+00:03:48,040 --> 00:03:56,040
+Kadına şiddetle mücadeleye de başlık açtı Erdoğan. Kadına şiddetin en önemli sebeplerinden biri alkol bağımlılığıdır dedi. Sonra da CHP liderine seslendi.
+
+32
+00:04:00,040 --> 00:04:08,040
+Gerçekten iki eli havada katkı sunmak istiyorsan rakı reklamı yapmaktan vazgeç.
+
+33
+00:04:10,040 --> 00:04:18,040
+CHP Cumhurbaşkanı Erdoğan için meclisin açılış töreninde ayağa kalkma tartışmasının sonrasında memnuniyet anketi yaptırdı.
+
+34
+00:04:18,040 --> 00:04:28,040
+Tutumumuza ülke genelinde %74 destek ver diyen Genel Başkan Özgür Özel eleştirilere ayakta karşılamanın bedelini ben öderim.
+
+35
+00:04:28,040 --> 00:04:31,040
+En ufak bir pişmanlığım yok diyerek yanıt verdi.
+
+36
+00:04:34,040 --> 00:04:40,040
+Ben de olsam niye kalkılıyor diye düşünürüm ama meselenin özü şudur makamına hürmeten ayağa kalktı.
+
+37
+00:04:40,040 --> 00:04:43,040
+Bunun toplumda inanılmaz bir karşılığı var.
+
+38
+00:04:43,040 --> 00:04:50,040
+İşte o karşılığı yaptırdığı anketlerle ölçtürdü CHP. Sonuçlarını da Genel Başkan Özgür Özel paylaştı.
+
+39
+00:04:51,040 --> 00:04:57,040
+Partinin ilk anda %62'si doğru yaptın diyor. Dinleyince %72'si diyor.
+
+40
+00:04:57,040 --> 00:05:04,040
+Sokakta diğer seçmenlerle temas ettikçe ülke genelinde %74'lük bir destek olduğunu söylüyor.
+
+41
+00:05:04,040 --> 00:05:07,040
+Biz derdimizi makul çoğunluğa anlatmışız.
+
+42
+00:05:07,040 --> 00:05:10,040
+Ayakta karşılama için bir kez daha pişman değilim dedi.
+
+43
+00:05:10,040 --> 00:05:15,040
+Alkış yapmamızız bir şey yapmamışız. Ne kaybediyoruz? Kaybediyorsak ben kaybediyorum.
+
+44
+00:05:15,040 --> 00:05:19,040
+Bedeli ben ödeyeceğim. Bu konuda en ufak bir pişmanlığım yok.
+
+45
+00:05:19,040 --> 00:05:22,040
+CHP liderinin bugün bir diğer adresi de Ankara garıydı.
+
+46
+00:05:24,040 --> 00:05:31,040
+104 kişinin yaşamını yitirdiği terör saldırısının 9. yılında annelerin çığlığı anıtının açılışını yaptı.
+
+47
+00:05:31,040 --> 00:05:37,040
+Ben kötülüğün kaybedeceğine inanıyorum. Biz kötülüğü yeneceğiz. Hep beraber yeneceğiz.
+
+48
+00:05:37,040 --> 00:05:44,040
+Manisa'da kaybolan 21 yaşındaki Pelin Karaca'nın cansız bedeni dün Uşak'ta ormanlık alanda bulunmuştu.
+
+49
+00:05:44,040 --> 00:05:50,040
+Genç kadını oraya gömdüğünü itiraf eden zanlı olayın kazayla gerçekleştiğini öne sürdü.
+
+50
+00:05:50,040 --> 00:05:53,040
+Aracın freni boşaldı, Pelin altında kaldı dedi.
+
+51
+00:05:58,040 --> 00:06:05,040
+Günlerdir kayıp olan Pelin Karaca'yı öldürüp ormana gömen cani ifadesinde kazada öldü panikleyip gömdüm dedi.
+
+52
+00:06:07,040 --> 00:06:10,040
+Manisa'da çarşıya diye çıkıp kaybolmuştu Pelin Karaca.
+
+53
+00:06:10,040 --> 00:06:14,040
+Son görüştüğü kişi komşusu Ali Uysal'dı. Sorgusunda her şeyi itiraf etti.
+
+54
+00:06:21,040 --> 00:06:25,040
+36 yaşında ve evli olduğu öğrenilen o şüpheli iddiaya göre kızın erkek arkadaşıydı.
+
+55
+00:06:26,040 --> 00:06:27,040
+Savunması akıl almazdı.
+
+56
+00:06:29,040 --> 00:06:38,040
+İfadesinde Ali Uysal, Pelin Karaca'nın kendisini terk ettiğini, son görüşmelerinde kadını barışmaya zorladığını ve kabul etmeyince tartıştıklarını öne sürdü.
+
+57
+00:06:40,040 --> 00:06:44,040
+Katil zanlısı tartışma sonrası bindiği aracın frenlerinin boşaldığını iddia etti.
+
+58
+00:06:45,040 --> 00:06:49,040
+Araba hareket etti, Pelin altında kaldı. Öldüğünü anlayınca korktum, gömdüm dedi.
+
+59
+00:06:51,040 --> 00:06:53,040
+Katil zanlısı şimdi cezaevinde.
+
+60
+00:06:56,040 --> 00:06:59,040
+27 yaşındaki öğretmen Hatice Biçmek.
+
+61
+00:07:00,040 --> 00:07:04,040
+İstanbul Kartal'da oturduğu binanın önünde sabah cansız bedeni bulundu.
+
+62
+00:07:04,040 --> 00:07:08,040
+İddiaya göre genç kadının olay gecesi yanında erkek arkadaşı vardı.
+
+63
+00:07:08,040 --> 00:07:11,040
+Polis şüpheli ölüm üzerine soruşturma başlattı.
+
+64
+00:07:11,040 --> 00:07:16,040
+Gözaltına alınan erkek arkadaşı ise ifadesinin ardından serbest kaldı.
+
+65
+00:07:16,040 --> 00:07:19,040
+Polis şimdi genç öğretmenin nasıl öldüğünü araştırıyor.
+
+66
+00:07:23,040 --> 00:07:24,040
+Sence başında yara izleri vardı.
+
+67
+00:07:24,040 --> 00:07:26,040
+İntihar mı? Biri mi etti?
+
+68
+00:07:28,040 --> 00:07:30,040
+Bir ses duydum, bir bağırmalar falan.
+
+69
+00:07:30,040 --> 00:07:35,040
+Önce bir ses duyuldu, sonra da bina önünde genç öğretmenin cansız bedeni bulundu.
+
+70
+00:07:35,040 --> 00:07:37,040
+Ölümü soru işaretleri uyandırdı.
+
+71
+00:07:39,040 --> 00:07:41,040
+Olay Kartal'da yaşandı.
+
+72
+00:07:41,040 --> 00:07:44,040
+Hatice Biçmek matematik öğretmeniydi, 27 yaşındaydı.
+
+73
+00:07:44,040 --> 00:07:48,040
+Bir buçuk ay önce iddiaya göre Kartal'daki bu binaya taşındı.
+
+74
+00:07:48,040 --> 00:07:53,040
+Akşam saatlerinde erkek arkadaşıyla beraber alkol alıp eve çıktılar.
+
+75
+00:07:53,040 --> 00:07:56,040
+Güzel başlayan akşam sabah faciayla sonlandı.
+
+76
+00:07:56,040 --> 00:08:02,040
+Genç kadın sabah saatlerinde evinin teras katından önce arabanın üzerine sonra da yere düştü.
+
+77
+00:08:02,040 --> 00:08:04,040
+Olay yerinde hayatını kaybetti.
+
+78
+00:08:04,040 --> 00:08:08,040
+Üstünde bir atlet gibi bir şey vardı, ev aleydi. Biz de sabah işe giderken gördük.
+
+79
+00:08:08,040 --> 00:08:10,040
+Ancak ölümü soru işaretini doğurdu.
+
+80
+00:08:10,040 --> 00:08:12,040
+Hatice öğretmen atıldı mı, atladı mı?
+
+81
+00:08:12,040 --> 00:08:14,040
+Savcılık hemen soruşturma başlattı.
+
+82
+00:08:14,040 --> 00:08:18,040
+Hepimiz korktuk. Ses çıktı da ben her an birinin kapısı kırıldı zannettim.
+
+83
+00:08:18,040 --> 00:08:22,040
+Olayda şüpheli bir isim vardı, o da genç öğretmenin erkek arkadaşıydı.
+
+84
+00:08:22,040 --> 00:08:26,040
+Polis erkek arkadaşını gözaltına aldı, ifadesi alındı.
+
+85
+00:08:26,040 --> 00:08:30,040
+Hatice Biçmeyen erkek arkadaşı ifadesinde kız arkadaşıyla tartışmadığını,
+
+86
+00:08:30,040 --> 00:08:34,040
+iddiaya göre bir süredir kız arkadaşının psikolojik sorunları olduğunu,
+
+87
+00:08:34,040 --> 00:08:37,040
+bu nedenle de psikiyatri ilaçları kullandığını söyledi.
+
+88
+00:08:37,040 --> 00:08:40,040
+Sabah erken saatte evden ayrıldığını söyledi.
+
+89
+00:08:40,040 --> 00:08:43,040
+Ev sahibinin aramasıyla olayı öğrendiğini iddia etti.
+
+90
+00:08:43,040 --> 00:08:47,040
+Mesajlarını görmüşler. Kızın karşı tarafa son çektiği mesajı,
+
+91
+00:08:47,040 --> 00:08:49,040
+sen benim hayatımın sonunu olacaksın.
+
+92
+00:08:49,040 --> 00:08:52,040
+Sevgilisi ifadenin ardından serbest kaldı.
+
+93
+00:08:52,040 --> 00:08:55,040
+Hatice öğretmenin cansız bedeni adli tıp kurumu morguna kaldırıldı.
+
+94
+00:08:55,040 --> 00:08:58,040
+Kesin ölüm nedeni otopsi sonucu netlik kazanacak.
+
+95
+00:08:59,040 --> 00:09:02,040
+Üniversiteli Rojin'den de 13 gündür haber alınamıyor.
+
+96
+00:09:02,040 --> 00:09:07,040
+Vali Ozan Balcı, arama çalışmaları için 81 ilde alarma geçildiğini duyurdu.
+
+97
+00:09:07,040 --> 00:09:10,040
+Cep telefonu ve kulaklığı göl kıyısında bulunmuştu.
+
+98
+00:09:10,040 --> 00:09:13,040
+Genç kıza dair en ufak bir ize ulaşabilmek için,
+
+99
+00:09:13,040 --> 00:09:16,040
+ekipler Van Gölü'nde detaylı aramalara devam etti.
+
+100
+00:09:21,040 --> 00:09:24,040
+13 gündür haber alınmayan Üniversiteli Rojin için,
+
+101
+00:09:24,040 --> 00:09:27,040
+ekipler sonar cihazlarla Van Gölü'nde mekik dokudu.
+
+102
+00:09:27,040 --> 00:09:32,040
+30 bin metrekarelik bir alan ekipler tarafından tarandı.
+
+103
+00:09:32,040 --> 00:09:37,040
+Rojin Kabayış 27 Eylül'de kamera kayıtlarına göre kampüsten ayağında terlikleriyle çıktı.
+
+104
+00:09:37,040 --> 00:09:39,040
+Belli ki çok uzaklaşmayı düşünmemişti.
+
+105
+00:09:39,040 --> 00:09:45,040
+En son kameralar burada görmüş ve sahilde cep telefonuyla kulaklığı bulunduğu için.
+
+106
+00:09:45,040 --> 00:09:49,040
+Telefon incelemesinde en son annesiyle görüntülü konuştuğu belirlendi.
+
+107
+00:09:49,040 --> 00:09:53,040
+Ardından yakındaki büfeden yiyecek bir şeyler alıp banka oturdu.
+
+108
+00:09:53,040 --> 00:09:55,040
+Sonra da sırra kadem bastı.
+
+109
+00:09:55,040 --> 00:10:01,040
+Tüm 81 il emniyet müdürlüklerine, jandarma komutanlıklarına da kimlik bilgileri kızımızla ilgi verildi.
+
+110
+00:10:01,040 --> 00:10:03,040
+Bütün her yerde arama tarama yapılıyor.
+
+111
+00:10:03,040 --> 00:10:09,040
+81 il Rojin için alarmda aramaların 13. gününde Van Gölü üzerinde tekne ve botlarla tarama yapıldı.
+
+112
+00:10:09,040 --> 00:10:14,040
+Van Gölü ekipler tarafından adeta didik didik taranıyor.
+
+113
+00:10:14,040 --> 00:10:21,040
+Şu an görmüş olduğunuz nokta Rojin'in kaybolduğu noktaya yaklaşık 300 metre uzaklıktaki bir nokta.
+
+114
+00:10:21,040 --> 00:10:31,040
+Sahil güvenlik botları, polis botları, dalgıçlarla, su altı görüntüleme cihazlarıyla ekipler Rojin'e dair küçücük birisin peşinde.
+
+115
+00:10:31,040 --> 00:10:37,040
+Sahil kenarında bulunan metruk yapı ve evler de mercek altında ama üniversiteli Rojin'den henüz iz yok.
+
+116
+00:10:41,040 --> 00:10:46,040
+Beylikdüzü'nde yaşayan bir kadın eşinden boşandı ama bir türlü yakasını kurtaramadı.
+
+117
+00:10:46,040 --> 00:10:49,040
+Sonunda sokakta önüne çıkan adam kadına saldırdı.
+
+118
+00:10:49,040 --> 00:10:53,040
+Yardım çığlıklarına yetişen mahalleli kadını o zorbanın elinden kurtardı.
+
+119
+00:10:59,040 --> 00:11:03,040
+Ben dışarıdaydım oturuyordum baya bir gürültü oldu.
+
+120
+00:11:04,040 --> 00:11:06,040
+Bir kadın bağırıyordu.
+
+121
+00:11:07,040 --> 00:11:10,040
+Bir kavga vardı bir beyefendi birisini dövüyordu.
+
+122
+00:11:10,040 --> 00:11:14,040
+Eski eşini takip edip yolunu kesti sokak ortasında saldırdı.
+
+123
+00:11:14,040 --> 00:11:17,040
+Kadın yardım çığlıklarıyla sokağa inletti.
+
+124
+00:11:19,040 --> 00:11:21,040
+Yere yatırdı bir şeyler yapıyor.
+
+125
+00:11:21,040 --> 00:11:27,040
+İddiaya göre çift beylikdüzündeki bu sitede birlikte yaşıyordu ve bir süredir araları bozuktu.
+
+126
+00:11:27,040 --> 00:11:30,040
+Çift boşandı ama eski kocası peşini bırakmadı.
+
+127
+00:11:30,040 --> 00:11:33,040
+Yolda oğluyla birlikte yürürken kadının karşısına çıktı.
+
+128
+00:11:33,040 --> 00:11:34,040
+Küfürler etmeye başladı.
+
+129
+00:11:34,040 --> 00:11:37,040
+Kadın tartışma sırasında uzun süre gözyaşı döktü.
+
+130
+00:11:37,040 --> 00:11:40,040
+Her geçen saniye sinirler daha da gerildi.
+
+131
+00:11:40,040 --> 00:11:43,040
+İddiaya göre adam kadını sokak ortasında darbetti.
+
+132
+00:11:43,040 --> 00:11:46,040
+Kadının çığlıkları mahalleyi ayağa kaldırdı.
+
+133
+00:11:46,040 --> 00:11:49,040
+Yardım edin diye bir çığlıklar vardı.
+
+134
+00:11:49,040 --> 00:11:51,040
+Oğlu araya girdi engel olmaya çalıştı.
+
+135
+00:11:51,040 --> 00:11:52,040
+Ona da saldırdı.
+
+136
+00:11:52,040 --> 00:11:55,040
+Erkek konuşamaz haldeydi yani.
+
+137
+00:11:55,040 --> 00:11:57,040
+Öyle kafası aşağıdaydı.
+
+138
+00:11:57,040 --> 00:11:59,040
+Darbedilen kadın sinir krizi geçirdi.
+
+139
+00:11:59,040 --> 00:12:01,040
+Yardımına çevredekiler koştu.
+
+140
+00:12:01,040 --> 00:12:03,040
+Sağlık ekiplerine haber verildi.
+
+141
+00:12:03,040 --> 00:12:05,040
+Evden ambulansın ışığını fark ettim.
+
+142
+00:12:05,040 --> 00:12:08,040
+Bir baktım ki bir polis arabası geliyor.
+
+143
+00:12:08,040 --> 00:12:10,040
+Ambulans burada bekliyordu.
+
+144
+00:12:10,040 --> 00:12:12,040
+Anne ve oğlu hastaneye kaldırıldı.
+
+145
+00:12:12,040 --> 00:12:15,040
+Eski kocaysa olayın ardından araca binip kaçtı.
+
+146
+00:12:15,040 --> 00:12:17,040
+Polis şimdi saldırganın peşinde.
+
+147
+00:12:19,040 --> 00:12:25,040
+21 yaşındaki Emirhan Kavraz arkadaşından dönerken cinayet gibi bir kazaya kurban gitmişti.
+
+148
+00:12:25,040 --> 00:12:31,040
+Polis ehliyeti olmayan ve 14 suç kaydı bulunan sürücünün peşindeydi.
+
+149
+00:12:31,040 --> 00:12:36,040
+Makas atıp Emirhan'ı öldüren o suç makinesi 32 gün sonra yakalandı.
+
+150
+00:12:40,040 --> 00:12:43,040
+Emirhan Kavraz'a çarpıp onu hayattan koparmıştı.
+
+151
+00:12:43,040 --> 00:12:46,040
+Kaza sonrası kaçan suç makinesi sonunda yakalandı.
+
+152
+00:12:48,040 --> 00:12:50,040
+Emirhan Kavraz daha 21 yaşındaydı.
+
+153
+00:12:50,040 --> 00:12:53,040
+7 Eylül'de ders çalışmaya gitti arkadaşından dönüyordu.
+
+154
+00:12:53,040 --> 00:12:57,040
+Böyle bir katil tarafından öldüreceğine habersiz.
+
+155
+00:12:57,040 --> 00:13:04,040
+22 yaşındaki ehliyetsiz sürücü Mahmut Paksoy trafikte makas atarak ilerlerken Kavraz'ın kullandığı motosiklete çarptı.
+
+156
+00:13:04,040 --> 00:13:07,040
+Cinayet gibi kaza talihsiz genci hayattan kopardı.
+
+157
+00:13:07,040 --> 00:13:10,040
+Geride yarım kalan umutları, hayalleri ve acılı ailesi kaldı.
+
+158
+00:13:10,040 --> 00:13:13,040
+Yaşamıyorum şu an ben. Dünyada mıyım ahirette miyim belli değil.
+
+159
+00:13:13,040 --> 00:13:17,040
+Araba kiralıktı. Olay yerinin yakınlarında terk edilmiş halde bulundu.
+
+160
+00:13:17,040 --> 00:13:21,040
+Alkollü araç kullanmaktan yağmaya 14 suç kaydı olan Paksoy ise ortalıkta yoktu.
+
+161
+00:13:21,040 --> 00:13:25,040
+Anası babası da mı yok? Hiç mi vicdanı yok? Başka canlar yanmasın?
+
+162
+00:13:25,040 --> 00:13:28,040
+İşte o firari suç makinesi 32 gün saklanabildi polisten.
+
+163
+00:13:28,040 --> 00:13:31,040
+Sonunda yakalandı adliyeye götürüldü.
+
+164
+00:13:31,040 --> 00:13:34,040
+Tutuklanan Mahmut Paksoy cezaevinin yolunu tuttu.
+
+165
+00:13:35,040 --> 00:13:41,040
+Bir kadın manavda meyve sebze seçerken tacize uğradı.
+
+166
+00:13:41,040 --> 00:13:45,040
+Kaçan tacizci polisi atlatmak için binbir türlü numara yaptı.
+
+167
+00:13:45,040 --> 00:13:48,040
+Bir imalataneye girdi. İşçi numarası yapmaya başladı.
+
+168
+00:13:48,040 --> 00:13:51,040
+O tacizciyi imalatanedeki usta yakalattı.
+
+169
+00:13:56,040 --> 00:13:58,040
+Bir baktım koşa koşa bu tarafa doğru geliyordu.
+
+170
+00:13:58,040 --> 00:14:01,040
+Bir tacizci kaçarken işte polisi bayağı kovalatmış.
+
+171
+00:14:01,040 --> 00:14:02,040
+En son buraya girmiş.
+
+172
+00:14:05,040 --> 00:14:06,040
+Ben ilk başta hırsız zannettim.
+
+173
+00:14:06,040 --> 00:14:08,040
+Polise sorunca dedi ki şey değil, tacizci dedi.
+
+174
+00:14:12,040 --> 00:14:14,040
+Genç kadını manavda taciz etti.
+
+175
+00:14:14,040 --> 00:14:16,040
+Polisi görünce kaçtı.
+
+176
+00:14:16,040 --> 00:14:18,040
+Kovalamaca başka bir dükkanda son buldu.
+
+177
+00:14:18,040 --> 00:14:20,040
+Dedim burada burada arkaya kaçtı dedim.
+
+178
+00:14:20,040 --> 00:14:22,040
+Olayın adresi İstanbul Şişli.
+
+179
+00:14:22,040 --> 00:14:25,040
+İddia göre tacizci manavda çalışıyordu.
+
+180
+00:14:25,040 --> 00:14:29,040
+Genç kadın bu manavda meyve sebze seçerken bir anda tacize uğradı.
+
+181
+00:14:29,040 --> 00:14:31,040
+Polise şikayette bulundu.
+
+182
+00:14:31,040 --> 00:14:32,040
+Polis olay yerine geldi.
+
+183
+00:14:32,040 --> 00:14:34,040
+Tacizci kaçmaya başladı.
+
+184
+00:14:34,040 --> 00:14:35,040
+Polis peşine takıldı.
+
+185
+00:14:35,040 --> 00:14:38,040
+O tacizci polislere şaşırtmak için bu sokağa girdi.
+
+186
+00:14:38,040 --> 00:14:41,040
+Ardından da bu imalatanenin içerisine kaçtı.
+
+187
+00:14:41,040 --> 00:14:43,040
+Ama kapıda Serkan Erkmen oturuyordu.
+
+188
+00:14:43,040 --> 00:14:47,040
+Ve polislere o tacizcinin içeriye girdiğini söyledi.
+
+189
+00:14:51,040 --> 00:14:55,040
+Bu sefer de tacizci dükkanın içerisinde şansını zorladı.
+
+190
+00:14:55,040 --> 00:14:58,040
+Önce bu odaya ardından da arka tarafa baktı.
+
+191
+00:14:58,040 --> 00:15:00,040
+Ama kaçacak yeri olmadığını anlayınca da
+
+192
+00:15:00,040 --> 00:15:02,040
+tekrar ön tarafa doğru yürüdü.
+
+193
+00:15:02,040 --> 00:15:05,040
+Burada çalışan elemanmış gibi davranmaya başladı.
+
+194
+00:15:05,040 --> 00:15:06,040
+Benim odaya kadar geliyor.
+
+195
+00:15:06,040 --> 00:15:08,040
+Ama çıkış olmadığını görünce geri geliyor.
+
+196
+00:15:08,040 --> 00:15:11,040
+Gözaltına alınan tacizci adliyeye sevk edildi.
+
+197
+00:15:11,040 --> 00:15:13,040
+İfadesinin ardından tutuklandı.
+
+198
+00:15:15,040 --> 00:15:18,040
+İstanbul Nişantaşı'nda bir motosikletli
+
+199
+00:15:18,040 --> 00:15:21,040
+aniden duran aracın açılan kapısına çarpıp yola savruldu.
+
+200
+00:15:21,040 --> 00:15:23,040
+Yanında kız arkadaşı da vardı.
+
+201
+00:15:23,040 --> 00:15:27,040
+Genç kadının yaralandığını görünce öfkeden deliye döndü.
+
+202
+00:15:27,040 --> 00:15:29,040
+Kapıyı açan turist de saldırmaya başladı.
+
+203
+00:15:31,040 --> 00:15:33,040
+Gel buraya gel.
+
+204
+00:15:35,040 --> 00:15:37,040
+Libyalı turistin aniden açtığı kapı
+
+205
+00:15:37,040 --> 00:15:39,040
+motosikletli ve sevgilisini yere savurdu.
+
+206
+00:15:39,040 --> 00:15:42,040
+Kız arkadaşının yaralandığını gören genç çileden çıktı.
+
+207
+00:15:46,040 --> 00:15:48,040
+Nişantaşı'nın göbeğinde öyle saatleriydi.
+
+208
+00:15:48,040 --> 00:15:52,040
+Bir araba aniden durunca ardındaki motosikletli sağa yöneldi.
+
+209
+00:15:52,040 --> 00:15:54,040
+Araçtaki turist tam o sırada kapıyı açtı.
+
+210
+00:15:56,040 --> 00:15:59,040
+Açılan kapı motosiklet sürücüsü ve kız arkadaşını yere savurdu.
+
+211
+00:16:00,040 --> 00:16:03,040
+Genç kadını kanlar içinde gören sevgilisi öfkeden deliye döndü.
+
+212
+00:16:10,040 --> 00:16:13,040
+Sürücü kapıyı açan Libyalı turist de kaskıyla saldırmaya kalktı.
+
+213
+00:16:15,040 --> 00:16:17,040
+Çevredekiler engel olmaya çalıştı ama o durmadı.
+
+214
+00:16:20,040 --> 00:16:23,040
+Kazaya neden olan turist uzun süre araçta beklemek zorunda kaldı.
+
+215
+00:16:26,040 --> 00:16:28,040
+Öfkeli kaza zedeyi çevredekiler zor zaptetti.
+
+216
+00:16:30,040 --> 00:16:32,040
+Caddede tansiyon sonunda düştü.
+
+217
+00:16:32,040 --> 00:16:34,040
+Taraflar birbirinden şikayetçi olmadı.
+
+218
+00:16:36,040 --> 00:16:42,040
+Denizli'de iki yıl önce kaybettiği eşinin mezarını ziyarete giden 53 yaşındaki kadın gördüklerine inanamadı.
+
+219
+00:16:42,040 --> 00:16:47,040
+Mezarda mermerler kırılmış, biri veya birileri tarafından tahrip edilmişti.
+
+220
+00:16:47,040 --> 00:16:51,040
+Eşinin mezarını o halde bulan kadının iddiası ise herkesi şaşkına çevirdi.
+
+221
+00:16:54,040 --> 00:16:55,040
+Seni çok seviyorum.
+
+222
+00:16:56,040 --> 00:16:57,040
+Seni çok seviyorum.
+
+223
+00:17:00,040 --> 00:17:03,040
+Eşinin mezarını böyle buldu, iddiası şaşkına çevirdi.
+
+224
+00:17:08,040 --> 00:17:11,040
+53 yaşındaki Cennet Şanlı Türk eşini iki yıl önce kaybetti.
+
+225
+00:17:13,040 --> 00:17:16,040
+Sürekli ziyaret ettiği mezarını son gidişinde böyle buldu.
+
+226
+00:17:19,040 --> 00:17:22,040
+Gördüklerine inanamayan kadın eşinin mezarı başında gözyaşı döktü.
+
+227
+00:17:25,040 --> 00:17:26,040
+Adaleti yanı bulacak.
+
+228
+00:17:27,040 --> 00:17:30,040
+İddiasına göre bunu evlilik teklifini reddettiği kişiler yapmıştı.
+
+229
+00:17:30,040 --> 00:17:34,040
+İstemeye gelenler oluyor, onları reddediyorum. Böyle bir şey yapılır mı?
+
+230
+00:17:34,040 --> 00:17:39,040
+Şanlı Türk bu iddiayla polise giderek eşinin mezarına zarar veren kişilerin bulunmasını istedi.
+
+231
+00:17:39,040 --> 00:17:41,040
+Bunu yapana bulunmasını istiyorum.
+
+232
+00:17:44,040 --> 00:17:50,040
+Gündüz gözü park halindeki arabanın kapılarını açan iki hırsız arabayı çalıştırmayı başaramadı ama pes etmedi.
+
+233
+00:17:51,040 --> 00:17:55,040
+İkili önce vitesi boşa aldı ardından arabayı iterek çaldı.
+
+234
+00:17:55,040 --> 00:17:56,040
+Sırada hırsızlar var.
+
+235
+00:18:00,040 --> 00:18:05,040
+Bu iki hırsız Bursa'da park halindeki arabanın kapılarını açtı ama çalıştırmayı başaramadı.
+
+236
+00:18:08,040 --> 00:18:12,040
+İkili yine de çalmaktan vazgeçmedi. Vitesi boşa atıp arabayı iterek çaldılar.
+
+237
+00:18:14,040 --> 00:18:19,040
+Polis 60 kameradan iş sürdü. Bir kadın iki hırsız kısa sürede yakalanarak tutuklandı.
+
+238
+00:18:21,040 --> 00:18:30,040
+Sultan Gazi'de bir iş yerine giren iki hırsız yaklaşık bir buçuk saat içinde 400 bin lira değerinde elektronik eşya ve inşaat malzemesi çaldı.
+
+239
+00:18:30,040 --> 00:18:34,040
+Delil bırakmamak için kamera cihazları, kamera kayıtlarını dahi söküyorlar.
+
+240
+00:18:34,040 --> 00:18:40,040
+Önlem olarak iş yerinin kamera sistemini de söküp alan iki hırsızı komşuya sınavın kameraları kaydetti.
+
+241
+00:18:42,040 --> 00:18:46,040
+Şişli'de binaya giren şüpheli daire önündeki ayakkabıları uzun süre inceledi.
+
+242
+00:18:47,040 --> 00:18:51,040
+Sonunda birini beğendi, çaldı, kayıplara karıştı.
+
+243
+00:18:53,040 --> 00:18:57,040
+Hatay'da bu şüpheli iddiaya göre bir eve girmeye çalışırken yakalanmıştı.
+
+244
+00:18:59,040 --> 00:19:02,040
+İddiaları reddetse de gözaltına alınmaktan kurtulamadı.
+
+245
+00:19:06,040 --> 00:19:11,040
+Isparta'da hırsızlar camını kırdıkları iş yerinden altın kaplama bilezikleri çalıp kaçmışlardı.
+
+246
+00:19:12,040 --> 00:19:17,040
+Maskeli şüphelilerin yakalanması uzun sürmedi. İki hırsız şimdi cezaevinde.
+
+247
+00:19:19,040 --> 00:19:25,040
+İstanbul Fatih'de inanılmaz bir şey oldu. Bir camide cenaze namazı sırasında tabuttan ses geldi.
+
+248
+00:19:25,040 --> 00:19:33,040
+Cami bir anda karıştı tabi. Sağlık ekipleri tabutu açtığındaysa 80 yaşındaki adamın halen yaşadığı ortaya çıktı.
+
+249
+00:19:33,040 --> 00:19:36,040
+O garip cenazenin tanıkları olanı biteni bakın nasıl anlattı.
+
+250
+00:19:37,040 --> 00:19:41,040
+Tabuttan dediler ses geliyor.
+
+251
+00:19:41,040 --> 00:19:47,040
+Cenaze namazı sırasında tabuttan gelen ses ortalığı karıştırdı. Herkes hayatının şokunu yaşadı.
+
+252
+00:19:47,040 --> 00:19:51,040
+Tabuttan çıkardılar, kalp masajı yapmaya başladılar.
+
+253
+00:19:52,040 --> 00:19:56,040
+Akıl almaz olayın adresi Fatih'deki Hacı İlyas Yatağın Camii.
+
+254
+00:19:56,040 --> 00:20:03,040
+Öldü diye cenaze namazı kılınmaya başlanan 80 yaşındaki Halit Bağşu'nun tabutundan sesler gelmeye başladı.
+
+255
+00:20:03,040 --> 00:20:05,040
+O sesleri ilk olarak kızı duydu.
+
+256
+00:20:05,040 --> 00:20:08,040
+Kız dedi ki bana ya Fahrettin amca ses geliyor dedi.
+
+257
+00:20:08,040 --> 00:20:11,040
+Ardından herkes tabuttaki tıkırtıyı fark etti.
+
+258
+00:20:11,040 --> 00:20:15,040
+Eğildim baktım bir tıkırtı var ama kıza diyemedim tabi ben ona.
+
+259
+00:20:15,040 --> 00:20:19,040
+Birilerini çağırdı oraya. Birileri hakikaten ses geliyor.
+
+260
+00:20:19,040 --> 00:20:25,040
+Bunun üzerine hemen ambulansa haber verildi. Sağlık ekipleri tabutu açtığında Bağşu'nun nabzının attığını fark etti.
+
+261
+00:20:25,040 --> 00:20:29,040
+Tabuttan çıkardılar, kalp masajı yapmaya başladılar.
+
+262
+00:20:29,040 --> 00:20:33,040
+Tabuttan çıkarılan Halit Bağşu kalp masajının ardından hastaneye kaldırıldı.
+
+263
+00:20:33,040 --> 00:20:36,040
+Ancak tüm müdahalelere rağmen kurtarılamadı.
+
+264
+00:20:38,040 --> 00:20:41,040
+İlginç bir el ilanını getireceğiz ekranlarınıza şimdi.
+
+265
+00:20:41,040 --> 00:20:49,040
+İlanda 21 yaşını bitiren herkesin iş yerine ve ikametgahına silah bulundurma ruhsatı çıkarabileceklerini yazmışlar.
+
+266
+00:20:49,040 --> 00:20:53,040
+Tüm bunların da emekli bir polis amiri tarafından yapıldığı belirtiliyor.
+
+267
+00:20:53,040 --> 00:20:58,040
+Ekibimiz ilandaki numarayı aradı o adrese gitti. Bakın neyle karşılaştılar.
+
+268
+00:20:58,040 --> 00:21:07,040
+Ruhsatlı silahlarla ilgili olarak devletin koymuş olduğu bazı koşullar var.
+
+269
+00:21:07,040 --> 00:21:09,040
+Bu koşullar resmi belgelerle başlıyor.
+
+270
+00:21:09,040 --> 00:21:15,040
+Hepsini kendilerinin halledebileceklerini söylüyorlar. Silah ruhsatı çıkartabileceklerini iddia ediyorlar.
+
+271
+00:21:15,040 --> 00:21:19,040
+Bunu da el ilanı bastırıp araç camlarına bırakarak duyuruyorlar.
+
+272
+00:21:19,040 --> 00:21:21,040
+Sahte belgelerle de bu işi yapabiliyorlar.
+
+273
+00:21:22,040 --> 00:21:29,040
+İşte o ilan 21 yaşını bitiren herkesin iş yerine veya ikametgahına silah bulundurma ruhsatı çıkarılır yazıyor.
+
+274
+00:21:29,040 --> 00:21:33,040
+Bastırıp dağıttıkları ilanlarda emekli bir emniyet amirinin adı da yazıyor.
+
+275
+00:21:33,040 --> 00:21:41,040
+Eski polis mi değil mi orası soru işareti. Ancak tüm silah ruhsatı işlemlerinin onun tarafından yapılacağı söyleniyor.
+
+276
+00:21:41,040 --> 00:21:46,040
+Hiç böyle bir sıfatı olmayan bir kişi burada bu sıfatı kullanarak güven sağlamaya çalışıyor.
+
+277
+00:21:46,040 --> 00:21:50,040
+Silah ruhsatı için şart olan sağlık raporunu bile halledebileceklerini iddia ediyorlar.
+
+278
+00:21:50,040 --> 00:21:59,040
+Doktora gitmeden o belgenin alınmasıyla ilgili değişik diyaloglara girilecek bir işlem varsa bu işlemi yaptıran kişiyi de bağlar, yapanı da bağlar.
+
+279
+00:21:59,040 --> 00:22:02,040
+Cezayi mühedeye çarptırılırsınız, soruşturmanın konusu olursunuz.
+
+280
+00:22:02,040 --> 00:22:06,040
+Telefon numaralarına adreslerini de açık açık vermekten çekinmiyorlar.
+
+281
+00:22:06,040 --> 00:22:14,040
+İlandaki adres işte burası Aksaray'daki bir binanın dördüncü katındaki bu daire şu anda kapıyı çalıyoruz.
+
+282
+00:22:21,040 --> 00:22:25,040
+Evet içeride kimse yok yani kapı duvar.
+
+283
+00:22:25,040 --> 00:22:31,040
+Sosyal medya üzerinden el ilanıyla bu şekilde işlem yapan kişilere lütfen vatandaşlarımıza itibar etmesin.
+
+284
+00:22:34,040 --> 00:22:40,040
+Bir yıl önce kuaför Tarık Deniz'i hayattan koparan sürücü 6 yıl 8 ay hapis cezasına çarptırılmıştı.
+
+285
+00:22:40,040 --> 00:22:42,040
+Son duruşmada tahliye edildi.
+
+286
+00:22:42,040 --> 00:22:46,040
+Acılı aile sürücünün 10 ayda serbest kalmasına isyan etti.
+
+287
+00:22:46,040 --> 00:22:51,040
+O can alan kazaya dair detaylar ve tehlike dolu kaza anları var sırada.
+
+288
+00:22:54,040 --> 00:22:56,040
+Bitti. Hayatımız bitti bizim zaten.
+
+289
+00:22:56,040 --> 00:23:01,040
+35 yaşındaki oğullarına çarpıp hayattan koparan sürücü 10 ay sonra tahliye edildi.
+
+290
+00:23:01,040 --> 00:23:04,040
+O karar acılı aileyi bir kez daha yıktı.
+
+291
+00:23:04,040 --> 00:23:08,040
+Bir insanın değeri bu kadar mı ya? Uyumuyorum 16 aydan beri uyumuyorum.
+
+292
+00:23:08,040 --> 00:23:12,040
+10 Haziran 2023'te hızlı ve iddiaya göre alkollüydü.
+
+293
+00:23:12,040 --> 00:23:16,040
+Kuaför Tarık Deniz'e çarparak ölümüne sebep olup kaçmış.
+
+294
+00:23:16,040 --> 00:23:18,040
+3 gün sonra da teslim olmuştu.
+
+295
+00:23:18,040 --> 00:23:24,040
+Önce serbest kaldı. Aralık ayında da tutuklandı ve 6 yıl 8 ay hapis cezasına çarptırıldı.
+
+296
+00:23:24,040 --> 00:23:30,040
+Biz bunu tabi az bulduk. Sebebi 2 tane bardağı alkol alayıp daha sonra direksiyonun başına geçmesi.
+
+297
+00:23:30,040 --> 00:23:33,040
+Görgü tanığı var. Atüzyon fişi var.
+
+298
+00:23:33,040 --> 00:23:39,040
+İtirazlardan sonra yeniden hakim karşısına çıkan sürücü alkollü olmadığını ve panikle kaçtığını öne sürdü.
+
+299
+00:23:39,040 --> 00:23:46,040
+Bilinçli taksirli ölüme sebebiyet verme suçundan talih kusurlu olduğu gerekçesiyle önce cezası 4 yıla düşürüldü.
+
+300
+00:23:46,040 --> 00:23:51,040
+Sonra da cezaevinde geçirdiği süre göz önünde bulundurularak tahliyesine karar verildi.
+
+301
+00:23:51,040 --> 00:24:02,040
+Şahıs alkollü 1. Olay ertelik 2. Oğlumun ölümüne sebep olmuş 3. Hız var 4. 32,5 metre oğlumu savurmuş 5.
+
+302
+00:24:03,040 --> 00:24:05,040
+Ölen gencin ailesi karara isyan etti.
+
+303
+00:24:08,040 --> 00:24:14,040
+Konya'da alkollü tır şoförü yarım saat içinde önce motosiklete çarpıp 2 kişinin ölümüne neden oldu.
+
+304
+00:24:14,040 --> 00:24:18,040
+Ama durmadı. 2 araca daha çarptı. 2 kişi yaralandı.
+
+305
+00:24:20,040 --> 00:24:27,040
+Karıştığı 3 ayrı kazada 2 kişiyi hayattan koparan şoför gözaltına alındı. 3,37 promil alkollü çıktı.
+
+306
+00:24:28,040 --> 00:24:35,040
+Doktor Muhammed Engin Özcan direksiyon başındaydı. Birden araç kamerasına bu korkunç kaza yansıdı.
+
+307
+00:24:37,040 --> 00:24:44,040
+Dönüş yapan otomobil motosiklete çarptı. Yaralanan motosikletliğe ilk müdahaleyi kazaya şahit olan doktor yaptı.
+
+308
+00:24:46,040 --> 00:24:56,040
+Lübnan ve Gazze'ye gece gündüz demeden sürekli hava saldırısı düzenleyen İsrail bu kez Suriye'nin başkenti Şam'ı füzelerle vurdu.
+
+309
+00:24:57,040 --> 00:25:02,040
+Saldırıda İran Büyükelçiliği yakınındaki bir bina isabet aldı. 7 kişi yaşamını yitirdi.
+
+310
+00:25:03,040 --> 00:25:07,040
+İsrail savaş uçakları ayrıca Lübnan'ın doğusuna da bombardıman düzenledi.
+
+311
+00:25:08,040 --> 00:25:12,040
+Ateş çemberinin her geçen gün büyüdüğü Orta Doğu'daki son duruma bakalım şimdi.
+
+312
+00:25:13,040 --> 00:25:16,040
+İsrail Gazze ve Beyrut'un ardından namluyu Suriye'ye çevirdi.
+
+313
+00:25:17,040 --> 00:25:22,040
+İsrail ordusu Golan Tepelerinden attığı 3 füzeyle başkent Şam'da bir apartmanı hedef aldı.
+
+314
+00:25:26,040 --> 00:25:29,040
+Patlamanın olduğu yer İran Büyükelçiliği'ne yakın bir noktaydı.
+
+315
+00:25:30,040 --> 00:25:33,040
+Bölgede yangın çıktı. Hava saldırısında 7 kişi öldü, 11 kişi yaralandı.
+
+316
+00:25:34,040 --> 00:25:37,040
+Patlamanın olduğu yer İran Büyükelçiliği'ne yakın bir noktaydı.
+
+317
+00:25:38,040 --> 00:25:41,040
+Bölgede yangın çıktı. Hava saldırısında 7 kişi öldü, 11 kişi yaralandı.
+
+318
+00:25:50,040 --> 00:25:55,040
+İsrail savaş uçakları Lübnan'ın doğusundaki Balbek kentine de bombardıman düzenledi.
+
+319
+00:25:58,040 --> 00:26:00,040
+Kentte arda arda patlamalar yaşandı.
+
+320
+00:26:01,040 --> 00:26:03,040
+Hava saldırısında 1 kişi öldü.
+
+321
+00:26:06,040 --> 00:26:11,040
+İsrail askerleri kara operasyonunda da sınırdaki köylerde Hizbullah güçleriyle çatışma yaşadı.
+
+322
+00:26:15,040 --> 00:26:22,040
+İsrail askerleri Lübnan'a ilk sızmayı denedikleri Marunel Rasta ise enkaza dönen bir parka İsrail bayrağı dikti.
+
+323
+00:26:25,040 --> 00:26:27,040
+Askerler o anları da sosyal medyadan paylaştı.
+
+324
+00:26:30,040 --> 00:26:34,040
+İsrail ordusundaki 130 asker ise Netanyahu'ya tepki dolu bir mektup yazdı.
+
+325
+00:26:35,040 --> 00:26:40,040
+Askerler reyini müzakerelerine öncelik verilmezse savaşmayı bırakacaklarını söyleyerek hükümeti uyardı.
+
+326
+00:26:44,040 --> 00:26:48,040
+Lübnan'da çok sayıda, binlerle ifade edilen sayıda Türk yaşıyor biliyorsunuz.
+
+327
+00:26:49,040 --> 00:26:50,040
+O Türklerin tahliyesi de başladı.
+
+328
+00:26:51,040 --> 00:26:55,040
+Deniz kuvvetlerimize ait 2 gemi 300 ton insani yardımı Lübnan'a götürdü.
+
+329
+00:26:56,040 --> 00:27:00,040
+Yardım götüren o gemiler 2000 civarında Türk vatandaşını da Mersin'e getirecek.
+
+330
+00:27:01,040 --> 00:27:06,040
+İşte ateş çemberinde mahsur kalan Türklerin yaşadıkları ve kurtarma operasyonunun detayları.
+
+331
+00:27:14,040 --> 00:27:16,040
+Yürekleri buruk, gözlerinde ise üzüm var.
+
+332
+00:27:17,040 --> 00:27:18,040
+Tahliye operasyonu başladı.
+
+333
+00:27:19,040 --> 00:27:21,040
+Lübnan'da ateş çemberinde kalan Türkler ülkelerine dönüyor.
+
+334
+00:27:26,040 --> 00:27:32,040
+İsrail'in Beyrut'a saldırıları sonrası özellikle Hizbullah'ın merkezi Dahiyye'de taş üstünde taş kalmadı.
+
+335
+00:27:33,040 --> 00:27:35,040
+Ülkede yaşayan Türklerin tahliyesine başlandı.
+
+336
+00:27:46,040 --> 00:27:53,040
+Deniz kuvvetlerimize ait TCG Sancaktar ve TCG Bayraktar gemileriyle 300 ton insani yardım malzemesi Lübnan'a ulaştırıldı.
+
+337
+00:27:56,040 --> 00:28:00,040
+Malzemeler boşaltıldıktan sonra yolcular o gemilere binecek.
+
+338
+00:28:08,040 --> 00:28:11,040
+Türkiye'ye dönecek olanların aklında ise geride bıraktıkları var.
+
+339
+00:28:16,040 --> 00:28:19,040
+Diğer gemilerde Lübnan'daki Türkleri Mersin'e getirmeye devam ediyor.
+
+340
+00:28:20,040 --> 00:28:27,040
+Mecliste dün akşam Kürsü'de çok önemli çok dikkat çekici bir an yaşandı.
+
+341
+00:28:28,040 --> 00:28:45,040
+Kendisi de meme kanseriyle mücadele eden Cumhuriyet Halk Partisi Tekirdağ Milletvekili Nurten Yontar bu konuyla ilgili farkındalığı artırmak, kamuoyunda bu konuya dikkat çekmek için konuşmasının sonunda peruğunu çıkardı ve genel kuruldaki tüm milletvekilleri Yontar'ı ayakta alkışladı.
+
+342
+00:28:46,040 --> 00:28:49,040
+Genel kurulu saygıyla selamlıyorum.
+
+343
+00:28:52,040 --> 00:28:53,040
+Asla asla
+
+344
+00:29:07,040 --> 00:29:09,040
+Biz kadınlar emin olun çok güçlüyüz.
+
+345
+00:29:16,040 --> 00:29:24,040
+Yaşamak güzel fakat sağlıkla sağlıklı yaşamak ve yaşamak her şeyden daha güzel.
+
+346
+00:29:29,040 --> 00:29:34,040
+Sıla, Narin, Şeyda, Pelin, İkbal, Ayşe Nur.
+
+347
+00:29:35,040 --> 00:29:41,040
+Meclis Başkan Vekili Gülizar Biçer Karaca oturum açıldıktan sonra mikrofonunu açmadı. Bir dakikalık susma eylemi yaptı.
+
+348
+00:29:43,040 --> 00:29:47,040
+Zayıflama ilaçları ve iğneler kilo vermek isteyenleri ölüme kadar götürebiliyor.
+
+349
+00:29:48,040 --> 00:29:52,040
+Uzmanlar defalarca uyarmıştı ama durum bugünlerde daha da tehlikeli hale gelmiş durumda.
+
+350
+00:29:53,040 --> 00:29:58,040
+Çünkü zayıflama iğnelerinin şimdi de merdiven altı üretimleri çıkmış piyasaya sevgili seyirciler.
+
+351
+00:29:59,040 --> 00:30:01,040
+Tehlikenin geldiği boyutu uzmanlara sorduk.
+
+352
+00:30:02,040 --> 00:30:03,040
+İşte korkutan ayrıntılar.
+
+353
+00:30:05,040 --> 00:30:08,040
+Ağızdan ağıza, internette, sosyal medyada.
+
+354
+00:30:10,040 --> 00:30:12,040
+Herkes onu arıyor, herkes onu araştırıyor.
+
+355
+00:30:14,040 --> 00:30:17,040
+Bir de bunların sahteleri de çıkıyor, gerçeklerini de almıyorlar.
+
+356
+00:30:19,040 --> 00:30:21,040
+Kullandım ve çevremde herkes kullanıyor.
+
+357
+00:30:22,040 --> 00:30:23,040
+Çok tehlikeli.
+
+358
+00:30:24,040 --> 00:30:30,040
+Uzmanlardan bir kez daha zayıflama iğneleri, ilaçları hakkında uyarı var. Merdiven altı üretim çığ gibi büyüyor.
+
+359
+00:30:31,040 --> 00:30:33,040
+El altından, merdiven altından buluyorlar. Çok tehlikeli.
+
+360
+00:30:34,040 --> 00:30:39,040
+Obeste öyle bir ilaç aldım, zayıflama iğnesi oldum, geçti denilen bir hastalık değil.
+
+361
+00:30:40,040 --> 00:30:41,040
+Boğazınızda bir enfeksiyonu düzeltmiyorsunuz.
+
+362
+00:30:42,040 --> 00:30:47,040
+Dünya Sağlık Örgütü de zayıflama ilaçları sağlığı tehdit eden boyuta geldi, açıklaması yaptı.
+
+363
+00:30:48,040 --> 00:30:57,040
+Zayıflama haplarını, zayıflama iğnelerini bilinçsiz kullanmak ani ölümlere, pankreas iltihaplarına, ani körlüklere neden olabilir.
+
+364
+00:30:57,040 --> 00:31:04,040
+Ortalama bir sekiz ay kadar kullandım. Böbrekte biraz taş oluştu. Bunu tabi bilinçsizce kullandım bu arada.
+
+365
+00:31:05,040 --> 00:31:07,040
+Bunları kullandığınız zaman geri kül alımı çok çok yüksek.
+
+366
+00:31:08,040 --> 00:31:10,040
+Geri alıyorsunuz, kesinlikle bir daha kullanmam.
+
+367
+00:31:11,040 --> 00:31:17,040
+Ayda elli tane zayıflama ameliyatı yapıyorum. Bu ameliyatların en az 40-45'inde bu ilaçların kullanım önemlisi var.
+
+368
+00:31:18,040 --> 00:31:21,040
+Daha önce biz bu ilaçları kullandık, geri iki kat kül aldık durumu var.
+
+369
+00:31:22,040 --> 00:31:35,040
+Ömer Doruk küçük yaşına rağmen sıkı bir Beşiktaş taraftarı. Beşiktaş Gaziantep ile oynadığı maçın son dakikalarında gol yiyince küçük çocuk çılgına döndü ve evdeki eşyaları dağıttı.
+
+370
+00:31:36,040 --> 00:31:40,040
+Annesi de ona Beşiktaş'ın iki maçını izlememe cezası verdi.
+
+371
+00:31:41,040 --> 00:31:47,040
+O anlar sosyal medyada yayınlanınca Beşiktaş kulübü devreye girdi ve Ömer Doruk cezadan kurtuldu.
+
+372
+00:31:52,040 --> 00:32:01,040
+Çok sinirli çünkü tuttuğu takım son dakikada gol yiyip beraber kaldı. Küçük yaramaz ortalığı dağıtınca annesinden cezayı yedi.
+
+373
+00:32:02,040 --> 00:32:06,040
+İki tane yastık attım, annem de iki maç ceza verdi izleme diye.
+
+374
+00:32:07,040 --> 00:32:14,040
+Ömer Doruk, Beşiktaş'ın minik taraftarlarından biri. Takımın Gaziantep ile oynadığı maçı izliyordu. Beşiktaş son dakikada gol yiyince iki puan kaybetti.
+
+375
+00:32:15,040 --> 00:32:19,040
+Akşam Gaziantep maçında son dakikada gol yedik biliyorsunuz.
+
+376
+00:32:19,040 --> 00:32:26,040
+Maçı izleyen Ömer Doruk eline geçen yastıkları sağa sola fırlattı. Bununla da yetinmedi, koltuğu devirmeye çalıştı.
+
+377
+00:32:27,040 --> 00:32:31,040
+İnşallah ikna edip Lyon ve Konya spor maçını izleyeceğim.
+
+378
+00:32:32,040 --> 00:32:36,040
+Agresif tavrı cezasız kalmayacaktı ama Beşiktaş kulübü devreye girdi.
+
+379
+00:32:37,040 --> 00:32:41,040
+Ömer Doruk'un ailesiyle görüştüler ve çocuğu Konya spor maçındaki seremoniye davet ettiler.
+
+380
+00:32:42,040 --> 00:32:47,040
+Beşiktaş kulübüne çok teşekkür ediyorum. Konya spor maçında görüşmek üzere.
+
+381
+00:32:47,040 --> 00:32:52,040
+Ömer Doruk cezadan kurtuldu ve maç başlamadan önce takımla birlikte sahaya çıkacak.
+
+382
+00:32:53,040 --> 00:32:56,040
+Siyah beyaz vurma bize bir ömür yeter.
+
+383
+00:33:17,040 --> 00:33:22,040
+O anlarda park halindeki bir arabanın camını kırdı. O anlarda yaşananlar ise izleyenleri bir hayli gülümsetti.
+
+384
+00:33:23,040 --> 00:33:25,040
+Diyelim bakalım dünyadan yansıyan ilginç olay ve görüntüleri.
+
+385
+00:33:31,040 --> 00:33:35,040
+Amerika'da polisler bir adamın çevreyi rahatsız ettiği ihbarıyla olay yerine gitti.
+
+386
+00:33:36,040 --> 00:33:40,040
+Şüpheli adam polis geldiğinde evin girişindeydi ancak kapıyı açmadı.
+
+387
+00:33:41,040 --> 00:33:42,040
+Kapıyı açmak istiyor musun?
+
+388
+00:33:43,040 --> 00:33:44,040
+Ne istiyorsun?
+
+389
+00:33:55,040 --> 00:33:56,040
+Öldürün onları.
+
+390
+00:33:59,040 --> 00:34:00,040
+Hadi.
+
+391
+00:34:11,040 --> 00:34:17,040
+Saldırıda başından ve omzundan yaralanan kadın polis hastaneye kaldırılarak ameliyata alındı.
+
+392
+00:34:18,040 --> 00:34:20,040
+Onu bıçaklayan saldırgansa tutuklandı.
+
+393
+00:34:28,040 --> 00:34:33,040
+Trafikte facianın eşiğinden dönüldü. Elektrikli bir motosiklet seyir halindeyken patladı.
+
+394
+00:34:34,040 --> 00:34:37,040
+Ardından araç alevlere boğuldu.
+
+395
+00:34:41,040 --> 00:34:48,040
+Motor sürücüsü yangında alevlerin içinde kaldı. Sonra da yere yuvarlanarak alevlerden kurtulmaya çalıştı.
+
+396
+00:34:53,040 --> 00:34:57,040
+Ardından çevredekiler müdahale etti. Yaralanan sürücü hastaneye kaldırıldı.
+
+397
+00:35:04,040 --> 00:35:14,040
+Arjantin'de bir baba çocuğunu hastaneye götürmek için arabasına bindi. Eşi ve çocuğunu almak için otomobili evin önüne götürüyordu.
+
+398
+00:35:15,040 --> 00:35:17,040
+Bu sırada gaspçılar saldırdı.
+
+399
+00:35:21,040 --> 00:35:24,040
+Çete üyeleri tehditle adamı arabadan indirdi.
+
+400
+00:35:29,040 --> 00:35:31,040
+Sonra da aracı çalarak uzaklaştı.
+
+401
+00:35:34,040 --> 00:35:37,040
+Polis çetenin peşine düştü.
+
+402
+00:35:43,040 --> 00:35:51,040
+Karnı acı kanayı yavrularıyla birlikte şehir merkezine indi. Sonra da yavruları yanında beklerken park halindeki bir otomobilin camını zorladı.
+
+403
+00:35:56,040 --> 00:36:01,040
+Uzun süre uğraştı. Sonunda da amacına ulaştı. Camı kırdığı anda da yere düştü.
+
+404
+00:36:04,040 --> 00:36:08,040
+Kırılan camdan içeri giren ayı arabanın içinde hasara yol açtı.
+
+405
+00:36:14,040 --> 00:36:19,040
+Amerika'da polis ekipleri drift yaptığı ihbarıyla bir otomobilin peşine düştü.
+
+406
+00:36:25,040 --> 00:36:28,040
+Şüpheli ise polislerden kaçarken başka araçlara çarptı.
+
+407
+00:36:34,040 --> 00:36:36,040
+Sonra da izini kaybettirmeye çalıştı.
+
+408
+00:36:43,040 --> 00:36:49,040
+Ardından bir kavşakta hem de onu kovalayan polis arabasının çevresinde yeniden drift atmaya başladı.
+
+409
+00:36:54,040 --> 00:36:59,040
+Onu izleyen arkadaşları ise arkadaki polis otosunun üzerine çıkıp video çekmeye çalıştı.
+
+410
+00:37:04,040 --> 00:37:10,040
+Polis memuru ikaz etse de zannılar arabadan inmedi. Bununla da yetinmeyip otomobilin kapı ortasına yumruk attı.
+
+411
+00:37:14,040 --> 00:37:16,040
+Polis telsizle yardım istemek zorunda kaldı.
+
+412
+00:37:20,040 --> 00:37:25,040
+Polisler daha sonra yeniden drift atarak tehlike yaratan sürücüyü kovalamaya başladı.
+
+413
+00:37:25,040 --> 00:37:38,040
+Apartmanın çatısında yangın çıktı. Duman metrelerce yükseğe ulaştı. Ancak binada yaşayanların bundan haberi yoktu.
+
+414
+00:37:42,040 --> 00:37:46,040
+Apartman sakinlerinden biri ise yangın sırasında camları siliyordu.
+
+415
+00:37:46,040 --> 00:37:57,040
+Yangın itfaiye müdahalesiyle söndürüldü. Yanan binanın camlarını silmeye çalışan ev sahibi ise sosyal medyada espri konusu oldu.
+
+416
+00:38:03,040 --> 00:38:09,040
+Polis plakası görünmediği iddiasıyla bir şüpheli aracı takip etti. Ardından da park edilmiş halde buldu.
+
+417
+00:38:10,040 --> 00:38:15,040
+Ancak araç sahibi polislerin geldiğini görünce tehdide başladı.
+
+418
+00:38:18,040 --> 00:38:24,040
+Şüpheli polislerin teslim ol uyarısına uymadı. Güvenlik güçleri tutuklamak isteyince de saldırıya geçti.
+
+419
+00:38:27,040 --> 00:38:30,040
+Saldırgan elindeki bıçakla polisi boynundan bıçakladı.
+
+420
+00:38:31,040 --> 00:38:38,040
+Ardından kaçmaya başladı. Diğer polis şok tabancasıyla ateş açarak saldırganı durdurdu.
+
+421
+00:38:44,040 --> 00:38:49,040
+Polisi yaralayan saldırgan olayın ardından kaçtığı ormanlık alanda yakalanarak tutuklandı.
+
+422
+00:38:55,040 --> 00:38:59,040
+Bisikletli iki grup yolda kaza yaptı. Kazadan sonra kavga çıktı.
+
+423
+00:39:00,040 --> 00:39:07,040
+Bisikletlilerin birbirine girdiği kavgayı yoldan geçenler kaydetti.
+
+424
+00:39:17,040 --> 00:39:24,040
+Otomobil kazada ağır hasar almıştı. Ancak sürücü bu halde trafiğe çıktı. Görenlerse şaşkınlığını gizleyemedi.
+
+425
+00:39:30,040 --> 00:39:37,040
+Otomobilin tekerlerinden biri kırık lastikte patlaktı. Araba otobanda bu halde yol aldı. Trafikte de tehlike yarattı.
+
+426
+00:39:41,040 --> 00:39:46,040
+Çevredekilerin uyarılarına karşın sürücü aldırış etmeden yola devam etti.
+
+427
+00:39:51,040 --> 00:39:56,040
+İnternette, sosyal medyada herkesin önüne sıklıkla kredi notu yükseltilir ilanları çıkıyor.
+
+428
+00:39:57,040 --> 00:39:59,040
+Sakın bu ilanlara kanmayın. Çünkü paranızdan olursunuz.
+
+429
+00:40:00,040 --> 00:40:06,040
+Ticaret Bakanlığı kredi notunu yükselteceğini söyleyen o firmaya 1 milyon 100 bin lira para cezası kesti bile.
+
+430
+00:40:12,040 --> 00:40:15,040
+Kimse size kredi notunuzu yükseltmeyi vaat edemez.
+
+431
+00:40:16,040 --> 00:40:21,040
+Ama vaat ediyorlar. Hatta notunuzu yükseltip kredi çıkartabileceklerini bile söylüyorlar.
+
+432
+00:40:22,040 --> 00:40:33,040
+Kredi notunun düzeltilmesi tamamen bireyin kendi kredi notu değerlendirme faktörleri veya parametreleri çerçevesindeki performansı veya gidişatıyla alakadardır.
+
+433
+00:40:34,040 --> 00:40:36,040
+Dolandırıcılarda bunu bilmeyenlere hedef alıyor.
+
+434
+00:40:37,040 --> 00:40:43,040
+Kredi notu yükselteceğini söylüyorsa zaten bu yüksek ihtimalle bir phishing yöntemi yani bir oltalama yöntemidir.
+
+435
+00:40:44,040 --> 00:40:52,040
+Taktikleri değil yöntemleri de bilindik. Kredi notunuzu arttırırız diyerek olta atıyorlar ve o oltaya takılmanızı bekliyorlar.
+
+436
+00:40:53,040 --> 00:40:55,040
+Bugün bir araba kiralama bile kredi notuyla bağlantılı bir şekilde kiralanıyor.
+
+437
+00:40:56,040 --> 00:40:58,040
+İnsanlar zaten buna muhtaç olduğu için ihtiyaç duyduğu için hemen atlıyorlar.
+
+438
+00:40:59,040 --> 00:41:03,040
+Dolandırıcılar internet sayfası açıyor sosyal medyalardan reklam veriyor.
+
+439
+00:41:04,040 --> 00:41:09,040
+Söz konusu tanıtımların hedef kitlesinin emekliler, ev hanımları ve işsizler gibi grupların...
+
+440
+00:41:10,040 --> 00:41:13,040
+Ben mem açıkçası sosyal medyada gördüğüm için geçerim direkt inanmam.
+
+441
+00:41:14,040 --> 00:41:18,040
+Ama güvenip para kaptıran var. Onlardan biri de bir firmadan şikayetçi oldu.
+
+442
+00:41:19,040 --> 00:41:21,040
+Ticaret bakanlığı ceza kesti.
+
+443
+00:41:22,040 --> 00:41:27,040
+Söz konusu kişilere 1.100.000 liraya aşan idari para cezası uygulanmasına karar verdi.
+
+444
+00:41:28,040 --> 00:41:30,040
+Peki kredi notu nasıl yükseltilir?
+
+445
+00:41:30,040 --> 00:41:38,040
+Kredi kartı ve kredi borçlarını tüm fatura ödemelerini de zamanında ödemeye dikkat etmelidir.
+
+446
+00:41:40,040 --> 00:41:44,040
+Bankalarda ortalama mevduat faizleri %43-49 bandına çekildi.
+
+447
+00:41:45,040 --> 00:41:50,040
+Ancak bazı bankalarda hoş geldin adı altında sunulan yüksek faizli kampanyalar da devam ediyor.
+
+448
+00:41:51,040 --> 00:41:56,040
+Peki mevcut faizlerle bir kıyaslama yapıldığında hoş geldin faiziyle yatırımcının kazancı ne kadar artıyor?
+
+449
+00:41:57,040 --> 00:41:58,040
+İşte detaylar.
+
+450
+00:42:01,040 --> 00:42:06,040
+Bu kampanyalar oluyor buna dikkat edelim. Fırsatları tabii ki değerlendirelim.
+
+451
+00:42:09,040 --> 00:42:13,040
+Yatırımcılar dikkat faizde. Hoş geldin fırsatını göz ardı etmeyin.
+
+452
+00:42:14,040 --> 00:42:16,040
+Çünkü aylık ek kazanç sağlıyor.
+
+453
+00:42:17,040 --> 00:42:20,040
+Bir bankadan öbür bankaya para göndermek inanılmaz kolay. Bir saniyelik iş.
+
+454
+00:42:23,040 --> 00:42:28,040
+Bankalarda ortalama mevduat faizleri %43-49 bandına geri çekildi.
+
+455
+00:42:28,040 --> 00:42:33,040
+Ama yeni müşteriler için hoş geldin faizleri %54 seviyelerinde.
+
+456
+00:42:34,040 --> 00:42:38,040
+Sene sonu yaklaşıyor. Bankaların hedefleri var. Bütün şubelerin hedefleri var.
+
+457
+00:42:39,040 --> 00:42:42,040
+Entepede genel müdür diyor ki şubeler mevduat hedefinizi doldurun.
+
+458
+00:42:43,040 --> 00:42:45,040
+Daha insan alın mevduat gelsin. Onlar da kampanya yapıyorlar.
+
+459
+00:42:46,040 --> 00:42:52,040
+Yani manav nasıl elmasını satmak için kampanya yapıyorsa bankacı da mevduat satmak için kampanya yapıyor.
+
+460
+00:42:53,040 --> 00:43:02,040
+Burada vade çok önemli. Yani ne kadar için geçerli bu kampanya? 15 gün için mi? 28 gün için mi? 3 gün için mi? Bunu iyi anlayın.
+
+461
+00:43:03,040 --> 00:43:12,040
+Örneğin 1 milyon lirası olan %49 yerine %54 ile hoş geldin faizine bağladığında aylık 4000 lira daha fazla getiri sağlayabiliyor.
+
+462
+00:43:13,040 --> 00:43:16,040
+Burada önemli olan doğru karşılaştırabilelim. Çok kolay bir hesap var burada.
+
+463
+00:43:17,040 --> 00:43:20,040
+Bankadan şu anda olduğu yerden çekersem ne kadar kaybım olacak?
+
+464
+00:43:20,040 --> 00:43:25,040
+Buraya koyarsam ne kadar kazancım olacak? Bu kazanç bütün para üzerinden mi?
+
+465
+00:43:26,040 --> 00:43:28,040
+Yoksa bir kısmını alıp vadesizde tutuyorlar mı? Buna iyi bakın.
+
+466
+00:43:30,040 --> 00:43:34,040
+Ağır metaller vücutta yavaş yavaş birikerek hastalıklara neden oluyor.
+
+467
+00:43:35,040 --> 00:43:40,040
+Vücudumuza sinsice giren o ağır metallerin bir kaynağı da maalesef mutfağımızda gizli.
+
+468
+00:43:41,040 --> 00:43:46,040
+Renkli kupalara, seramik tabaklara, teflon tavalara aman dikkat diyor uzmanlar.
+
+469
+00:43:51,040 --> 00:43:54,040
+Renkli kupalarda zararlı boyalar içerdiği için kullanmıyor.
+
+470
+00:43:55,040 --> 00:43:57,040
+Tüketicilerin ağır metal ürünlere çok dikkat etmeleri gerekiyor.
+
+471
+00:43:58,040 --> 00:44:02,040
+Çünkü aldığınız o renkli kupalardaki kimyasal boyalar sağlığınızı tehdit ediyor.
+
+472
+00:44:03,040 --> 00:44:08,040
+Bütün kimyasal maddeler, endüstriyel kimyasal maddelerin bilmediğimiz ya da bildiğimiz yan etkileri var.
+
+473
+00:44:09,040 --> 00:44:13,040
+Ağır metallerin birikmesi gibi kansere neden olabilecek etkiler var.
+
+474
+00:44:14,040 --> 00:44:19,040
+Granit ve seramik ürünlerdeki ağır metaller de yiyeceklere karışıyor. Bu da hastalıkları beraberinde getiriyor.
+
+475
+00:44:20,040 --> 00:44:23,040
+Hayır kullanmıyorum metal içerdiği için.
+
+476
+00:44:24,040 --> 00:44:27,040
+Teneki konserveler de mutfaktaki en tehlikeli ağır metaller arasında.
+
+477
+00:44:28,040 --> 00:44:33,040
+Konserve dediğimiz şey bir gıda maddesinin uzun süre aynı ortamda bekletilmesidir.
+
+478
+00:44:34,040 --> 00:44:38,040
+Ve o metalle gıda arasında mutlaka bir interaksiyon oluşacaktır.
+
+479
+00:44:39,040 --> 00:44:43,040
+Fırında yemek pişirirken ve yiyecekleri saklarken kullanılan alüminyum folyolar da masum değil.
+
+480
+00:44:44,040 --> 00:44:46,040
+Gerçekten kimyasal çok korkutuyor beni.
+
+481
+00:44:47,040 --> 00:44:48,040
+Teflon tavalara da dikkat.
+
+482
+00:44:48,040 --> 00:44:52,040
+Teflon tencerenizde çizikler varsa yine de kullanırım sakın demeyin.
+
+483
+00:44:53,040 --> 00:44:55,040
+Çünkü o çizikler sağlığınızı ciddi şekilde tehdit ediyor.
+
+484
+00:44:56,040 --> 00:44:58,040
+Hatta kansere bile yol açabiliyor.
+
+485
+00:44:59,040 --> 00:45:01,040
+Teflon tava kullandığım zaman çizeceği zaman hemen iniyorum.
+
+486
+00:45:04,040 --> 00:45:09,040
+Kanal D'nin çok konuşulan dizisi İnci Tanelerinin yeni sezonu yarın akşam Kanal D'de başlıyor.
+
+487
+00:45:10,040 --> 00:45:12,040
+Yeni sezonun tanıtımı izleyicide büyük merak uyandırdı.
+
+488
+00:45:13,040 --> 00:45:15,040
+Kanal D haber ekibi de dizi setini ziyaret etti.
+
+489
+00:45:15,040 --> 00:45:18,040
+Yeni sezonda İnci Tanelerinde neler olacak sorusuna yanıt aradı.
+
+490
+00:45:20,040 --> 00:45:26,040
+Bir hikayeyi tam olarak anlayabilmemiz için tamamını okumanız gerekir.
+
+491
+00:45:27,040 --> 00:45:28,040
+Bin birinci gece ne oluyor diye bir şey var.
+
+492
+00:45:29,040 --> 00:45:33,040
+Biz burada cennetteyiz ama içimizde kendi cehennemimiz var.
+
+493
+00:45:34,040 --> 00:45:35,040
+Huzuru buldum tekrar.
+
+494
+00:45:36,040 --> 00:45:40,040
+Geçtiğimiz sezona damga vuran İnci Taneleri ikinci sezona da çok güçlü giriyor.
+
+495
+00:45:41,040 --> 00:45:44,040
+Çok ferah bir başlangıç olacak çok keyifli bir sezon bekliyor bizi.
+
+496
+00:45:45,040 --> 00:45:48,040
+Kanal D'nin Göcek'te çekilen yeni fragmanı merak uyandırdı.
+
+497
+00:45:49,040 --> 00:45:53,040
+Amacımız bu dizileri dünyada da izletmek olduğu için ne acayip bir memleket olduğumuzu
+
+498
+00:45:54,040 --> 00:45:59,040
+bir cennetin içinde çok da cennetsel olmayan öyküler yaşadığımızı anlatmakla ilgili bir şey değil.
+
+499
+00:46:00,040 --> 00:46:01,040
+Kadroya yeni isimler de katıldı.
+
+500
+00:46:02,040 --> 00:46:06,040
+Senaristimiz karakter sayısında Acımıyestem Sözdemir var.
+
+501
+00:46:07,040 --> 00:46:09,040
+Aytek Şahan, George Michael var.
+
+502
+00:46:10,040 --> 00:46:11,040
+Jim Carrey ile de görüşüyoruz.
+
+503
+00:46:12,040 --> 00:46:14,040
+Onunla göz göze geldiğim o ilk an.
+
+504
+00:46:15,040 --> 00:46:16,040
+Çünkü nefretimi unuttum.
+
+505
+00:46:17,040 --> 00:46:20,040
+İnci Taneleri yeni sezonu için gece gündüz çekim mesaisinde biz de şimdi Kadıköy'deyiz.
+
+506
+00:46:21,040 --> 00:46:24,040
+Hummalı bir çalışma var ve en iddialı bölümlerin çekildiği setteyiz.
+
+507
+00:46:25,040 --> 00:46:26,040
+Hummalı.
+
+508
+00:46:27,040 --> 00:46:29,040
+Peki yeni sezonda seyirciyi ne bekliyor?
+
+509
+00:46:30,040 --> 00:46:31,040
+İbo sen hep hikayeden soruyorsun.
+
+510
+00:46:32,040 --> 00:46:33,040
+Hikaye söylenir mi ya?
+
+511
+00:46:34,040 --> 00:46:35,040
+Rakip kanal gibisin ya.
+
+512
+00:46:36,040 --> 00:46:38,040
+Öbür dizilere gidip soracaksın ne yapıyoruz ya.
+
+513
+00:46:39,040 --> 00:46:40,040
+Giderek de şeye döndü yani.
+
+514
+00:46:41,040 --> 00:46:42,040
+Bin bir gece masallarını varsayalım.
+
+515
+00:46:43,040 --> 00:46:44,040
+Bin birinci gece ne oluyor diye bir şey yok.
+
+516
+00:46:45,040 --> 00:46:46,040
+Bin gece sonra öğreniriz.
+
+517
+00:46:47,040 --> 00:46:48,040
+Kusur veremiyorum yani.
+
+518
+00:46:49,040 --> 00:46:50,040
+Geçen gün Rodin dedi ki oğlum bir şey söyle.
+
+519
+00:46:51,040 --> 00:46:52,040
+Burada ölemezmiş ya insan hani.
+
+520
+00:46:53,040 --> 00:46:54,040
+Ben de ona güveniyorum aslında.
+
+521
+00:46:55,040 --> 00:47:00,040
+İnci Taneleri yeni sezonun ilk bölümüyle yarın akşam saat 20'de Kanal D'de.
+
+522
+00:47:01,040 --> 00:47:03,040
+İnci Taneleri yeni sezon başlıyor.
+
+523
+00:47:04,040 --> 00:47:05,040
+İnci Taneleri Kanal D'de.
+
+524
+00:47:06,040 --> 00:47:07,040
+İyi seyirler.
+
+525
+00:47:24,040 --> 00:47:26,040
+İyi akşamlar.
+

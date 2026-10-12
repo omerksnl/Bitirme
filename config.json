@@ -1,0 +1,65 @@
+{
+  "base_date": "2026-10-01",
+  "channels": [
+    {
+      "id": "show",
+      "name": "Show Ana Haber",
+      "uploader_patterns": ["Show Ana Haber"],
+      "title_patterns": ["Show Ana Haber", "Ana Haber Show"],
+      "exclude_patterns": ["fragman", "özel klip", "shorts"],
+      "minimum_duration_minutes": 25,
+      "story_splitter": {
+        "transition_patterns": [],
+        "minimum_story_seconds": 20
+      }
+    },
+    {
+      "id": "atv",
+      "name": "ATV Ana Haber",
+      "uploader_patterns": ["atv Haber"],
+      "title_patterns": ["atv Ana Haber"],
+      "exclude_patterns": ["Kahvaltı Haberleri", "Gün Ortası", "fragman", "shorts"],
+      "minimum_duration_minutes": 25,
+      "story_splitter": {
+        "transition_patterns": [],
+        "minimum_story_seconds": 20
+      }
+    },
+    {
+      "id": "now",
+      "name": "NOW Ana Haber",
+      "uploader_patterns": ["NOW Haber"],
+      "title_patterns": ["NOW Ana Haber", "ile NOW Ana Haber"],
+      "exclude_patterns": ["Çalar Saat", "tekli haber", "shorts"],
+      "minimum_duration_minutes": 25,
+      "story_splitter": {
+        "transition_patterns": [],
+        "minimum_story_seconds": 20
+      }
+    },
+    {
+      "id": "sozcu",
+      "name": "Sözcü TV Ana Haber",
+      "uploader_patterns": ["SÖZCÜ Televizyonu", "Sözcü Televizyonu"],
+      "title_patterns": ["Sözcü Ana Haber"],
+      "exclude_patterns": ["shorts", "fragman"],
+      "minimum_duration_minutes": 25,
+      "story_splitter": {
+        "transition_patterns": [],
+        "minimum_story_seconds": 20
+      }
+    },
+    {
+      "id": "halk",
+      "name": "Halk TV Ana Haber",
+      "uploader_patterns": ["Halk TV", "Halktv"],
+      "title_patterns": ["Halk Ana Haber", "ile Halk Ana Haber"],
+      "exclude_patterns": ["shorts", "fragman"],
+      "minimum_duration_minutes": 25,
+      "story_splitter": {
+        "transition_patterns": [],
+        "minimum_story_seconds": 20
+      }
+    }
+  ]
+}

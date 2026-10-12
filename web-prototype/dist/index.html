@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Türkiye medya gündemi ve enflasyon haberleri prototipi" />
+    <title>Medya Gündemi</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-Bn4A40Ff.css">
+</head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#/">Medya Gündemi</a>
+      <nav aria-label="Ana menü">
+        <a href="#/" data-nav="overview">Genel Bakış</a>
+        <a href="#/inflation" data-nav="inflation">Enflasyon</a>
+        <a href="#/channels" data-nav="channels">Kanallar</a>
+      </nav>
+    </header>
+
+    <section class="filter-bar" aria-label="Haber filtreleri">
+      <label>
+        <span>Tarih</span>
+        <input id="dateFilter" type="date" value="2026-10-05" />
+      </label>
+
+      <fieldset class="period-filter">
+        <legend>Dönem</legend>
+        <button class="period active" data-period="daily">Günlük</button>
+        <button class="period" data-period="monthly">Aylık</button>
+        <button class="period" data-period="yearly">Yıllık</button>
+      </fieldset>
+
+      <label>
+        <span>Kanal</span>
+        <select id="channelFilter">
+          <option value="all">Tüm Kanallar</option>
+          <option value="atv">ATV</option>
+          <option value="now">NOW</option>
+          <option value="show">Show TV</option>
+          <option value="halk">Halk TV</option>
+          <option value="sozcu">Sözcü TV</option>
+        </select>
+      </label>
+
+      <label>
+        <span>Konu</span>
+        <select id="topicFilter">
+          <option value="all">Tüm Konular</option>
+          <option value="politics">Siyaset</option>
+          <option value="economy">Ekonomi</option>
+          <option value="world">Dünya</option>
+          <option value="society">Toplum</option>
+          <option value="health">Sağlık</option>
+        </select>
+      </label>
+    </section>
+
+    <main id="app" tabindex="-1"></main>
+
+    <template id="overviewTemplate">
+      <div class="page overview-page">
+        <section class="agenda-panel paper-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Gündem</p>
+            <h1 id="agendaTitle">Bugünün Gündem Dağılımı</h1>
+          </div>
+          <div id="agendaChart" class="agenda-chart"></div>
+        </section>
+
+        <section class="topic-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Konu seçimi</p>
+            <h2>Haber Konuları</h2>
+          </div>
+          <div id="topicCards" class="topic-grid"></div>
+          <div id="subtopicArea" class="subtopic-area" hidden>
+            <h3 id="subtopicTitle">Ekonomi Alt Başlıkları</h3>
+            <div id="subtopicCards" class="subtopic-grid"></div>
+          </div>
+        </section>
+      </div>
+    </template>
+
+    <template id="inflationTemplate">
+      <div class="page inflation-page">
+        <div class="breadcrumb"><a href="#/">Genel Bakış</a><span>/</span><span>Ekonomi</span><span>/</span><strong>Enflasyon</strong></div>
+        <div class="page-title-row">
+          <div>
+            <p class="eyebrow">Ekonomi</p>
+            <h1>Enflasyon Haberleri</h1>
+          </div>
+          <div class="direction-tabs" role="tablist" aria-label="Enflasyon etkisi">
+            <button class="direction-tab active" data-direction="all">Tümü</button>
+            <button class="direction-tab positive" data-direction="positive">Pozitif</button>
+            <button class="direction-tab negative" data-direction="negative">Negatif</button>
+          </div>
+        </div>
+
+        <section id="impactColumns" class="impact-columns"></section>
+
+        <section class="lower-content">
+          <div class="section-heading bordered-heading">
+            <p class="eyebrow" id="lowerEyebrow">Kanallar</p>
+            <h2 id="lowerTitle">Kanal Listesi</h2>
+          </div>
+          <div id="inflationLowerContent"></div>
+        </section>
+      </div>
+    </template>
+
+    <template id="channelsTemplate">
+      <div class="page channels-page">
+        <div class="page-title-row">
+          <div>
+            <p class="eyebrow">Kaynaklar</p>
+            <h1>Kanallar</h1>
+          </div>
+        </div>
+        <div id="allChannelCards" class="channel-grid"></div>
+      </div>
+    </template>
+
+    <template id="channelTemplate">
+      <div class="page channel-page">
+        <div class="breadcrumb"><a href="#/channels">Kanallar</a><span>/</span><strong id="channelBreadcrumb"></strong></div>
+        <div class="page-title-row">
+          <div>
+            <p class="eyebrow">Haber akışı</p>
+            <h1 id="channelPageTitle"></h1>
+          </div>
+        </div>
+        <div id="channelFeed" class="news-feed"></div>
+      </div>
+    </template>
+
+    <script defer src="./src/app.js"></script>
+<script defer src="./src/redesign.js"></script>
+</body>
+</html>

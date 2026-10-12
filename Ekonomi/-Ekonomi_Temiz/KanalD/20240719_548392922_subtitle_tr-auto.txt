@@ -1,0 +1,2724 @@
+1
+00:00:00,000 --> 00:00:09,220
+İyi akşamlar sevgili seyirciler kanalda haber hoş geldiniz ben Deniz Bayramoğlu bugün 19 Temmuz Cuma
+
+2
+00:00:09,720 --> 00:00:15,360
+Amerikan merkezli teknoloji firmasının sisteminde yaşanan arıza tüm dünyayı kaosa sürükledi.
+
+3
+00:00:15,880 --> 00:00:19,200
+Yazılım krizi yüzünden dünyada adeta hayat durdu.
+
+4
+00:00:19,460 --> 00:00:21,500
+Havalimanlarında sistem kesildi.
+
+5
+00:00:21,760 --> 00:00:25,860
+Banka ve hastaneler çalışamaz hale geldi. Hatta bazı ülkelerde
+
+6
+00:00:26,120 --> 00:00:27,900
+Televizyon yayınları bile yapılamadı.
+
+7
+00:00:28,360 --> 00:00:31,940
+Kriz Türkiye'yi de etkiledi. Çok sayıda uçak seferi iptal edildi.
+
+8
+00:00:32,200 --> 00:00:37,840
+Tüm bunlara ise bir siber saldırının değil bir güncellemenin neden olduğu ortaya çıktı.
+
+9
+00:00:38,100 --> 00:00:41,160
+İşte dünyayı durduran o krizin ayrıntıları.
+
+10
+00:00:45,780 --> 00:00:47,060
+Küresel yazılım krizi
+
+11
+00:00:47,320 --> 00:00:49,100
+Tüm dünyayı kaosa sürükledi.
+
+12
+00:00:49,360 --> 00:00:51,660
+Havayolu, banka ve hastane hizmetleri çöktü.
+
+13
+00:00:51,920 --> 00:00:52,680
+Uçuşlar durdu.
+
+14
+00:00:52,940 --> 00:00:54,220
+Dünyayı durduran kriz
+
+15
+00:00:54,480 --> 00:00:55,500
+Saatlerce devam etti.
+
+16
+00:00:58,060 --> 00:01:01,640
+Dünya genelini etkisi altına alan yazılım krizi
+
+17
+00:01:01,900 --> 00:01:04,160
+Amerikan merkezli bir teknoloji firmasının
+
+18
+00:01:04,420 --> 00:01:06,200
+Siber güvenlik hizmeti sağlayan
+
+19
+00:01:06,460 --> 00:01:09,020
+Kraft Strike sistemlerindeki arıza ile başladı.
+
+20
+00:01:09,280 --> 00:01:09,820
+İddia göre
+
+21
+00:01:10,080 --> 00:01:11,620
+Firmanın yaptığı bir güncelleme
+
+22
+00:01:11,880 --> 00:01:13,420
+Sistemde çöküşe neden oldu.
+
+23
+00:01:13,680 --> 00:01:14,700
+Dakikalar içinde de
+
+24
+00:01:14,960 --> 00:01:16,740
+Etkileri tüm dünyada görüldü.
+
+25
+00:01:18,800 --> 00:01:21,620
+Başta havayolları, bankacılık ve hastaneler olmak üzere
+
+26
+00:01:21,880 --> 00:01:23,660
+Pek çok sektörde işler durdu.
+
+27
+00:01:23,920 --> 00:01:26,220
+İnternet üzerinden sunulan hizmetler kesildi.
+
+28
+00:01:26,580 --> 00:01:29,660
+İngiltere ve Fransa'da bazı televizyon kanalları yayın yapamadı.
+
+29
+00:01:29,920 --> 00:01:32,460
+Londra Borsası'nda işlemler sektöre uğradı.
+
+30
+00:01:32,720 --> 00:01:34,760
+New York'ta dijital panolar kapandı.
+
+31
+00:01:35,020 --> 00:01:35,540
+İngiltere'de
+
+32
+00:01:35,800 --> 00:01:37,860
+Hastanelerde randevuz sistemi çalışmadı.
+
+33
+00:01:38,120 --> 00:01:40,200
+Almanya'da ise ameliyatlar ertelendi.
+
+34
+00:01:41,740 --> 00:01:45,320
+Sistem arızası Amerika'da çok sayıda havalimanında işleyişi aksattı.
+
+35
+00:01:45,580 --> 00:01:47,620
+Avustralya'da gecikmeler yaşandı.
+
+36
+00:01:47,880 --> 00:01:48,400
+İngiltere'de
+
+37
+00:01:48,660 --> 00:01:51,500
+Yolcuların otomatik biniş kartları devre dışı kaldı.
+
+38
+00:01:53,760 --> 00:01:55,060
+Hong Kong havalimanında ise
+
+39
+00:01:55,440 --> 00:01:57,840
+Check-in işlemleri online yerine elle yapıldı.
+
+40
+00:01:58,100 --> 00:01:59,880
+Almanya, İspanya ve Fransa'da da
+
+41
+00:02:00,140 --> 00:02:02,180
+Havalimanlarında sistem tamamen durdu.
+
+42
+00:02:02,440 --> 00:02:03,460
+Kalküstler ertelendi.
+
+43
+00:02:03,720 --> 00:02:06,540
+Havalimanlarındaki yolcu kuyrukları da uzadıkça uzadı.
+
+44
+00:02:07,820 --> 00:02:10,120
+Türk Hava Yolları 84 seferini iptal etti.
+
+45
+00:02:10,380 --> 00:02:12,440
+Kriz yüzünden bazı banka müşterileri de
+
+46
+00:02:12,700 --> 00:02:14,480
+ATM'lerden eli boş döndü.
+
+47
+00:02:17,040 --> 00:02:18,040
+Bazı bankalarda
+
+48
+00:02:18,300 --> 00:02:20,100
+Müşterilerine mesajla ulaşarak
+
+49
+00:02:20,360 --> 00:02:21,900
+Teknik aksaklığa dikkat çekti.
+
+50
+00:02:22,200 --> 00:02:23,700
+Yazılım bir şeyler yazıyor ama
+
+51
+00:02:23,960 --> 00:02:26,020
+Ulaştırma ve Altyapı Bakanı Uraloğlu
+
+52
+00:02:26,280 --> 00:02:26,780
+Krizin
+
+53
+00:02:27,040 --> 00:02:29,080
+Siber saldırı kaynaklı olmadığını belirtti.
+
+54
+00:02:29,340 --> 00:02:30,880
+Aksaklığın önemli bir
+
+55
+00:02:31,140 --> 00:02:33,440
+Bölümünü atlattığımızı söyleyebilirim.
+
+56
+00:02:33,700 --> 00:02:36,000
+Bir siber saldırı söz konusu değildir.
+
+57
+00:02:36,260 --> 00:02:38,040
+Amerikan Teknoloji firması da
+
+58
+00:02:38,300 --> 00:02:39,860
+Temel sorunun çözüldüğünü
+
+59
+00:02:40,120 --> 00:02:43,680
+Ancak bazı uygulamalarda sorunların devam edebileceğini belirtti.
+
+60
+00:02:44,960 --> 00:02:45,980
+Krizin çözümü için
+
+61
+00:02:46,240 --> 00:02:47,780
+Türkiye'de de tedbirler alındı.
+
+62
+00:02:48,040 --> 00:02:49,600
+Bilgi Teknolojileri Kurumu
+
+63
+00:02:49,960 --> 00:02:52,520
+Ve Ulusal Siber Olaylara Müdahale Merkezi
+
+64
+00:02:52,780 --> 00:02:55,080
+Sorunun tespiti ve giderilmesi için
+
+65
+00:02:55,340 --> 00:02:56,360
+Çalışma başlattı.
+
+66
+00:02:59,180 --> 00:03:05,320
+Yıldız Sarayı'nın 6 yıldır süren restorasyon çalışması tamamlandı ve saray tam 100 yıl sonra
+
+67
+00:03:05,580 --> 00:03:07,100
+Kapılarını yeniden açtı.
+
+68
+00:03:07,860 --> 00:03:10,440
+Açılış töreninde konuşan Cumhurbaşkanı Erdoğan
+
+69
+00:03:10,700 --> 00:03:16,840
+Tarihimizin bir dönemine damgasını vuran reddi miras anlayışı bize ağır bedeller ödetti dedi.
+
+70
+00:03:17,820 --> 00:03:20,760
+Ejdat yadikarı Yıldız Sarayı'nı
+
+71
+00:03:21,020 --> 00:03:21,520
+İhya ettik.
+
+72
+00:03:21,780 --> 00:03:23,320
+6 yıllık restorasyon bitti.
+
+73
+00:03:23,580 --> 00:03:26,920
+Osmanlı'nın son sarayı 100 yıl sonra kapılarını yeniden açtı.
+
+74
+00:03:27,180 --> 00:03:28,720
+İstanbul'umuzun tarihi
+
+75
+00:03:28,980 --> 00:03:29,480
+Kültürel
+
+76
+00:03:29,740 --> 00:03:31,540
+Ve turistik cazibesinin
+
+77
+00:03:31,800 --> 00:03:33,100
+Daha da artacağına
+
+78
+00:03:33,340 --> 00:03:33,840
+İnanıyorum.
+
+79
+00:03:34,100 --> 00:03:36,400
+Cumhurbaşkanı Erdoğan sarayın tarihini anlattı.
+
+80
+00:03:36,660 --> 00:03:38,720
+Burası asla sıradan bir eser
+
+81
+00:03:38,980 --> 00:03:40,280
+Sıradan bir yapı
+
+82
+00:03:40,540 --> 00:03:41,040
+Değildir.
+
+83
+00:03:41,300 --> 00:03:43,060
+Devlet-i Aliyye'ye yönelen
+
+84
+00:03:43,320 --> 00:03:45,120
+Yıkma girişimleri karşısında
+
+85
+00:03:45,380 --> 00:03:46,180
+Dirilişinde
+
+86
+00:03:46,280 --> 00:03:47,040
+Sembolü oldu.
+
+87
+00:03:47,300 --> 00:03:50,880
+Kültür varlıklarına gereken özenin gösterilmediği yılları da hatırlattı Erdoğan.
+
+88
+00:03:51,140 --> 00:03:54,480
+Özellikle tarihimizin bir dönemine damgasını vuran
+
+89
+00:03:54,740 --> 00:03:55,540
+Reddi miras
+
+90
+00:03:55,800 --> 00:03:56,820
+Anlayışı
+
+91
+00:03:57,080 --> 00:03:58,360
+Bizlere gerçekten
+
+92
+00:03:58,620 --> 00:04:00,160
+Çok ağır bedeller ödetti.
+
+93
+00:04:00,420 --> 00:04:04,000
+Bu zihniyetin kadrine uğrayan sembollerden biri
+
+94
+00:04:04,260 --> 00:04:05,020
+Yıldız Sarayı oldu.
+
+95
+00:04:05,280 --> 00:04:09,120
+Cumhurbaşkanı ziyaretlerin Ağustos sonuna kadar ücretsiz olacağını da açıkladı.
+
+96
+00:04:09,380 --> 00:04:12,200
+Pazartesi hariç haftada 6 gün açık olacak Yıldız Sarayı.
+
+97
+00:04:12,660 --> 00:04:18,800
+CHP lideri Özgür Özel ve İYİ Parti Genel Başkanı Müsavvat Dervişoğlu da
+
+98
+00:04:19,060 --> 00:04:23,420
+Kıbrıs Barış Harekatı'nın 50. yıl dönümü törenleri öncesi adadaydı bugün.
+
+99
+00:04:23,680 --> 00:04:28,280
+Özel Türkiye'de ana muhalefet yurt dışında Türkiye'nin partisiyiz dedi. Dervişoğlu da
+
+100
+00:04:28,540 --> 00:04:30,840
+Kalbimiz duygularımız bir diye seslendi.
+
+101
+00:04:31,100 --> 00:04:33,140
+İşte muhalefetin Kıbrıs çıkartması.
+
+102
+00:04:34,180 --> 00:04:36,740
+Cumhuriyet Halk Partisi olarak
+
+103
+00:04:37,000 --> 00:04:37,500
+Biz
+
+104
+00:04:37,760 --> 00:04:38,780
+Kıbrıs Türk'ünün
+
+105
+00:04:39,300 --> 00:04:41,340
+Evet demediği hiçbir şeye evet demeyiz.
+
+106
+00:04:41,500 --> 00:04:42,300
+Biz her zaman
+
+107
+00:04:42,560 --> 00:04:44,360
+Müzakereden ve çözümden yöneyiz.
+
+108
+00:04:44,620 --> 00:04:45,640
+Kalbimiz bir
+
+109
+00:04:45,900 --> 00:04:46,920
+Duygularımız bir
+
+110
+00:04:47,420 --> 00:04:49,220
+Hedeflerimiz bir, idarelerimiz bir.
+
+111
+00:04:49,480 --> 00:04:55,620
+Muhalefet partilerinin liderleri Kıbrıs Barış Harekatı'nın 50. yıl dönümü için adadaydı.
+
+112
+00:04:55,880 --> 00:05:02,020
+CHP lideri Özgür Özel Cumhuriyetçi Türk Partisi Genel Başkanı Tufan Erhurman'ı ziyaret etti.
+
+113
+00:05:02,540 --> 00:05:03,820
+Kıbrıs meselesinde
+
+114
+00:05:04,080 --> 00:05:06,900
+İktidar muhalefet ayrışmakla doğru bir yaklaşım olmaz.
+
+115
+00:05:07,160 --> 00:05:08,180
+Kıbrıs üzerinden
+
+116
+00:05:08,640 --> 00:05:12,220
+İç siyaset kavgası yapmak kolay ama kimseye bir faydası olmadı.
+
+117
+00:05:12,740 --> 00:05:14,800
+Sonraki durağı da Cumhurbaşkanlığı'ydı Özel'in.
+
+118
+00:05:15,060 --> 00:05:19,660
+Biz Türkiye'de bana muhalefet partisiyiz ama yurt dışında Türkiye'nin partisiyiz.
+
+119
+00:05:19,920 --> 00:05:22,480
+Özel Meclis Başkanı Zorlu Töre'yi de ziyaret etti.
+
+120
+00:05:22,740 --> 00:05:33,540
+Biz Kıbrıs'ı yavru vatan olarak gören değil, Kıbrıs'ı bir kardeş vatan olarak gören, kardeş devlet olarak gören bir anlayışa sahibiz.
+
+121
+00:05:34,520 --> 00:05:40,660
+İzmir'in Gazi Emir ve Buca ilçelerinde dün ormanlık alanda başlayan yangın yerleşim yerlerini tehdit etti.
+
+122
+00:05:40,920 --> 00:05:42,200
+Uçuşları etkiledi.
+
+123
+00:05:42,460 --> 00:05:49,100
+Herkes yürekleri ağızlarında bölgeden gelecek iyi haberi beklerken o haber yangının 20. saatinde nihayet geldi.
+
+124
+00:05:57,380 --> 00:06:01,500
+İzmir'de orman yangını büyüdü, evleri tehdit etti. İyi haber 20. saatte geldi.
+
+125
+00:06:03,860 --> 00:06:05,860
+Maalesef çok hızlı yayılıyor.
+
+126
+00:06:07,340 --> 00:06:10,060
+Yangın dün öğle saatlerinde Buca ilçesinde başladı.
+
+127
+00:06:10,320 --> 00:06:13,480
+Rüzgarın etkisiyle Gazi Emir ilçesine sıçradı.
+
+128
+00:06:13,480 --> 00:06:15,480
+Bazı evler tahliye edildi.
+
+129
+00:06:17,780 --> 00:06:25,380
+Yoğun duman nedeniyle Adan Menderes Havalimanı'ndaki çok sayıda sefer ertelenirken bazı uçaklar da çevre havalimanlarına yönlendirildi.
+
+130
+00:06:25,380 --> 00:06:27,380
+Alevlerle mücadele sürüyor.
+
+131
+00:06:28,000 --> 00:06:31,900
+Saatler geçti, çalışmalar sonucu hava trafiği normale döndü.
+
+132
+00:06:32,340 --> 00:06:36,980
+Gece saatlerinde de alevlerin yerleşim yerlerine sıçraması tehdidi engellendi.
+
+133
+00:06:39,380 --> 00:06:40,380
+Ve ikinci gün.
+
+134
+00:06:40,380 --> 00:06:43,660
+İzmir'de yangınları kontrol altına alma çalışmaları devam ediyor.
+
+135
+00:06:43,660 --> 00:06:46,900
+Havada büyük bir helikopter hareketliliği var.
+
+136
+00:06:46,900 --> 00:06:50,500
+Can siperhane mücadelede 20. saatte iyi haber geldi.
+
+137
+00:06:50,500 --> 00:06:57,500
+An itibariyle bu yangınların tamamının kontrol altına alındığını duyurmak istiyorum.
+
+138
+00:06:57,500 --> 00:07:01,620
+Buca, Gazi Emir dahil 48 yangın kontrol altına alındı.
+
+139
+00:07:01,820 --> 00:07:04,820
+Yangınlarda acı haberin adresi ise Bergama oldu.
+
+140
+00:07:07,220 --> 00:07:13,420
+Bergama Orman İşletme Müdürü evli ve iki çocuk babası Şahin Dönertaş yangına müdahaleye gittiği sırada
+
+141
+00:07:13,420 --> 00:07:16,620
+içinde bulunduğu kamyonetin devrilmesiyle şehit oldu.
+
+142
+00:07:16,620 --> 00:07:20,020
+Ulaştırma personeli Özgür Dilsiz ise yaralandı.
+
+143
+00:07:22,020 --> 00:07:27,020
+Dilan ve Engin Polat çiftine yönelik kara para suçlamasıyla açılan davada da gündeme gelmiş
+
+144
+00:07:27,020 --> 00:07:34,020
+gizli tanık kara para akışının üniversite öğrencilerinin banka hesapları üzerinden yapıldığını iddia etmişti.
+
+145
+00:07:34,020 --> 00:07:37,420
+Dahası o yöntemi kullanan bir tek onlar değildi.
+
+146
+00:07:37,420 --> 00:07:42,020
+İşte üniversitelilere kurulan fenomen tuzağının detayları.
+
+147
+00:07:58,020 --> 00:08:03,020
+Hedeflerinde öğrenciler ve borç batağına düşenler vardı.
+
+148
+00:08:11,020 --> 00:08:18,020
+Onun gibi yüzlerce kişi var ve gelir elde etmek isteyenler şimdi çete davalarıyla karşı karşıya.
+
+149
+00:08:28,020 --> 00:08:34,020
+Katından az olmayacak şekilde adli para cezasıyla cezalandırılabilirler.
+
+150
+00:08:34,020 --> 00:08:38,020
+Benzer bir suçlama Engin ve Dilan Polat çifti içinde var.
+
+151
+00:08:38,020 --> 00:08:41,020
+Polat çiftine kara para suçlamasıyla dava açılmıştı.
+
+152
+00:08:41,020 --> 00:08:48,020
+İddianamede gizli tanıkta kara para akışının üniversite öğrencilerinin banka hesapları üzerinden yapıldığını iddia etti.
+
+153
+00:08:48,020 --> 00:08:51,020
+Aynı yöntemi kullanansa birçok şebeke var.
+
+154
+00:08:52,020 --> 00:08:59,020
+Sosyal medya üzerinden görmüştüm belli bir komisyon üzerinde çalıştırabileceklerinin tamamen yasalı olduğunu.
+
+155
+00:08:59,020 --> 00:09:03,020
+Buna inanıp borç batağından kurtulmak için iletişime geçti.
+
+156
+00:09:03,020 --> 00:09:08,020
+Denilen adrese gitti, cep telefonunu, banka hesap bilgilerini verdi.
+
+157
+00:09:13,020 --> 00:09:16,020
+Ulaşamayınca başından aşağı kaynar su döküldü.
+
+158
+00:09:16,020 --> 00:09:19,020
+İnanın 1 milyon 140 bin lira para gelişi çıkışı olmuş.
+
+159
+00:09:19,020 --> 00:09:22,020
+Dahası konut kredisine başvuru yapmışlar.
+
+160
+00:09:22,020 --> 00:09:24,020
+Kredi kartları kolp ile patlatmışlar.
+
+161
+00:09:24,020 --> 00:09:26,020
+Bir buçuk milyon daha dolandırıldı.
+
+162
+00:09:28,020 --> 00:09:35,020
+Samsun'da saldırgan bir koca boşanma aşamasında olduğu eşini valilik bahçesinde boğmaya çalıştı.
+
+163
+00:09:35,020 --> 00:09:38,020
+Ve tüm bunları küçük çocuğunun gözleri önünde yaptı.
+
+164
+00:09:38,020 --> 00:09:41,020
+Akıl almaz saldırıyı çevredekiler ve polis önledi.
+
+165
+00:09:42,020 --> 00:09:49,020
+Valilik binası önünde çocuğunun gözü önünde karısını boğmaya çalıştı.
+
+166
+00:09:49,020 --> 00:09:52,020
+Akıl almaz anları çevredekiler kaydetti.
+
+167
+00:09:54,020 --> 00:10:00,020
+Karı koca Samsun Valiliği binasındaki İl Milli Eğitim Müdürlüğü'nde hizmetli kadrosunda çalışıyordu.
+
+168
+00:10:00,020 --> 00:10:03,020
+İddiaya göre boşanma aşamasındalardı.
+
+169
+00:10:03,020 --> 00:10:05,020
+Aralarında tartışma çıktı.
+
+170
+00:10:05,020 --> 00:10:07,020
+Kadın, kocası tarafından saldırıya vurdu.
+
+171
+00:10:08,020 --> 00:10:14,020
+Saldırgan koca karısını valilik binası önünde yere yatırdı, boğazını sıkmaya başladı.
+
+172
+00:10:14,020 --> 00:10:17,020
+Ve tüm bunlara küçük çocukları da tanık oldu.
+
+173
+00:10:20,020 --> 00:10:23,020
+Saldırgan kocayı çevredekiler ve polis durdurdu.
+
+174
+00:10:23,020 --> 00:10:25,020
+Darp edilen kadınsa öfkeliydi.
+
+175
+00:10:25,020 --> 00:10:27,020
+Eline ne geçtiyse fırlatmaya çalıştı.
+
+176
+00:10:27,020 --> 00:10:32,020
+Ardından ikisi de ifadeleri alınmak üzere polis merkezine götürüldü.
+
+177
+00:10:33,020 --> 00:10:39,020
+İstanbul'da iki kardeş iddiaya göre alacak verecek meselesi yüzünden kavgalıydı.
+
+178
+00:10:39,020 --> 00:10:43,020
+Küçük kardeş ağabeyini babasıyla bankta otururken gördü.
+
+179
+00:10:43,020 --> 00:10:47,020
+Sonra da yanındaki silahla ikisine de kurşun yağdırdı.
+
+180
+00:10:47,020 --> 00:10:49,020
+Bu anlarda kameralar da kayıttaydı.
+
+181
+00:10:53,020 --> 00:10:57,020
+İki üç el silah sesi duydum. Sonra çıktım baktım ikisi yerde yatıyor.
+
+182
+00:10:57,020 --> 00:10:58,020
+Kardeşi vurmuş.
+
+183
+00:10:58,020 --> 00:11:02,020
+Gözü döndü durakta oturan babasına ve ağabeyine kurşun yağdırdı.
+
+184
+00:11:02,020 --> 00:11:06,020
+Çıktım baktım yerde dedim ki ayaklarından vurulmuş.
+
+185
+00:11:06,020 --> 00:11:08,020
+Görüntülerin adresi Sultan Gazi'ydi.
+
+186
+00:11:08,020 --> 00:11:14,020
+Akşam saatleriydi iddiaya göre alacak verecek meselesi yüzünden iki kardeşin arası bir süredir bozuktu.
+
+187
+00:11:14,020 --> 00:11:19,020
+Kardeşi Ahmet Saygın ağabeyini ve babasını taksi durağının önünde bankta otururken gördü.
+
+188
+00:11:19,020 --> 00:11:22,020
+Belindeki silaha sarıldı ve peş peşe ateş etti.
+
+189
+00:11:22,020 --> 00:11:28,020
+Yolcu aldım aşağı inerken burada bir kalabalık gördüm.
+
+190
+00:11:28,020 --> 00:11:30,020
+Silah sesini duyan halk da geldi.
+
+191
+00:11:30,020 --> 00:11:32,020
+Ağabeyini ve babasını vuran saldırgan kaçtı.
+
+192
+00:11:32,020 --> 00:11:35,020
+Çevredekilerse baba oğlunun yardımına koştu.
+
+193
+00:11:35,020 --> 00:11:37,020
+İkisi de bacağından vuruldu.
+
+194
+00:11:37,020 --> 00:11:39,020
+Bacaklarına tampon yapıldı.
+
+195
+00:11:39,020 --> 00:11:41,020
+Başlarının altına ise yastık koyuldu.
+
+196
+00:11:41,020 --> 00:11:43,020
+Ayağını sardı ki kan fazla gitmesin diye.
+
+197
+00:11:43,020 --> 00:11:45,020
+Sonra sağlık ekipleri geldi.
+
+198
+00:11:45,020 --> 00:11:47,020
+Onlar da baba oğula ilk müdahaleyi yaptılar.
+
+199
+00:11:47,020 --> 00:11:50,020
+Daha sonradan ambulansla hastaneye kaldırdılar.
+
+200
+00:11:50,020 --> 00:11:52,020
+Polis aracı da vardı zaten.
+
+201
+00:11:52,020 --> 00:11:54,020
+Polis de o zaman gelmişti olaya müdahale etmeye.
+
+202
+00:11:54,020 --> 00:11:56,020
+İkisinin de durumu iyi.
+
+203
+00:11:56,020 --> 00:11:58,020
+Babası ve ağabeyini yaralayan saldırgan kaçtı.
+
+204
+00:11:58,020 --> 00:12:00,020
+Polis ise her yerde onu arıyor.
+
+205
+00:12:03,020 --> 00:12:09,020
+Şanlıurfa'da zabıta karpuz satan esnaftan tezgahını kaldırmasını istedi ve tansiyon bir anda yükseldi.
+
+206
+00:12:09,020 --> 00:12:11,020
+Zabıtayla karpuzcu birbirine girdi.
+
+207
+00:12:11,020 --> 00:12:16,020
+İşte dördü zabıta 15 kişinin yaralandığı o dehşet anları.
+
+208
+00:12:21,020 --> 00:12:24,020
+Seyyar satıcılarla zabıta birbirine girdi.
+
+209
+00:12:24,020 --> 00:12:27,020
+Olaya şahit olan bu çocuk göz yaşlarına boğuldu.
+
+210
+00:12:32,020 --> 00:12:38,020
+Şanlıurfa'da zabıta boş bir araziyle karpuz satan esnaftan tezgahını kaldırmasını isteyince tartışma çıktı.
+
+211
+00:12:38,020 --> 00:12:41,020
+Bölgeye esnafın yakınları ve diğer seyyar satıcılar da geldi.
+
+212
+00:12:41,020 --> 00:12:43,020
+Tansiyon bir anda yükseldi.
+
+213
+00:12:44,020 --> 00:12:46,020
+Tansiyon bir anda yükseldi.
+
+214
+00:12:49,020 --> 00:12:52,020
+Taraflar birbirine taş ve sopalarla saldırdı.
+
+215
+00:12:52,020 --> 00:12:54,020
+Ortalık savaş alanına döndü.
+
+216
+00:13:02,020 --> 00:13:06,020
+İddiaya göre zabıta ekipleri habercilere de engel olmaya çalıştı.
+
+217
+00:13:13,020 --> 00:13:14,020
+Bana da saldırdı.
+
+218
+00:13:17,020 --> 00:13:19,020
+Ardından bölgeye polis ekipleri geldi.
+
+219
+00:13:19,020 --> 00:13:21,020
+Kalabalık güçlükle sakinleştirildi.
+
+220
+00:13:26,020 --> 00:13:31,020
+Seyyar satıcılardan birinin kızıysa olan biteni göz yaşları için de izledi.
+
+221
+00:13:33,020 --> 00:13:36,020
+O arbedede dördü zabıta memuru 15 kişi yaralandı.
+
+222
+00:13:36,020 --> 00:13:38,020
+5 kişi ise gözaltına alındı.
+
+223
+00:13:39,020 --> 00:13:44,020
+Ankara'da parkta oynayan çocukların sesinden rahatsız olan bir adam
+
+224
+00:13:44,020 --> 00:13:47,020
+inanılır gibi değil ama gürültü yapıyor diye çocukları taşladı.
+
+225
+00:13:47,020 --> 00:13:53,020
+4 çocuğu başından yaralayan saldırgan aileler peşine düşünce de bir benzinliğe sığındı.
+
+226
+00:13:53,020 --> 00:13:56,020
+Sonrasında yaşananları da gelin birlikte izleyelim.
+
+227
+00:13:59,020 --> 00:14:03,020
+Parkta oynayan çocukların sesinden rahatsız oldu taşla saldırdı.
+
+228
+00:14:03,020 --> 00:14:06,020
+Linç edileceğini anlayınca da benzinliğe sığındı.
+
+229
+00:14:08,020 --> 00:14:12,020
+Ankara Etmeskut'ta iddiaya göre parkta oyunu oynayan çocukların sesinden
+
+230
+00:14:12,020 --> 00:14:15,020
+rahatsız olan kişi taşla çocuklara saldırdı.
+
+231
+00:14:21,020 --> 00:14:24,020
+Durumu fark eden çocukların yakınları saldırganın peşine düştü.
+
+232
+00:14:31,020 --> 00:14:33,020
+Öfkeli kalabalık ellerinde sopalarla peşindeydi.
+
+233
+00:14:33,020 --> 00:14:35,020
+Saldırgan bir benzinliğe sığındı.
+
+234
+00:14:35,020 --> 00:14:38,020
+Benzinlik çalışanları ne olup bittiğini anlayamadı.
+
+235
+00:14:38,020 --> 00:14:40,020
+Tarafları ayırmaya çalıştı.
+
+236
+00:14:46,020 --> 00:14:50,020
+Saldırgan benzinlikte bir süre saklandı ama aileleri çok öfkeliydi.
+
+237
+00:14:50,020 --> 00:14:53,020
+İstasyon çalışanları onları sakinleştirmeye çalıştı.
+
+238
+00:14:53,020 --> 00:14:55,020
+O sırada durumu polise bildirdiler.
+
+239
+00:14:55,020 --> 00:14:57,020
+Polisler saldırganı gözaltına aldı.
+
+240
+00:14:59,020 --> 00:15:02,020
+Sağlık ekipleri yaralanan çocukları ilk müdahaleyi parkta yaptı.
+
+241
+00:15:02,020 --> 00:15:04,020
+Neyse ki çocukların durumu iyi.
+
+242
+00:15:04,020 --> 00:15:06,020
+Polis de olayla ilgili soruşturma başlattı.
+
+243
+00:15:08,020 --> 00:15:11,020
+Zeytinburnu'nda alacak verecek meselesi cinayetle bitti.
+
+244
+00:15:11,020 --> 00:15:14,020
+Bir tekstil atölyesinde çalışan iki kişi kavgalı oldukları adamı
+
+245
+00:15:14,020 --> 00:15:17,020
+küfür ettiği iddiasıyla dakikalarca dövdüler.
+
+246
+00:15:17,020 --> 00:15:20,020
+Sonra da hastaneye götürüp yolda bulduk dediler.
+
+247
+00:15:20,020 --> 00:15:24,020
+Ağır yaralı adam yoğun bakımda altı gün süren yaşam savaşını kaybetti.
+
+248
+00:15:24,020 --> 00:15:27,020
+Edirne'ye kaçan iki saldırgan ise yakalandı.
+
+249
+00:15:28,020 --> 00:15:33,020
+Amcasına küfür etti diye tekme tokat dövdüler.
+
+250
+00:15:33,020 --> 00:15:36,020
+Sonra da hastane önüne bırakıp yolda bulduk dediler.
+
+251
+00:15:40,020 --> 00:15:43,020
+Yoğun bakıma kaldırılan o adam altı gün sonra hayatını kaybetti.
+
+252
+00:15:46,020 --> 00:15:49,020
+Küfür cinayetinin adresi Zeytinburnu'ydu.
+
+253
+00:15:49,020 --> 00:15:52,020
+Taraflar alacak verecek meselesi nedeniyle kavgalıydı.
+
+254
+00:15:52,020 --> 00:15:56,020
+Bayram Gündoğdu da konuşmak için Zeytinburnu'ndaki atölyeye gitti.
+
+255
+00:15:56,020 --> 00:15:58,020
+Ancak taraflar arasında yine tartışma çıktı.
+
+256
+00:15:58,020 --> 00:16:03,020
+İddiaya göre Bayram Gündoğdu kavgalı olduğu kişilerin amcasına küfür etmişti.
+
+257
+00:16:03,020 --> 00:16:07,020
+İkisi de çok sinirlendi. O tartışma kavgaya döndü.
+
+258
+00:16:07,020 --> 00:16:11,020
+Saldırganlar Bayram Gündoğdu'yu dakikalarca tekme tokat dövmeye başladı.
+
+259
+00:16:11,020 --> 00:16:15,020
+Bayram Gündoğdu fenalık geçirince de onu hastaneye götürdüler.
+
+260
+00:16:15,020 --> 00:16:18,020
+Hastane çalışanlarına da yolda bulduk getirdik dediler.
+
+261
+00:16:18,020 --> 00:16:20,020
+Bayram Gündoğdu'nun bilinci kapalıydı.
+
+262
+00:16:20,020 --> 00:16:22,020
+Altı gün boyunca yoğun bakımda kaldı.
+
+263
+00:16:22,020 --> 00:16:25,020
+Ancak yapılan tüm müdahalelere rağmen kurtarılamadı.
+
+264
+00:16:27,020 --> 00:16:33,020
+Cinayet büro amirliği ekipleri güvenlik kameralarından saldırganların izini sürdü.
+
+265
+00:16:33,020 --> 00:16:37,020
+İki saldırgan Edirne'ye kaçmıştı. Jandarma ekiplerine haber verildi.
+
+266
+00:16:37,020 --> 00:16:40,020
+Saklandıkları evde yakalanan iki saldırgan tutuklandı.
+
+267
+00:16:42,020 --> 00:16:46,020
+Bağcılarda akraba olan iki kişi arasında başlayan tartışma kavgaya döndü.
+
+268
+00:16:46,020 --> 00:16:47,020
+Birisi silahlıydı.
+
+269
+00:16:47,020 --> 00:16:52,020
+Tam ateş edecekken araya başka bir kişi girdi. Arkadaşını korumaya çalıştı.
+
+270
+00:16:52,020 --> 00:16:57,020
+Açılan ateş sonucu ise kendini siper eden kişi değil korumaya çalıştığı arkadaşı vuruldu.
+
+271
+00:17:00,020 --> 00:17:01,020
+Tartışma olmuş.
+
+272
+00:17:02,020 --> 00:17:03,020
+Ayaklarından vuruyor.
+
+273
+00:17:04,020 --> 00:17:06,020
+Vurmasın diye silahın önüne geçti, siper oldu.
+
+274
+00:17:06,020 --> 00:17:07,020
+Ama dinletemedi.
+
+275
+00:17:07,020 --> 00:17:09,020
+Saldırgan akrabasını bacağından vurdu.
+
+276
+00:17:12,020 --> 00:17:15,020
+İki akrabanın kanlı biten kavgası Bağcılar'da yaşandı.
+
+277
+00:17:15,020 --> 00:17:19,020
+Genç bir adam Bağcılar'daki ara sokakta kaldırımda oturuyordu.
+
+278
+00:17:19,020 --> 00:17:22,020
+O sırada arabayla akrabası sokağa girdi.
+
+279
+00:17:22,020 --> 00:17:26,020
+Hemen yanında durdu. İkili konuşmaya başladı.
+
+280
+00:17:26,020 --> 00:17:29,020
+Ancak o konuşma tartışmaya döndü.
+
+281
+00:17:29,020 --> 00:17:31,020
+İçerideki arkadaş da ailesine küfür ediyor.
+
+282
+00:17:31,020 --> 00:17:33,020
+Kolundan tutup içeriye çekmeye çalışmış.
+
+283
+00:17:33,020 --> 00:17:35,020
+Araçtaki akrabası silahlıydı.
+
+284
+00:17:35,020 --> 00:17:40,020
+Otomobile zorla bindirilmeye çalışan genç ise ellerinden son anda kurtuldu.
+
+285
+00:17:40,020 --> 00:17:43,020
+Ancak akrabası peşini bırakmadı.
+
+286
+00:17:43,020 --> 00:17:46,020
+Otomobilden indi ve silahını ona doğrulttu.
+
+287
+00:17:49,020 --> 00:17:51,020
+Bu adam araya girdi. Kendini siper etti.
+
+288
+00:17:51,020 --> 00:17:54,020
+Çevredekiler sesleri dışarı çıktı.
+
+289
+00:17:54,020 --> 00:17:59,020
+Hem onlar hem de silahın önüne kendini atan kişi yapma diye bağırdı.
+
+290
+00:17:59,020 --> 00:18:02,020
+Ancak o kimseyi dinlemedi. Ateş etti.
+
+291
+00:18:03,020 --> 00:18:04,020
+Ayaklarından vuruyor.
+
+292
+00:18:04,020 --> 00:18:09,020
+Akrabasını vurdu. Namlunun önüne kendini atansa kıl payı kurtuldu.
+
+293
+00:18:10,020 --> 00:18:12,020
+Bacağından vurulan genç hastaneye kaldırıldı.
+
+294
+00:18:12,020 --> 00:18:15,020
+Durumu iyi. Saldırgansa aranıyor.
+
+295
+00:18:16,020 --> 00:18:20,020
+İzmir'de bir kafe önüne park edilen araba kavga nedeni oldu.
+
+296
+00:18:20,020 --> 00:18:23,020
+Silahını çeken sürücü 3 kafe çalışanını vurdu.
+
+297
+00:18:23,020 --> 00:18:27,020
+Silah zoruyla güvenlik kamerası görüntülerini de alıp kaçtı.
+
+298
+00:18:27,020 --> 00:18:31,020
+Ama ne o ne de yanındakiler yakalanmaktan kurtulabildi.
+
+299
+00:18:35,020 --> 00:18:37,020
+Ateş açtı. 3 kişiyi yaraladı.
+
+300
+00:18:37,020 --> 00:18:41,020
+Görüntüleri de alıp gitti ama yakalanmaktan kurtulamadı.
+
+301
+00:18:41,020 --> 00:18:46,020
+İzmir'de tansiyonu yükselten bir kafe önüne park edilen bu arabaydı.
+
+302
+00:18:48,020 --> 00:18:51,020
+Kafe çalışanları park edemezsin deyince kavga çıktı.
+
+303
+00:18:52,020 --> 00:18:56,020
+Bu saldırgan arabasından tabancasını alıp kurşun yağdırdı.
+
+304
+00:18:59,020 --> 00:19:04,020
+3 kafe çalışanı yerde acı içinde kıvranırken arkadaşları boş kovanları topladı.
+
+305
+00:19:04,020 --> 00:19:08,020
+O da tehditle olay anını gösteren iş yeri kamera cihazını aldı.
+
+306
+00:19:08,020 --> 00:19:11,020
+Tişörtünün içine saklayıp böyle kaçtı.
+
+307
+00:19:14,020 --> 00:19:16,020
+Yaralılar hastaneye kaldırıldı.
+
+308
+00:19:16,020 --> 00:19:21,020
+Silahlı saldırganla birlikte 5 şüpheli ise kısa sürede yakalanarak gözaltına alındı.
+
+309
+00:19:23,020 --> 00:19:27,020
+Bursa'da 2 arkadaş kaza yaptıkları sırada canlı yayındaydı.
+
+310
+00:19:27,020 --> 00:19:31,020
+Çarpışmanın etkisiyle kâbusu yaşadıkları anlar saniye saniye kayboldu.
+
+311
+00:19:31,020 --> 00:19:35,020
+Çarpışmanın etkisiyle kâbusu yaşadıkları anlar saniye saniye kayda geçti.
+
+312
+00:19:35,020 --> 00:19:37,020
+Sırada kazalar var.
+
+313
+00:19:41,020 --> 00:19:44,020
+Yolculuk sırasında canlı yayın açtılar.
+
+314
+00:19:44,020 --> 00:19:46,020
+Kaza yapıp ölümle burun buruna geldiler.
+
+315
+00:19:49,020 --> 00:19:52,020
+Gökhan Taş, Burak Yüksel'in kullandığı araçta yan koltuktaydı.
+
+316
+00:19:52,020 --> 00:19:55,020
+Yolculuk sırasında sosyal medyada canlı yayın açtı.
+
+317
+00:19:55,020 --> 00:19:57,020
+Tam o esnada bu kaza yaşandı.
+
+318
+00:19:57,020 --> 00:19:59,020
+Otobüs son surat geldi bize yanından çarptı.
+
+319
+00:19:59,020 --> 00:20:02,020
+Halk otobüsüyle çarpıştıkları an canlı yayına böyle yansıdı.
+
+320
+00:20:06,020 --> 00:20:08,020
+Araba başka bir araca çarparak durabildi.
+
+321
+00:20:08,020 --> 00:20:10,020
+2 kişi hafif yaralandı.
+
+322
+00:20:13,020 --> 00:20:19,020
+Artvin Cankurtaran Tüneli'nde kamyon şoförü yaşanan kazadan dolayı dörtlüleri yakıp yavaşlamıştı.
+
+323
+00:20:19,020 --> 00:20:21,020
+Minibüs şoförü yavaşladığını fark etmedi.
+
+324
+00:20:21,020 --> 00:20:23,020
+İkinci kaza böyle geldi.
+
+325
+00:20:24,020 --> 00:20:27,020
+Kamyona arkadan çarpan minibüs şoförü olay yerinde can verdi.
+
+326
+00:20:30,020 --> 00:20:33,020
+Otomobil sürücüsü arkasından gelen aracı görünce panik yaptı.
+
+327
+00:20:33,020 --> 00:20:36,020
+Bren yerine gaza basıp kaldırımdaki kalabalığa doğru savruldu.
+
+328
+00:20:38,020 --> 00:20:43,020
+Sandalyede oturan gençlerden biri can havliyle yerinden fırladı ama kazadan kaçamadı.
+
+329
+00:20:43,020 --> 00:20:45,020
+Otomobilin çarpmasıyla yaralandı.
+
+330
+00:20:47,020 --> 00:20:51,020
+Hatay'da Soner Işık'ın kontrolünü kaybettiği motosikleti devrildi.
+
+331
+00:20:51,020 --> 00:20:53,020
+Minibüsün altına girdi.
+
+332
+00:20:53,020 --> 00:20:55,020
+Feci kazada Işık hayatını kaybetti.
+
+333
+00:20:58,020 --> 00:21:03,020
+Antalya Ticaret ve Sanayi Odası Başkanı Ali Bahar teknesiyle denize açılmıştı.
+
+334
+00:21:03,020 --> 00:21:07,020
+İddiaya göre tekneden suya düşen parçayı almak istedi.
+
+335
+00:21:07,020 --> 00:21:08,020
+Denize atladı.
+
+336
+00:21:08,020 --> 00:21:12,020
+O sırada motor pervanelerinin çarpmasıyla ağır yaralandı.
+
+337
+00:21:13,020 --> 00:21:17,020
+Hastaneye kaldırılan Bahar tüm müdahaleye rağmen kurtarılamadı.
+
+338
+00:21:18,020 --> 00:21:24,020
+Bursa'da polisin dur ihtarına uymayan sürücü 10 kilometre kaçabildi.
+
+339
+00:21:24,020 --> 00:21:30,020
+Ekipler uzun süren kovalamaca sonrası seyir halinde etrafını sarınca kaçacak yeri kalmadı.
+
+340
+00:21:30,020 --> 00:21:32,020
+İşte nefes kesen o anlar.
+
+341
+00:21:35,020 --> 00:21:38,020
+10 kilometre sonunda ekip araçları etrafını sardı.
+
+342
+00:21:38,020 --> 00:21:40,020
+Kaçacak yerleri kalmadı.
+
+343
+00:21:41,020 --> 00:21:46,020
+Bursa'da polisi harekete geçiren dur ihtarına uymayıp kaçan bu aracın sürücüsüydü.
+
+344
+00:21:48,020 --> 00:21:50,020
+Yaklaşık 10 kilometre sürdü kovalamaca.
+
+345
+00:21:53,020 --> 00:21:55,020
+Polis otoları seyir halinde etrafını sardı.
+
+346
+00:21:55,020 --> 00:21:58,020
+Kafana kısılan sürücü durmak zorunda kaldı.
+
+347
+00:22:00,020 --> 00:22:02,020
+Arabada sürücüyle birlikte 5 kişi vardı.
+
+348
+00:22:02,020 --> 00:22:04,020
+5'i de gözaltına alındı.
+
+349
+00:22:09,020 --> 00:22:13,020
+22 yaşındaki sürücü daha önce 2 kez alkolden ehliyetini kaptırmıştı.
+
+350
+00:22:13,020 --> 00:22:16,020
+İfadesinde ehliyetsiz olduğu için kaçtığını söyledi.
+
+351
+00:22:16,020 --> 00:22:18,020
+50 bin lira idari ceza kesildi.
+
+352
+00:22:18,020 --> 00:22:20,020
+Haklarında işten başlatıldı.
+
+353
+00:22:22,020 --> 00:22:32,020
+Ankara'da aynı sokakta evleri soyulan vatandaşlardan biri şüphelenip dairesine güvenlik kamerası taktırınca şok edici görüntülere ulaştı.
+
+354
+00:22:32,020 --> 00:22:38,020
+Hırsız bölgede yaşayanların güvenip anahtarlarını teslim ettiği mahalle bakkalı çıktı.
+
+355
+00:22:38,020 --> 00:22:40,020
+Sırada hırsızlar var.
+
+356
+00:22:41,020 --> 00:22:47,020
+Emanet anahtarları kopyaladığı evleri soyduğu sonunda yakalandı.
+
+357
+00:22:48,020 --> 00:22:51,020
+Yıllardır orada esnaf olan bakkal arkadaşımız.
+
+358
+00:22:51,020 --> 00:22:54,020
+Ankara'da bunu yapan bir mahalle bakkalıydı.
+
+359
+00:22:54,020 --> 00:22:56,020
+Annene ne zaman gidiyorsun? Tatile ne zaman gidiyorsun?
+
+360
+00:22:56,020 --> 00:23:00,020
+Murat Karagöz de diğerleri gibi güvenip evinin anahtarını ona bırakıyordu.
+
+361
+00:23:00,020 --> 00:23:04,020
+Çocuklarımız okuldan geldiğinde evin anahtarını oraya bıraktık.
+
+362
+00:23:04,020 --> 00:23:08,020
+Bir bayram tatili dönüşü altınlarının bir kısmının çalındığını fark etti.
+
+363
+00:23:08,020 --> 00:23:10,020
+Ama polis hiçbir ize rastlamadı.
+
+364
+00:23:10,020 --> 00:23:13,020
+Kapında zorlanma yok. En üst kat tırmanacak hali yok.
+
+365
+00:23:13,020 --> 00:23:17,020
+Bir kez daha soyulunca şüphelenip evine güvenlik kamerası taktırdı.
+
+366
+00:23:17,020 --> 00:23:19,020
+Sonra da işte bu görüntülere ulaştı.
+
+367
+00:23:19,020 --> 00:23:22,020
+İkincisinde geri kalan altınlarımı alıyor.
+
+368
+00:23:22,020 --> 00:23:25,020
+O soluğu karakolda polis bakkalda aldı.
+
+369
+00:23:25,020 --> 00:23:28,020
+Ve tek mağdurun o olmadığı ortaya çıktı.
+
+370
+00:23:28,020 --> 00:23:30,020
+Şüphelendim ama konduramadım.
+
+371
+00:23:30,020 --> 00:23:34,020
+Videoları gördükten sonra her şey yerine oturdu.
+
+372
+00:23:34,020 --> 00:23:39,020
+Sancaktepe'de maskeli otomatik silahlı hırsızlar kiralık otomobille geldikleri kuyumcudan
+
+373
+00:23:39,020 --> 00:23:44,020
+milyonlarca liralık altını gasp edip yaşanan çatışma sonrası kaçmıştı.
+
+374
+00:23:46,020 --> 00:23:49,020
+Polis 300 kilometre boyunca izlerini sürdü.
+
+375
+00:23:49,020 --> 00:23:54,020
+Sahte pasaportla kiralanmış lüks araç Gebze'de bir ormanlık alanda bulundu.
+
+376
+00:23:56,020 --> 00:23:58,020
+Ardından da baskınlar geldi.
+
+377
+00:23:58,020 --> 00:24:02,020
+Koltuk değnekli elebaşı dahil 11 şüpheli yakalanarak adliyeye sevk edildi.
+
+378
+00:24:05,020 --> 00:24:09,020
+Başakşehir'de bu hırsız imitasyon bilekliği önce denedi sonra çaldı.
+
+379
+00:24:09,020 --> 00:24:10,020
+Hiç çekinmiyor yani.
+
+380
+00:24:10,020 --> 00:24:15,020
+Aksaray'da gün aşırı gelip alüminyum çalan hırsızlarsa kameralara böyle yansıdı.
+
+381
+00:24:18,020 --> 00:24:24,020
+Eski ülke ocakları genel başkanı Sinan Ateş cinayetine ilişkin davanın ikinci duruşması vardı bugün.
+
+382
+00:24:24,020 --> 00:24:26,020
+İstenen cezalar belli oldu.
+
+383
+00:24:26,020 --> 00:24:33,020
+Savcı, tetikçi ve azmettiricilerin de aralarında bulunduğu 5 sanık için ağırlaştırılmış müebbet hapis cezası istedi.
+
+384
+00:24:35,020 --> 00:24:41,020
+Savcı mütalaasını açıkladı. İstenen cezalar belli oldu.
+
+385
+00:24:41,020 --> 00:24:46,020
+Milletimiz yanımızda dursun. Devletimiz arkamızda dursun. Adil yargılanmanın önü açılsın.
+
+386
+00:24:46,020 --> 00:24:54,020
+Eski ülke ocakları genel başkanı Sinan Ateş 30 Aralık 2022'de Ankara Çukurambar'da uğradığı silahlı saldırıda hayatını kaybetmişti.
+
+387
+00:24:56,020 --> 00:24:58,020
+Davanın bugün ikinci duruşması görüldü.
+
+388
+00:24:58,020 --> 00:25:05,020
+Savcı, tetikçi Eray Özyağcı ve 2 sanık hakkında tasarlayarak kasten öldürme suçundan ağırlaştırılmış müebbet hapis cezası istedi.
+
+389
+00:25:05,020 --> 00:25:10,020
+Doğukan Çep ve Tolga Han Demirbaş hakkında ise azmettirme suçundan yine aynı ceza talep edildi.
+
+390
+00:25:10,020 --> 00:25:13,020
+Savcı 3 sanık içinde beraat talebinde bulundu.
+
+391
+00:25:14,020 --> 00:25:20,020
+Dava 30 Eylül'e ertelendi. Sinan Ateş'in eşi Ayşe Ateş ve annesi Saniye Ateş duruşma sonrası kamera karşısındaydı.
+
+392
+00:25:20,020 --> 00:25:27,020
+Bu suça karışan her kim varsa adil bir şekilde yargılanıp kanunların öngördüğü cezayı almalıdır.
+
+393
+00:25:29,020 --> 00:25:32,020
+Beton bariyerlere kaldırım kenarlarında sıkça rastlıyoruz.
+
+394
+00:25:32,020 --> 00:25:39,020
+O bariyerler arabalar kaldırıma park etmesin diye inşa edildi ama şimdi de her biri bir ölüm tuzağına dönüştü.
+
+395
+00:25:39,020 --> 00:25:48,020
+Eski Kızılay Başkanı Kerem Kınık'ın kızı Fatma Zehra Kınık'ın otomobiliyle çarptığı motosiklette yaşamını yitiren Batın Barlas Çek'i de başını bu bariyerlere çarpmıştı.
+
+396
+00:25:48,020 --> 00:25:53,020
+Uzmanlar yayaları ve motosikletleri tehdit eden beton bariyerlere tepkili.
+
+397
+00:25:54,020 --> 00:25:58,020
+Beton bariyerler büyük tehlikesi açıyor.
+
+398
+00:25:58,020 --> 00:26:02,020
+Kaldırımlara park olayını nasıl çözecekler?
+
+399
+00:26:02,020 --> 00:26:05,020
+O bariyerler olmasa da yayaya araba çarpabilir.
+
+400
+00:26:05,020 --> 00:26:09,020
+Kaldırıma park eden araçları önlemek için yaptılar ama ölümlere neden oldular.
+
+401
+00:26:09,020 --> 00:26:13,020
+Ne yayalar zor durumda kalsın ne araç sahipleri zor durumda kalsın.
+
+402
+00:26:13,020 --> 00:26:19,020
+Beykoz'da 10 gün önce Kızılay'ın eski başkanı Kerem Kınık'ın kızı Fatma Zehra Kınık otomobiliyle bir motosikletliğe çarpmış.
+
+403
+00:26:19,020 --> 00:26:26,020
+Motosikletin arkasında oturan Batın Barlas Çek'i ise motordan düşerek başını beton bariyere çarpıp yaşamını yitirmişti.
+
+404
+00:26:26,020 --> 00:26:34,020
+Özellikle de kenarları köşeli ve keskin olanlar hem motosiklet sürücülerine hem yayalara büyük bir tehlike.
+
+405
+00:26:34,020 --> 00:26:40,020
+Aslında bu beton bariyerlerin amacı kaldırımlara park eden sürücülerin önüne geçmek içindi.
+
+406
+00:26:40,020 --> 00:26:43,020
+Buraya aracın çıkmaması için gerekli bir önlem alması lazım.
+
+407
+00:26:43,020 --> 00:26:45,020
+Önce plastikten yapıldı o bariyerler.
+
+408
+00:26:45,020 --> 00:26:57,020
+Ama ne yazık ki sürücüler önce o plastik bariyerleri kırdı sonra da yerine yapılan mantarları esnaflar ve kafe restoran sahipleri masa sandalye koymak, mal indirmek için sökmeye başladı.
+
+409
+00:26:57,020 --> 00:27:01,020
+Son çare olarak da o bariyerler içi demirle dolu betonlara dönüştü.
+
+410
+00:27:01,020 --> 00:27:10,020
+Yani özetle insan hayatını tehlikeye atan bu beton bariyerler yine bazı insanların kural tanımamazlığı yüzünden devreye girdi.
+
+411
+00:27:11,020 --> 00:27:19,020
+Üstü karbon ya da yumuşatılmış darbe emici bir şekle dönüştürülmüş halinin kullanılması mutlaka çok daha faydalı olacaktır.
+
+412
+00:27:19,020 --> 00:27:23,020
+Yumuşak esnek bir şekilde olursa zarar görmez diye düşünüyorum.
+
+413
+00:27:24,020 --> 00:27:32,020
+Avrupa Birliği'nin zorunlu güvenlik şartı uygulaması ulusal tip onayı olmayan ithal araçlar için 7 Temmuz günü devreye girdi.
+
+414
+00:27:32,020 --> 00:27:35,020
+Otomobil satın alanların mutluluğu ise yarım kaldı.
+
+415
+00:27:35,020 --> 00:27:39,020
+Çünkü 7 Temmuz sonrasına kalan otomobiller tescil edilemedi.
+
+416
+00:27:39,020 --> 00:27:42,020
+Bu yüzden de birçok kişi otomobilini alamadı.
+
+417
+00:27:48,020 --> 00:27:55,020
+Avrupa Birliği araç kazalarını azaltmak için otomobillerde zorunlu güvenlik paketleri şartı getirdi.
+
+418
+00:27:55,020 --> 00:27:58,020
+İthal araçları için uygulama 7 Temmuz da yürürlüğe girdi.
+
+419
+00:27:58,020 --> 00:28:01,020
+Ancak otomobil alanların mutluluğu kısa sürdü.
+
+420
+00:28:01,020 --> 00:28:04,020
+Çünkü araçları tescillenmediği için alamadılar.
+
+421
+00:28:04,020 --> 00:28:08,020
+7 Temmuz'a tescili yetişmeyen bazı araçlarda problemler yaşandı.
+
+422
+00:28:08,020 --> 00:28:10,020
+Bu mağduriyetin bir an önce çözülmesini talep ediyoruz.
+
+423
+00:28:10,020 --> 00:28:16,020
+Uygulamanın 7 Temmuz'da devreye girmesiyle birlikte gelen otomobiller araç tescil sistemine girilemiyor.
+
+424
+00:28:16,020 --> 00:28:20,020
+Tescil edilemediği için de sahiplerine teslim edilemiyor.
+
+425
+00:28:20,020 --> 00:28:27,020
+Ticaret Bakanlığı güvenlik paketi olmayan otomobillerin ar test denen araç tescil ve kayıt sistemini de kapattı.
+
+426
+00:28:28,020 --> 00:28:31,020
+Kapatınca bayiler şöyle bir uyarı ile karşılaştı.
+
+427
+00:28:31,020 --> 00:28:35,020
+Tescil tarihi geçtiği için bu araca tescil işlemi yapılamaz.
+
+428
+00:28:35,020 --> 00:28:37,020
+Biz de bu konularla ilgili şikayetler alıyoruz.
+
+429
+00:28:37,020 --> 00:28:42,020
+Öyle ki 3 markayı temsil eden bayide aracını almaya çalışan 1200 müşteri var.
+
+430
+00:28:42,020 --> 00:28:50,020
+Sanayi Bakanlığı'nın şu anda o motor şaseli satılan araçlara verdiği iznin geri dönmesini bekliyor bayiler ve distribütörler.
+
+431
+00:28:50,020 --> 00:28:54,020
+Bu izin geldiğinde tescil olduktan sonra araçlarını teslim alabilecekler.
+
+432
+00:28:54,020 --> 00:29:00,020
+Peki tescil edilme sürecinde araçlara zam gelirse ne olacak? Müşteri zamdan etkilenecek mi?
+
+433
+00:29:00,020 --> 00:29:07,020
+Hayır etkilenmeyecekler. İnanıyorum ki tüm markalar bu zararı üstlenecektir ve tüketiciye herhangi bir fark yansıtmayacaktır.
+
+434
+00:29:09,020 --> 00:29:13,020
+Kamuda tasarruf tedbirlerini içeren yasa teklifi mecliste kabul edildi.
+
+435
+00:29:13,020 --> 00:29:15,020
+Kamuda çoklu maaş dönemi bitiyor.
+
+436
+00:29:15,020 --> 00:29:17,020
+İhtiyaç fazlası araçlar da satılacak.
+
+437
+00:29:17,020 --> 00:29:21,020
+Belediyeleri ilgilendiren düzenlemeler de var yasada.
+
+438
+00:29:21,020 --> 00:29:22,020
+İşte ayrıntılar.
+
+439
+00:29:25,020 --> 00:29:27,020
+Önerge kabul edilmiştir.
+
+440
+00:29:27,020 --> 00:29:30,020
+Kamuda tasarruf tedbirlerini içeren teklif mecliste kabul edildi.
+
+441
+00:29:30,020 --> 00:29:34,020
+Bu bizim ilk tasarruf çabamız değil, son da olmayacak.
+
+442
+00:29:34,020 --> 00:29:37,020
+Düzenlemeyle kamuda birden fazla maaş alma dönemi sona erecek.
+
+443
+00:29:37,020 --> 00:29:39,020
+Sadece bir görev için maaş ödenecek.
+
+444
+00:29:39,020 --> 00:29:44,020
+O da en yüksek devlet memuru maaşını yani 98 bin lirayı geçemeyecek.
+
+445
+00:29:44,020 --> 00:29:48,020
+Ayrıca huzur hakkı ve ikramiye gibi ödemelere de üst sınır getirilecek.
+
+446
+00:29:49,020 --> 00:29:51,020
+Kamudaki ihtiyaç fazlası araçlar da satılacak.
+
+447
+00:29:51,020 --> 00:29:58,020
+Hedefimiz taşıtların ortak bir havuzda toplanarak kurumlar arası kullanıma zemin hazırlanmasıdır.
+
+448
+00:29:58,020 --> 00:30:05,020
+Belediyelerin vergi gelirlerinden sokak aydınlatma giderleri için yapılan kesintide yüzde 20'den 30'a çıkartılacak.
+
+449
+00:30:05,020 --> 00:30:10,020
+İstisnasız tüm kamu idarelerimiz ve personelimiz uyumak zorundadır.
+
+450
+00:30:10,020 --> 00:30:13,020
+Tedbirlere uymayanlara cezada öngörüyor düzenleme.
+
+451
+00:30:13,020 --> 00:30:20,020
+Cumhurbaşkanlığımız ve ilgili idareler idari yaptırım ve para cezası uygulayabilecektir.
+
+452
+00:30:20,020 --> 00:30:27,020
+Teklifte 1 Eylül 2024 olarak belirlenen yasanın yapılan değişiklikle 1 Ocak 2025'de yürürlüğe girmesine karar verildi.
+
+453
+00:30:30,020 --> 00:30:34,020
+Öğrencilerin bir yıl boyunca ter döktüğü üniversite sınavı geride kaldı.
+
+454
+00:30:34,020 --> 00:30:36,020
+Şimdi de tercih telaşı başladı.
+
+455
+00:30:36,020 --> 00:30:38,020
+Hangi bölüm mezunları daha kolay iş buluyor?
+
+456
+00:30:38,020 --> 00:30:42,020
+Hangi bölümü bitirip işe girenler daha çok para kazanıyor?
+
+457
+00:30:42,020 --> 00:30:47,020
+Tüm bu sorular masadayken TÜİK yüksek öğretim istihdam verilerini açıkladı.
+
+458
+00:30:47,020 --> 00:30:51,020
+İşte hızlı iş bulup çok kazanan o meslekler.
+
+459
+00:30:55,020 --> 00:30:56,020
+Bölüme göre de çok değişiyor.
+
+460
+00:30:56,020 --> 00:30:59,020
+Daha fazla parası olan bir bölüme gitmeyi düşünüyorum.
+
+461
+00:30:59,020 --> 00:31:01,020
+En çok neyi severek yapıyorsa.
+
+462
+00:31:01,020 --> 00:31:04,020
+Rahat iş bulunabiliyor ama işte üniversiteye göre önemli.
+
+463
+00:31:04,020 --> 00:31:07,020
+YKS sonuçları açıklandı sıra tercihlerde.
+
+464
+00:31:07,020 --> 00:31:08,020
+O da haftaya yapılacak.
+
+465
+00:31:08,020 --> 00:31:16,020
+Tercih yapacak gençler ise hangi alanda daha rahat iş bulurum, hangi bölümü okursam daha çok para kazanırım diye düşünüyor.
+
+466
+00:31:16,020 --> 00:31:19,020
+Türkiye Statistik Kurumu yüksek öğretim istihdam verilerini açıkladı.
+
+467
+00:31:19,020 --> 00:31:24,020
+Lisans mezunları ortalama 14, ön lisans mezunları da 15 ayda iş buluyor.
+
+468
+00:31:24,020 --> 00:31:28,020
+Peki en çok kazandıran ve en hızlı iş bulduran meslekler hangileri?
+
+469
+00:31:28,020 --> 00:31:36,020
+Lisans programlarında en hızlı iş bulma süresi olan meslek alanları dil ve konuşma terapisti, tıp, özel eğitim öğretmenliği.
+
+470
+00:31:36,020 --> 00:31:39,020
+İlk üçlüyü eczacılık ve ebelik takip ediyor.
+
+471
+00:31:39,020 --> 00:31:49,020
+İki yıllık üniversite mezunlarının iş bulma sürelerinin en kısa olduğu bölümlerde polis meslek eğitimi, optisyenlik, aşçılık, sivil havacılık kabin hizmetleri ve eczane hizmetleri oldu.
+
+472
+00:31:49,020 --> 00:31:52,020
+Memurluk tarzı meslekler daha çok avantajlı oluyor.
+
+473
+00:31:52,020 --> 00:32:03,020
+Yine lisansta yani dört yıllık bölümlerde ortalama kazancı en yüksek olan pilotaj, matematik mühendisliği, uçak mühendisliği, kontrol ve otomasyon mühendisliği ve gemi makineleri işletme mühendisliği oldu.
+
+474
+00:32:03,020 --> 00:32:05,020
+Makine mühendisliği çok uygun bir bölüm.
+
+475
+00:32:05,020 --> 00:32:08,020
+Bilgisayar mühendisliği ya da yazılım mühendisliği yazarım.
+
+476
+00:32:08,020 --> 00:32:19,020
+İki yıllık bölümlerde kazancı en yüksek olan alanlarda perakende satış ve mağaza yönetimi, polis meslek eğitimi, uçak teknolojisi, marka iletişimi ile elektrik enerjisi üretim iletim ve dağıtımı oldu.
+
+477
+00:32:19,020 --> 00:32:21,020
+Ben işin ekonomik kısmına bakıyorum daha çok.
+
+478
+00:32:22,020 --> 00:32:26,020
+Kanal D ekranlarında yepyeni bir yarışma programı başlıyor sevgili seyirciler.
+
+479
+00:32:26,020 --> 00:32:27,020
+İsmi Password.
+
+480
+00:32:27,020 --> 00:32:32,020
+Hem güldürecek hem de kazandıracak olan yarışmayı Şebnem Bozoklu ve Eni Sarıkan sunacak.
+
+481
+00:32:32,020 --> 00:32:36,020
+Password'un ilk bölümü bu akşam saat 20'de Kanal D'de olacak.
+
+482
+00:32:37,020 --> 00:32:40,020
+Ve Password'un patronları geliyor.
+
+483
+00:32:43,020 --> 00:32:44,020
+Ferdi.
+
+484
+00:32:45,020 --> 00:32:47,020
+Hepiniz Password'e hoş geldiniz.
+
+485
+00:32:47,020 --> 00:32:50,020
+Çok eğlenceli çok keyifli bir yarışma bekliyor diyebilirim.
+
+486
+00:32:55,020 --> 00:32:58,020
+Kanal D'nin yepyeni yarışma programı Password başlıyor.
+
+487
+00:32:59,020 --> 00:33:02,020
+Sadece bir kelime kullanarak anlatmaya çalışacaksınız.
+
+488
+00:33:03,020 --> 00:33:08,020
+Yarışmayı sevilen oyuncular Şebnem Bozoklu ve Eni Sarıkan sunacak.
+
+489
+00:33:08,020 --> 00:33:11,020
+İkili hem güldürecek hem kazandıracak.
+
+490
+00:33:11,020 --> 00:33:15,020
+Sürprizi kaçırmak istemiyorum. Ben yarışmacıyım aslında daimi.
+
+491
+00:33:15,020 --> 00:33:20,020
+Ve o yüzden hep yarışacağım için bir tık korkuyorum ve biraz heyecanlıyım.
+
+492
+00:33:20,020 --> 00:33:26,020
+Yarışmacılar verilen bir şifreyi tek kelimeyle takım arkadaşına anlatmaya çalışacak.
+
+493
+00:33:26,020 --> 00:33:31,020
+Kulağa çok kolay geliyor farkındayım ama pratikte işler biraz karışabiliyor.
+
+494
+00:33:31,020 --> 00:33:36,020
+O noktada Enis devreye giriyor. O bizim her bölüm daimi yarışmacımız.
+
+495
+00:33:36,020 --> 00:33:39,020
+Hep ben halkımızla yarışacağım aslında.
+
+496
+00:33:39,020 --> 00:33:43,020
+Yarışma aynı zamanda birbirinden ünlü konukları da ağırlayacak.
+
+497
+00:33:43,020 --> 00:33:47,020
+İlk konuk da Yasemin Sakallıoğlu olacak.
+
+498
+00:33:47,020 --> 00:33:51,020
+Eni Sarıkan'a artık bu sektörde birinin haddini bildirmesi gerektiğini düşünüyorlar.
+
+499
+00:33:51,020 --> 00:33:56,020
+Bizim oyuncu arkadaşlarımız, müzisyen arkadaşlarımız destek veriyorlar programımıza.
+
+500
+00:33:56,020 --> 00:34:01,020
+Farklı turlar var. Bizim Enis'le bitmek bilmeyen bir çekişmemiz de var tabii ki.
+
+501
+00:34:01,020 --> 00:34:05,020
+Password bu akşam saat 20'de Kanal D'de.
+
+502
+00:34:08,020 --> 00:34:11,020
+Kısa bir ara verelim aranın ardından haberlerimizle tekrar burada olacağız.
+
+503
+00:34:20,020 --> 00:34:23,020
+Kısa bir ara vermiştik devam ediyoruz Kanal D habere.
+
+504
+00:34:23,020 --> 00:34:27,020
+İsrail'in başkenti Tel Aviv'e bombalı saldırı düzenlendi.
+
+505
+00:34:27,020 --> 00:34:32,020
+Bir kişinin öldüğü saldırıyı da Yemen'deki İran destekli Husiler üstlendi.
+
+506
+00:34:32,020 --> 00:34:35,020
+Dünyadan yansıyan olay ve görüntüler var sırada.
+
+507
+00:34:41,020 --> 00:34:45,020
+İsrail'in başkenti Tel Aviv bombalı saldırıyla sarsıldı.
+
+508
+00:34:45,020 --> 00:34:51,020
+Dronlu saldırı gece saatlerinde Tel Aviv'in merkezinde Amerikan Büyükelçiliği yakınlarında düzenlendi.
+
+509
+00:34:54,020 --> 00:34:56,020
+Patlama anı kameralara böyle yansıdı.
+
+510
+00:35:01,020 --> 00:35:03,020
+Saldırıda bir kişi öldü dört kişi de yaralandı.
+
+511
+00:35:05,020 --> 00:35:08,020
+Patlama anını seyir halindeki bir araç kamerası da kaydetti.
+
+512
+00:35:13,020 --> 00:35:17,020
+İsrail ordu sözcülüğü patlama öncesi uyarı sirenleri çalmadığını açıkladı.
+
+513
+00:35:17,020 --> 00:35:19,020
+Saldırıyla ilgili soruşturma açıldı.
+
+514
+00:35:19,020 --> 00:35:23,020
+Yemen'deki İran destekli Husiler ise bir açıklama yaparak saldırıyı üstlendi.
+
+515
+00:35:32,020 --> 00:35:35,020
+İki silahlı soygun şüphelisi bir araçla kaçtı.
+
+516
+00:35:35,020 --> 00:35:36,020
+Polisler de peşine düştü.
+
+517
+00:35:36,020 --> 00:35:38,020
+Otobanda kovalamaca başladı.
+
+518
+00:35:42,020 --> 00:35:44,020
+Soyguncular kaçarken otobanı birbirine kattı.
+
+519
+00:35:44,020 --> 00:35:48,020
+Sonunda polis ekipleri kaçtıkları aracı çarparak durdurdu.
+
+520
+00:35:50,020 --> 00:35:54,020
+Araç çarpışma sonucu kontrolden çıktı ardından durdu.
+
+521
+00:35:54,020 --> 00:35:58,020
+Bunun üzerine zanlı geri manevra yaparak yeniden kaçmaya çalıştı.
+
+522
+00:36:02,020 --> 00:36:07,020
+Ancak polisler bir kez daha araca çarpınca soyguncular durmak zorunda kaldı.
+
+523
+00:36:07,020 --> 00:36:10,020
+İki şüpheli yakalanarak tutuklandı.
+
+524
+00:36:11,020 --> 00:36:15,020
+Alkollü iş makinesi operatörü ortalığı birbirine kattı.
+
+525
+00:36:15,020 --> 00:36:18,020
+Kepçeyle park halindeki araçlara çarptı.
+
+526
+00:36:22,020 --> 00:36:25,020
+Çok sayıda araç kepçe darbeleriyle hasar gördü.
+
+527
+00:36:25,020 --> 00:36:27,020
+Kimileri de ters döndü.
+
+528
+00:36:30,020 --> 00:36:34,020
+Çevredekiler durdurmaya çalıştı ama alkollü sürücü dur durak dinlemedi.
+
+529
+00:36:41,020 --> 00:36:47,020
+Sonunda olay yerine giden polisler alkollü iş makinesi operatörünü gözaltına aldı.
+
+530
+00:36:55,020 --> 00:37:01,020
+Japonya'da bir adam apartman dairesinde gazı açtıktan sonra sigara yaktı.
+
+531
+00:37:01,020 --> 00:37:04,020
+Saniyeler içinde de patlama meydana geldi.
+
+532
+00:37:05,020 --> 00:37:09,020
+Patlama sonucu çevredeki yapılarda da hasar meydana geldi.
+
+533
+00:37:09,020 --> 00:37:11,020
+Binadaki sekiz kişi yaralandı.
+
+534
+00:37:16,020 --> 00:37:20,020
+Sürücü aracı park etti ama el frenini çekmeyi unuttu.
+
+535
+00:37:20,020 --> 00:37:23,020
+Araç kendiliğinden göle doğru hareket etti.
+
+536
+00:37:25,020 --> 00:37:29,020
+Araba göle düşmedi ama göl kenarında balık tutan bir adama çarptı.
+
+537
+00:37:29,020 --> 00:37:33,020
+Balıkçı da çarpışma sonucu oltalarla birlikte suya düştü.
+
+538
+00:37:34,020 --> 00:37:38,020
+Bangladeş'te öğrenci protestolarında olaylar büyüdü.
+
+539
+00:37:38,020 --> 00:37:43,020
+Kontenjan hakkının kaldırılması talebiyle gösteri düzenleyen öğrenciler polisle çatıştı.
+
+540
+00:37:47,020 --> 00:37:50,020
+Protestocular bazı ana otoyolları trafiğe kapattı.
+
+541
+00:37:50,020 --> 00:37:52,020
+Polisin müdahalesi sert oldu.
+
+542
+00:37:56,020 --> 00:37:59,020
+Çıkan olaylarda can kaybı elliye yükseldi.
+
+543
+00:38:00,020 --> 00:38:03,020
+Kavurucu sıcak hava Rusya'nın güneyini de vurdu.
+
+544
+00:38:03,020 --> 00:38:09,020
+Kırk derece sıcaklıkta bir Rus balkonda güneşin ısısını kullanarak yumurta pişirdi.
+
+545
+00:38:09,020 --> 00:38:12,020
+Tavadaki yumurta saniyeler içinde kızardı.
+
+546
+00:38:14,020 --> 00:38:19,020
+Sosyal medyada yayınlanan bu video hava sıcaklığının boyutunu da gözler önüne serdi.
+
+547
+00:38:19,020 --> 00:38:21,020
+Kanguru hayvanat bahçesinden kaçtı.
+
+548
+00:38:21,020 --> 00:38:23,020
+Evlerin arasında görüldü.
+
+549
+00:38:23,020 --> 00:38:27,020
+Çevredekilerin ihbarıyla polis peşine düştü ama kanguru aşırı hızlıydı.
+
+550
+00:38:29,020 --> 00:38:33,020
+Polisler yoruldu ama sonunda kanguruyu yakalamayı başardı.
+
+551
+00:38:37,020 --> 00:38:40,020
+Polisler yoruldu ama sonunda kanguruyu yakalamayı başardı.
+
+552
+00:38:44,020 --> 00:38:48,020
+Polisler yoruldu ama sonunda kanguruyu yakalamayı başardı.
+
+553
+00:38:50,020 --> 00:38:54,020
+Motosikletiyle şov yapmak istedi.
+
+554
+00:38:54,020 --> 00:38:57,020
+Aracın önünü kaldırırken kontrolü kaybetti.
+
+555
+00:38:59,020 --> 00:39:02,020
+Motosiklet park halindeki bir otomobile çarptı.
+
+556
+00:39:02,020 --> 00:39:04,020
+Sürücü havada takla attı.
+
+557
+00:39:08,020 --> 00:39:12,020
+Tayvan'da bir reçine fabrikasında şiddetli bir patlama meydana geldi.
+
+558
+00:39:12,020 --> 00:39:15,020
+Yangında patlamaların ardı arkası kesilmedi.
+
+559
+00:39:15,020 --> 00:39:17,020
+Duman gökyüzüne yükseldi.
+
+560
+00:39:17,020 --> 00:39:19,020
+İtfaiye ekipleri yangına müdahale etti.
+
+561
+00:39:19,020 --> 00:39:21,020
+Yangında şans eseri yaralanan olmadı.
+
+562
+00:39:26,020 --> 00:39:29,020
+Deniz anaları denizi adeta istila etti.
+
+563
+00:39:29,020 --> 00:39:32,020
+Binlerce deniz anası kıyıyı tamamen doldurdu.
+
+564
+00:39:34,020 --> 00:39:37,020
+Bu manzara bölgede yaşayanları da endişelendirdi.
+
+565
+00:39:38,020 --> 00:39:46,020
+Miraval Şatosu davasında karşılıklı dava açan Angelina Jolie ile Brad Pitt cephesinde barış rüzgarları eziyor.
+
+566
+00:39:46,020 --> 00:39:53,020
+İddiaya göre eski eşine zeytin dalı uzatan Jolie, Pitt'e bu kavga bitsin çağrısında bulundu.
+
+567
+00:39:55,020 --> 00:40:03,020
+Angelina Jolie, Brad Pitt'ten aralarındaki kavgaya son vermesini ve kendisine karşı açtığı bağ evi davasını geri çekmesini istedi.
+
+568
+00:40:04,020 --> 00:40:12,020
+İkili arasında çekişme sürerken çiftin çocuklarından bazılarının Brad Pitt ile görüşmeyi kestiği iddia edildi.
+
+569
+00:40:18,020 --> 00:40:20,020
+Amerika'da fırtına etkisini arttırdı.
+
+570
+00:40:20,020 --> 00:40:24,020
+New York'ta şimşek ve fırtına hızlandırılmış çekimle böyle kaydedildi.
+
+571
+00:40:27,020 --> 00:40:31,020
+Fırtına yüzünden New York'ta binlerce konutun elektriği kesildi.
+
+572
+00:40:34,020 --> 00:40:40,020
+Gelmiş geçmiş en büyük dinozor fosili rekor fiyata satıldı.
+
+573
+00:40:40,020 --> 00:40:43,020
+Satış New York'taki Müzayede evinde yapıldı.
+
+574
+00:40:45,020 --> 00:40:56,020
+Colorado'da dinozor fabrikası yakınlarında 2022 yılında keşfedilen fosil tam 3,4 metre yükseklikte ve 8,2 metre uzunluğunda.
+
+575
+00:40:56,020 --> 00:41:01,020
+Fosil Müzayede'de 44,6 milyon dolara alıcı buldu.
+
+576
+00:41:04,020 --> 00:41:09,020
+Evde elektriğin yaklaşık %60'ını beyaz eşyalar harcıyor.
+
+577
+00:41:09,020 --> 00:41:13,020
+Ancak evde beyaz eşyayı kullanırken tasarruf etmek mümkün.
+
+578
+00:41:13,020 --> 00:41:15,020
+Peki bunun için ne yapmak gerekiyor?
+
+579
+00:41:15,020 --> 00:41:17,020
+Detaylar haberimizde.
+
+580
+00:41:22,020 --> 00:41:25,020
+Çamaşır makinesi, bulaşık makinesi günde 2-3 defa çalışıyor.
+
+581
+00:41:25,020 --> 00:41:29,020
+Klima, ütü, ocak, fırın tam bir elektrik canavarı.
+
+582
+00:41:29,020 --> 00:41:32,020
+Buzdolabı ise faturanın demirbaşı.
+
+583
+00:41:32,020 --> 00:41:37,020
+Hal böyle olunca da uzmanlar hangi cihazın ne kadar tüketim yaptığını araştırdı.
+
+584
+00:41:37,020 --> 00:41:39,020
+Enerji taktiklerini sıraladı.
+
+585
+00:41:39,020 --> 00:41:43,020
+Bir klasik ampül yaklaşık 5 led ampüle denk geliyor.
+
+586
+00:41:43,020 --> 00:41:50,020
+Aslında led ampüller klasik ampüllere göre 5 kat 6 kat daha avantajlı.
+
+587
+00:41:50,020 --> 00:41:53,020
+Sadece ampül kaynaklı düşüş yaklaşık %80 oluyor.
+
+588
+00:41:53,020 --> 00:41:57,020
+Elektriğin yaklaşık %60'ını beyaz eşyalar harcıyor.
+
+589
+00:41:57,020 --> 00:41:59,020
+Klima mı var çalıştırmıyorum.
+
+590
+00:41:59,020 --> 00:42:00,020
+Tasarruf etmeye çalışıyorum.
+
+591
+00:42:00,020 --> 00:42:03,020
+Peki beyaz eşyalarda nasıl tasarruf yapılır?
+
+592
+00:42:03,020 --> 00:42:07,020
+Buzdolabını yerleştirirken sağına soluna mutlaka bakmalıyız.
+
+593
+00:42:07,020 --> 00:42:10,020
+Buralarda boşluk oluşmalı, duvara tamamen dayanmamalı.
+
+594
+00:42:10,020 --> 00:42:15,020
+Kavurucu sıcakların vazgeçilmezlerinden ikisi klima ve ventilatör.
+
+595
+00:42:15,020 --> 00:42:19,020
+Klimalar ventilatörlere göre 7-8 kat daha fazla enerji harcıyor.
+
+596
+00:42:19,020 --> 00:42:21,020
+Peki bunun için ne yapmak gerekiyor?
+
+597
+00:42:21,020 --> 00:42:29,020
+17-18 derece değil 23-24 derecelik bir oda sıcaklığına ayarlanması bu anlamda enerji tasarruf sağlayacaktır.
+
+598
+00:42:29,020 --> 00:42:33,020
+Bir klima günde 10 saat çalışırsa faturayı 500 lira arttırıyor.
+
+599
+00:42:33,020 --> 00:42:37,020
+Uzmanlar çamaşır yıkarken bakın neye dikkat çekiyor.
+
+600
+00:42:37,020 --> 00:42:44,020
+60 derece yerine 40 derecelik bir yıkama derecesinin seçilmesi %50'ye varan aslında tasarruf sağlıyor.
+
+601
+00:42:44,020 --> 00:42:50,020
+Haftada 2 kez kullanılan elektrikli fırın aylık faturayı 60 lira arttırıyor.
+
+602
+00:42:51,020 --> 00:42:58,020
+Artan maliyetlerden şikayet ederek fahiş fiyata iş yapmaya çalışan turizmciler zor günler geçiriyor.
+
+603
+00:42:58,020 --> 00:43:02,020
+Öyle ki tatil beldeleri şu sıralar çok tenha.
+
+604
+00:43:02,020 --> 00:43:05,020
+Çoğu tatilci artık Bodrum'u değil Yunanistan'ı tercih ediyor.
+
+605
+00:43:05,020 --> 00:43:09,020
+Bu nedenle işleri azalan esnaf da %50 indirim yaptı.
+
+606
+00:43:14,020 --> 00:43:15,020
+Tatil beldeleri boş.
+
+607
+00:43:15,020 --> 00:43:19,020
+Şu an herkes yurt dışına kaçmaya planlıyor Yunanistan'a, farklı ülkelere.
+
+608
+00:43:19,020 --> 00:43:20,020
+Tatil çok boştu.
+
+609
+00:43:20,020 --> 00:43:23,020
+Oteller, sahiller ve restoranlar çoğu yer boş kaldı.
+
+610
+00:43:23,020 --> 00:43:27,020
+Turizmciler de çareyi %50 indirim yapmakta buldu.
+
+611
+00:43:27,020 --> 00:43:34,020
+Ağustos'un ilk 2 haftasına dair %50'lere yakın indirim oranları veren otellerimiz var.
+
+612
+00:43:34,020 --> 00:43:38,020
+%50 indirim de yapsalar %100 indirim yapsalar da Türk esnafına gitmeyeceğim hiçbir zaman.
+
+613
+00:43:38,020 --> 00:43:40,020
+Çünkü kazıklıyorlar.
+
+614
+00:43:40,020 --> 00:43:42,020
+Son günlerde en çok konuşulan konu şu.
+
+615
+00:43:42,020 --> 00:43:45,020
+Turizm kentlerimiz, tatil beldelerimiz boş.
+
+616
+00:43:45,020 --> 00:43:46,020
+Pek de kimse yok.
+
+617
+00:43:46,020 --> 00:43:50,020
+Çünkü hemen hemen herkes pahalılıktan şikayet ediyor.
+
+618
+00:43:50,020 --> 00:43:51,020
+Ben Muğla'lıyım zaten.
+
+619
+00:43:51,020 --> 00:43:54,020
+Gerçekten fiyatlarda çok büyük bir artış oldu bu son zamanlarda.
+
+620
+00:43:54,020 --> 00:43:59,020
+Açgözlülük ve ahlaksızlık yapan meslektaşlarımız var mı?
+
+621
+00:43:59,020 --> 00:44:02,020
+Az da olsa maalesef ki artık var.
+
+622
+00:44:02,020 --> 00:44:09,020
+Bazı bölge esnafı da abartılı fiyatlarının dışında uygun fiyata tatil imkanı olduğunun altını çiziyor.
+
+623
+00:44:09,020 --> 00:44:11,020
+Tekne turu 600 TL günlük turlarımız.
+
+624
+00:44:11,020 --> 00:44:13,020
+Ortalama 7 saat tur yapıyoruz.
+
+625
+00:44:13,020 --> 00:44:14,020
+Yemeğimizi veriyoruz.
+
+626
+00:44:14,020 --> 00:44:16,020
+Bana göre Türkiye'nin en ucuz yeri Bodrum.
+
+627
+00:44:16,020 --> 00:44:18,020
+Sonuçta sadece Bodrum'da yok.
+
+628
+00:44:18,020 --> 00:44:19,020
+Gidebilecek başka yerler de var.
+
+629
+00:44:19,020 --> 00:44:25,020
+Gümbet, akyarlar, yalı çiftlik bu bölgeler hem yiyecek içecek açısından uygun.
+
+630
+00:44:25,020 --> 00:44:31,020
+Şimdi fiyatlarda %50 indirim yapan esnaf turizm tesislerinde artış bekliyor.
+
+631
+00:44:31,020 --> 00:44:36,020
+Para kazandıkları bir sezon değil ama en azından personellerini tutabildikleri bir sezon olacak.
+
+632
+00:44:36,020 --> 00:44:40,020
+Toplumsal bir adalet duygusunu getirmemiz lazım.
+
+633
+00:44:40,020 --> 00:44:45,020
+Evet gereğinden fazla ben almayacağım ve ben yabancıları kazıklamayacağım.
+
+634
+00:44:47,020 --> 00:44:50,020
+Aşırı sıcaklar artık tahammül edilemeyecek seviyede.
+
+635
+00:44:50,020 --> 00:44:54,020
+İstanbul'da bile havadaki nem oranı doygunluk seviyesine yaklaştı.
+
+636
+00:44:54,020 --> 00:44:58,020
+Haliyle tehlike çanları da daha güçlü çalıyor.
+
+637
+00:44:58,020 --> 00:45:05,020
+Prof. Dr. Arif Verimli sıcak havaların sadece beden değil ruh sağlığımızı da kötü etkilediğini açıkladı.
+
+638
+00:45:07,020 --> 00:45:11,020
+Dünden beri artık deliriyorum aşırı sıcak.
+
+639
+00:45:14,020 --> 00:45:17,020
+Evet delirtebilirim çok sıcak çünkü ve dayanılmıyor.
+
+640
+00:45:17,020 --> 00:45:19,020
+İstanbul bugün de sıcak nem bugün de yüksek.
+
+641
+00:45:19,020 --> 00:45:28,020
+Bu hava sıcaklığının getirdiği nem ve hava değişiklikleri ciddi biçimde korkunun alevlenmesine yol açar.
+
+642
+00:45:28,020 --> 00:45:30,020
+Panik hastalığı abartılaştırır.
+
+643
+00:45:30,020 --> 00:45:33,020
+İstanbul'da nem oranı neredeyse %100'e çıktı.
+
+644
+00:45:33,020 --> 00:45:36,020
+Güney ilçeler daha sıcak, kuzey ilçeler ise daha nemli.
+
+645
+00:45:36,020 --> 00:45:41,020
+Uzmanlar bu durumun ruh sağlığını bile kötü etkileyeceğini vurguluyor.
+
+646
+00:45:41,020 --> 00:45:49,020
+Baş ağrısından hasizlik, bitkinlik, yorgunluk derecesinde depresif bir sıkıntıya kadar yol açabilir.
+
+647
+00:45:49,020 --> 00:45:52,020
+Peki en belirgin özellikler neler?
+
+648
+00:45:52,020 --> 00:45:58,020
+Tedirgin olabilir, huzursuz olabilir, sabırsız olabilir, daha çabuk kavgacı olabilir.
+
+649
+00:45:58,020 --> 00:46:05,020
+Saatlerimiz şu anda 14.30, bebekteyiz. Hava sıcaklığı şu anda 39.6 yani ortalama 40 derece.
+
+650
+00:46:05,020 --> 00:46:07,020
+Nem oranı ise %61.
+
+651
+00:46:07,020 --> 00:46:09,020
+Şehir içi alev atıyor tabii.
+
+652
+00:46:11,020 --> 00:46:13,020
+Beyefendi artık sıcağı tahammül edemiyor.
+
+653
+00:46:13,020 --> 00:46:16,020
+Böyle çok iyi ancak böyle serinleyebiliyoruz.
+
+654
+00:46:16,020 --> 00:46:20,020
+Peki bu sıcak ve nemli hava daha ne kadar sürecek?
+
+655
+00:46:20,020 --> 00:46:25,020
+Pazartesi dahil önümüzdeki 3 gün daha bu bunaltıcı günleri İstanbul'da yaşayacağız.
+
+656
+00:46:26,020 --> 00:46:28,020
+Salı günü İstanbul'da yağmur geliyor.
+
+657
+00:46:28,020 --> 00:46:34,020
+Yağmurla birlikte sıcaklıklar 3 ila 4 derece düşecek ama nem yine aynı kalıyor.
+
+658
+00:46:34,020 --> 00:46:37,020
+Çünkü kuzeydoğulu rüzgarlar devam edecek.
+
+659
+00:46:39,020 --> 00:46:44,020
+Bundan tam 50 yıl önce Mehmetçik Kıbrıs'ta Rum terör örgütünün zulmüne dur dedi.
+
+660
+00:46:44,020 --> 00:46:46,020
+Ve adaya barış harekatı düzenledi.
+
+661
+00:46:46,020 --> 00:46:52,020
+İşte o harekatın 50. yıl dönümü anma törenleri var yarın Kuzey Kıbrıs Türk Cumhuriyeti'nde.
+
+662
+00:46:52,020 --> 00:46:56,020
+Milli Savunma Bakanlığı da o törenler öncesi şarkıcı Ferhat Göçer'in
+
+663
+00:46:56,020 --> 00:47:01,020
+harekatın 50. yıl dönümü için özel bestelediği marşı paylaştı.
+
+664
+00:47:01,020 --> 00:47:07,020
+Biz de şehitlerimizi gazilerimizi rahmet ve minnetle saygıyla anıyor.
+
+665
+00:47:07,020 --> 00:47:10,020
+Bültenimizi de o marşta noktalıyoruz.
+
+666
+00:47:23,020 --> 00:47:27,020
+Yükselip semaya düştü toprağa
+
+667
+00:47:27,020 --> 00:47:31,020
+Tan yerinde buluşur Mücaiz ve Mehmet
+
+668
+00:47:31,020 --> 00:47:34,020
+Bir yıldız ve hilal aşkına
+
+669
+00:47:34,020 --> 00:47:38,020
+Hadi kalk ve toparlan artık o bize emanet
+
+670
+00:47:38,020 --> 00:47:42,020
+Şafakta parlayan hürriyet
+
+671
+00:47:42,020 --> 00:47:46,020
+Yaz dağlara yaz bulutlara
+
+672
+00:47:46,020 --> 00:47:50,020
+Bağırla bu can feda sana
+
+673
+00:47:50,020 --> 00:47:54,020
+Bil ki kutsal emanetsin bu topraklara
+
+674
+00:47:54,020 --> 00:47:58,020
+Ufukta parlayan hürriyet
+
+675
+00:47:58,020 --> 00:48:02,020
+Yaz dağlara yaz bulutlara
+
+676
+00:48:02,020 --> 00:48:06,020
+Yaz bu sevdayı bu can feda sana
+
+677
+00:48:06,020 --> 00:48:10,020
+Bil ki kutsal emanetsin bu topraklara
+
+678
+00:48:10,020 --> 00:48:14,020
+Şafakta parlayan hürriyet
+
+679
+00:48:15,020 --> 00:48:20,020
+Tamamladık Kanal D ana haberi. Bizden hemen sonra Kanal D'nin yeni yarışma programı Password başlayacak.
+
+680
+00:48:20,020 --> 00:48:24,020
+Şebnem Bozoklu ve Enis Arıkan'ın sunacağı yarışmayı sakın kaçırmayın.
+
+681
+00:48:24,020 --> 00:48:28,020
+Yeniden görüşmek ümidiyle. Sağlıklı kalın Kanal D'ye haberde kalın. İyi akşamlar.
+
