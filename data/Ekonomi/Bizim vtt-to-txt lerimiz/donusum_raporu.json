@@ -1,0 +1,1199 @@
+{
+  "selection": "Her kanaldan dosya adına göre en yeni 10 kayıt",
+  "channels": {
+    "AHaber": {
+      "count": 10,
+      "mode": "converted_vtt"
+    },
+    "ATV": {
+      "count": 10,
+      "mode": "converted_vtt"
+    },
+    "Fox": {
+      "count": 10,
+      "mode": "converted_vtt"
+    },
+    "HaberTürk": {
+      "count": 10,
+      "mode": "converted_vtt"
+    },
+    "Halk": {
+      "count": 10,
+      "mode": "converted_vtt"
+    },
+    "Kanal7": {
+      "count": 10,
+      "mode": "converted_vtt"
+    },
+    "KanalD": {
+      "count": 10,
+      "mode": "copied_existing_txt"
+    },
+    "KRT": {
+      "count": 10,
+      "mode": "converted_vtt"
+    },
+    "Show": {
+      "count": 10,
+      "mode": "converted_vtt"
+    },
+    "SozcuTV": {
+      "count": 10,
+      "mode": "converted_vtt"
+    },
+    "StarTV": {
+      "count": 10,
+      "mode": "converted_vtt"
+    },
+    "TRT": {
+      "count": 10,
+      "mode": "converted_vtt"
+    },
+    "TV100": {
+      "count": 10,
+      "mode": "converted_vtt"
+    }
+  },
+  "files": [
+    {
+      "channel": "AHaber",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\AHaber\\20250201_Dünya Neyin Savaşına Hazırlanıyor？ Yeni Amerika Yeni Savaşlar Mı İstiyor？ I Gece Ajansı ｜ A Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\AHaber\\20250201_Dünya Neyin Savaşına Hazırlanıyor？ Yeni Amerika Yeni Savaşlar Mı İstiyor？ I Gece Ajansı ｜ A Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4411,
+      "removed_overlap_tokens": 22822,
+      "word_corrections": {}
+    },
+    {
+      "channel": "AHaber",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\AHaber\\20250130_Beyaz Saray'a 5 km uzaklıkta şüpheli kaza! Kaptan pilot Ahmet İzgi Gece Ajansı'nda ｜ A Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\AHaber\\20250130_Beyaz Saray'a 5 km uzaklıkta şüpheli kaza! Kaptan pilot Ahmet İzgi Gece Ajansı'nda ｜ A Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2147,
+      "removed_overlap_tokens": 11406,
+      "word_corrections": {}
+    },
+    {
+      "channel": "AHaber",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\AHaber\\20250127_Yangın faciasında kan donduran itiraflar... O gece ölüm otelinde ne oldu？  ｜ A Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\AHaber\\20250127_Yangın faciasında kan donduran itiraflar... O gece ölüm otelinde ne oldu？  ｜ A Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2867,
+      "removed_overlap_tokens": 15442,
+      "word_corrections": {}
+    },
+    {
+      "channel": "AHaber",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\AHaber\\20250126_Yangın faciasında Bolu Belediye Başkan Yardımcısı ve İtfaiye Müdür Vekili de tutuklandı! ｜ A Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\AHaber\\20250126_Yangın faciasında Bolu Belediye Başkan Yardımcısı ve İtfaiye Müdür Vekili de tutuklandı! ｜ A Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1662,
+      "removed_overlap_tokens": 9248,
+      "word_corrections": {}
+    },
+    {
+      "channel": "AHaber",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\AHaber\\20250126_Bolu Kartalkaya'daki Faciaya İhmaller Mi Neden Oldu？ 8 İhmal Sonucu 78 Can Kaybı... l A Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\AHaber\\20250126_Bolu Kartalkaya'daki Faciaya İhmaller Mi Neden Oldu？ 8 İhmal Sonucu 78 Can Kaybı... l A Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 6705,
+      "removed_overlap_tokens": 36498,
+      "word_corrections": {}
+    },
+    {
+      "channel": "AHaber",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\AHaber\\20250125_Konya'da Bina Çöktü! İşte Enkaz Altında Kaydedilen Görüntüler! ｜ A Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\AHaber\\20250125_Konya'da Bina Çöktü! İşte Enkaz Altında Kaydedilen Görüntüler! ｜ A Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 10133,
+      "removed_overlap_tokens": 52118,
+      "word_corrections": {}
+    },
+    {
+      "channel": "AHaber",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\AHaber\\20250119_Tişrin Barajı'nda Şiddetli Çatışma! Tişrin Barajı'nın Stratejik Önemi Ne？ l A Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\AHaber\\20250119_Tişrin Barajı'nda Şiddetli Çatışma! Tişrin Barajı'nın Stratejik Önemi Ne？ l A Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 6973,
+      "removed_overlap_tokens": 37214,
+      "word_corrections": {}
+    },
+    {
+      "channel": "AHaber",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\AHaber\\20250118_Avrupa, ABD'ye Başkaldırabilir Mi？ Avrupa İle ABD Arasında Savaş Mı Çıkacak？ I Gece Ajansı ｜ A Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\AHaber\\20250118_Avrupa, ABD'ye Başkaldırabilir Mi？ Avrupa İle ABD Arasında Savaş Mı Çıkacak？ I Gece Ajansı ｜ A Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 6067,
+      "removed_overlap_tokens": 31388,
+      "word_corrections": {}
+    },
+    {
+      "channel": "AHaber",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\AHaber\\20250117_İsrail Basınından Türkiye Açıklaması! ＂TÜRKİYE İLE SAVAŞ KAPIDA!＂ Türkiye-İsrail Savaşı Çıkar Mı？.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\AHaber\\20250117_İsrail Basınından Türkiye Açıklaması! ＂TÜRKİYE İLE SAVAŞ KAPIDA!＂ Türkiye-İsrail Savaşı Çıkar Mı？.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2675,
+      "removed_overlap_tokens": 14148,
+      "word_corrections": {}
+    },
+    {
+      "channel": "AHaber",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\AHaber\\20250116_İsrail medyasında Türkiye paniği! Türkiye-İsrail savaşı çıkar mı？  ｜ A Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\AHaber\\20250116_İsrail medyasında Türkiye paniği! Türkiye-İsrail savaşı çıkar mı？  ｜ A Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 3379,
+      "removed_overlap_tokens": 17736,
+      "word_corrections": {}
+    },
+    {
+      "channel": "ATV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\ATV\\20250131_atv Ana Haber ｜ 31 Ocak 2025.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\ATV\\20250131_atv Ana Haber ｜ 31 Ocak 2025.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1846,
+      "removed_overlap_tokens": 8958,
+      "word_corrections": {}
+    },
+    {
+      "channel": "ATV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\ATV\\20250130_atv Ana Haber ｜ 30 Ocak 2025.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\ATV\\20250130_atv Ana Haber ｜ 30 Ocak 2025.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1931,
+      "removed_overlap_tokens": 9417,
+      "word_corrections": {}
+    },
+    {
+      "channel": "ATV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\ATV\\20250129_atv Ana Haber ｜ 29 Ocak 2025.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\ATV\\20250129_atv Ana Haber ｜ 29 Ocak 2025.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1948,
+      "removed_overlap_tokens": 9250,
+      "word_corrections": {}
+    },
+    {
+      "channel": "ATV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\ATV\\20250128_atv Ana Haber ｜ 28 Ocak 2025.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\ATV\\20250128_atv Ana Haber ｜ 28 Ocak 2025.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1933,
+      "removed_overlap_tokens": 9198,
+      "word_corrections": {}
+    },
+    {
+      "channel": "ATV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\ATV\\20250127_atv Ana Haber ｜ 27 Ocak 2025.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\ATV\\20250127_atv Ana Haber ｜ 27 Ocak 2025.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1963,
+      "removed_overlap_tokens": 9554,
+      "word_corrections": {}
+    },
+    {
+      "channel": "ATV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\ATV\\20250126_atv Ana Haber ｜ 26 Ocak 2025.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\ATV\\20250126_atv Ana Haber ｜ 26 Ocak 2025.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1871,
+      "removed_overlap_tokens": 8676,
+      "word_corrections": {}
+    },
+    {
+      "channel": "ATV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\ATV\\20250125_atv Ana Haber ｜ 25 Ocak 2025.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\ATV\\20250125_atv Ana Haber ｜ 25 Ocak 2025.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1829,
+      "removed_overlap_tokens": 8662,
+      "word_corrections": {}
+    },
+    {
+      "channel": "ATV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\ATV\\20250124_atv Ana Haber ｜ 24 Ocak 2025.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\ATV\\20250124_atv Ana Haber ｜ 24 Ocak 2025.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1938,
+      "removed_overlap_tokens": 9340,
+      "word_corrections": {}
+    },
+    {
+      "channel": "ATV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\ATV\\20250123_atv Ana Haber ｜ 23 Ocak 2025.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\ATV\\20250123_atv Ana Haber ｜ 23 Ocak 2025.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2184,
+      "removed_overlap_tokens": 10270,
+      "word_corrections": {}
+    },
+    {
+      "channel": "ATV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\ATV\\20250122_atv Ana Haber ｜ 22 Ocak 2025.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\ATV\\20250122_atv Ana Haber ｜ 22 Ocak 2025.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2269,
+      "removed_overlap_tokens": 11044,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Fox",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Fox\\20241130_Suriye'de iç savaş yeniden başladı... 30 Kasım 2024 Ozan Gündoğdu ile NOW Ana Haber Hafta Sonu.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Fox\\20241130_Suriye'de iç savaş yeniden başladı... 30 Kasım 2024 Ozan Gündoğdu ile NOW Ana Haber Hafta Sonu.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2329,
+      "removed_overlap_tokens": 12388,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Fox",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Fox\\20241129_Bahçeli'ye destek sözde mi kalacak？ 29 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Fox\\20241129_Bahçeli'ye destek sözde mi kalacak？ 29 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2040,
+      "removed_overlap_tokens": 10200,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Fox",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Fox\\20241128_Erdoğan'ın PKK'ya çağrısı... 28 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Fox\\20241128_Erdoğan'ın PKK'ya çağrısı... 28 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2211,
+      "removed_overlap_tokens": 10956,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Fox",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Fox\\20241127_Yenidoğan çetesi geçmişe mi dayanıyor？ 27 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Fox\\20241127_Yenidoğan çetesi geçmişe mi dayanıyor？ 27 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2243,
+      "removed_overlap_tokens": 10846,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Fox",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Fox\\20241126_Komisyonda Atatürkçü teğmenler tartışması... 26 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Fox\\20241126_Komisyonda Atatürkçü teğmenler tartışması... 26 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2020,
+      "removed_overlap_tokens": 9716,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Fox",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Fox\\20241125_Bakan'ı kendi bakanlığı yalanladı... 25 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Fox\\20241125_Bakan'ı kendi bakanlığı yalanladı... 25 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2239,
+      "removed_overlap_tokens": 11252,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Fox",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Fox\\20241124_Muhalefetten kayyum tepkisi... 24 Kasım 2024 Ozan Gündoğdu ile NOW Ana Haber Hafta Sonu.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Fox\\20241124_Muhalefetten kayyum tepkisi... 24 Kasım 2024 Ozan Gündoğdu ile NOW Ana Haber Hafta Sonu.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2291,
+      "removed_overlap_tokens": 11856,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Fox",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Fox\\20241123_Sağanak ve fırtına Türkiye'yi sardı... 23 Kasım 2024 Ozan Gündoğdu ile NOW Ana Haber Hafta Sonu.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Fox\\20241123_Sağanak ve fırtına Türkiye'yi sardı... 23 Kasım 2024 Ozan Gündoğdu ile NOW Ana Haber Hafta Sonu.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2350,
+      "removed_overlap_tokens": 11626,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Fox",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Fox\\20241122_Netanyahu tutuklanacak mı？ 22 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Fox\\20241122_Netanyahu tutuklanacak mı？ 22 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2241,
+      "removed_overlap_tokens": 10948,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Fox",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Fox\\20241121_Netanyahu’ya tutukalama kararı... 21 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Fox\\20241121_Netanyahu’ya tutukalama kararı... 21 Kasım 2024 Selçuk Tepeli ile NOW Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2214,
+      "removed_overlap_tokens": 10952,
+      "word_corrections": {}
+    },
+    {
+      "channel": "HaberTürk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\HaberTürk\\20241201_Suriye'nin Kuzeyinde Neler Yaşanıyor？ I Ana Haber Bülteni - 30 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\HaberTürk\\20241201_Suriye'nin Kuzeyinde Neler Yaşanıyor？ I Ana Haber Bülteni - 30 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2069,
+      "removed_overlap_tokens": 10998,
+      "word_corrections": {}
+    },
+    {
+      "channel": "HaberTürk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\HaberTürk\\20241130_Suriye'de Tablo Değişiyor Mu？ Rejim Muhalifleri Nasıl İlerliyor？ I Ana Haber Bülteni - 29 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\HaberTürk\\20241130_Suriye'de Tablo Değişiyor Mu？ Rejim Muhalifleri Nasıl İlerliyor？ I Ana Haber Bülteni - 29 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2338,
+      "removed_overlap_tokens": 11772,
+      "word_corrections": {}
+    },
+    {
+      "channel": "HaberTürk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\HaberTürk\\20241128_Sahte Döviz Nasıl Anlaşılır？ I Ana Haber Bülteni - 28 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\HaberTürk\\20241128_Sahte Döviz Nasıl Anlaşılır？ I Ana Haber Bülteni - 28 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2331,
+      "removed_overlap_tokens": 12138,
+      "word_corrections": {}
+    },
+    {
+      "channel": "HaberTürk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\HaberTürk\\20241127_Muhalefetin Asgari Ücret Talebi Ne？ I Ana Haber Bülteni - 27 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\HaberTürk\\20241127_Muhalefetin Asgari Ücret Talebi Ne？ I Ana Haber Bülteni - 27 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2100,
+      "removed_overlap_tokens": 10736,
+      "word_corrections": {}
+    },
+    {
+      "channel": "HaberTürk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\HaberTürk\\20241126_Bahçeli İle Türk Görüşmesi Olacak Mı？ I Ana Haber Bülteni - 26 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\HaberTürk\\20241126_Bahçeli İle Türk Görüşmesi Olacak Mı？ I Ana Haber Bülteni - 26 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2079,
+      "removed_overlap_tokens": 10694,
+      "word_corrections": {}
+    },
+    {
+      "channel": "HaberTürk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\HaberTürk\\20241125_Kabinede Hangi Konular Ele Alındı？ I Ana Haber Bülteni - 25 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\HaberTürk\\20241125_Kabinede Hangi Konular Ele Alındı？ I Ana Haber Bülteni - 25 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1907,
+      "removed_overlap_tokens": 9000,
+      "word_corrections": {}
+    },
+    {
+      "channel": "HaberTürk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\HaberTürk\\20241124_Çete Lideri Fırat Sarı İfadesinde Neler Söyledi？ ｜ Ana Haber Bülteni - 23 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\HaberTürk\\20241124_Çete Lideri Fırat Sarı İfadesinde Neler Söyledi？ ｜ Ana Haber Bülteni - 23 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 744,
+      "removed_overlap_tokens": 3818,
+      "word_corrections": {}
+    },
+    {
+      "channel": "HaberTürk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\HaberTürk\\20241124_Meclis Gündeminde Bu Hafta Ne Var？ ｜ Ana Haber Bülteni - 24 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\HaberTürk\\20241124_Meclis Gündeminde Bu Hafta Ne Var？ ｜ Ana Haber Bülteni - 24 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2009,
+      "removed_overlap_tokens": 9344,
+      "word_corrections": {}
+    },
+    {
+      "channel": "HaberTürk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\HaberTürk\\20241123_Fırat Sarı Ne Zaman Savunma Yapacak？ I Ana Haber Bülteni - 22 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\HaberTürk\\20241123_Fırat Sarı Ne Zaman Savunma Yapacak？ I Ana Haber Bülteni - 22 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2262,
+      "removed_overlap_tokens": 11350,
+      "word_corrections": {}
+    },
+    {
+      "channel": "HaberTürk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\HaberTürk\\20241122_Bahçeli-Uras Görüşmesinde Neler Oldu？ I Ana Haber Bülteni - 21 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\HaberTürk\\20241122_Bahçeli-Uras Görüşmesinde Neler Oldu？ I Ana Haber Bülteni - 21 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2125,
+      "removed_overlap_tokens": 10520,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Halk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Halk\\20241129_Ece Üner ile Halk Ana Haber (29 Kasım 2024).tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Halk\\20241129_Ece Üner ile Halk Ana Haber (29 Kasım 2024).tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4566,
+      "removed_overlap_tokens": 22162,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Halk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Halk\\20241128_Ece Üner ile Halk Ana Haber (28 Kasım 2024).tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Halk\\20241128_Ece Üner ile Halk Ana Haber (28 Kasım 2024).tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4663,
+      "removed_overlap_tokens": 23342,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Halk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Halk\\20241127_Ece Üner ile Halk Ana Haber (27 Kasım 2024).tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Halk\\20241127_Ece Üner ile Halk Ana Haber (27 Kasım 2024).tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4570,
+      "removed_overlap_tokens": 22442,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Halk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Halk\\20241126_Ece Üner ile Halk Ana Haber (26 Kasım 2024).tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Halk\\20241126_Ece Üner ile Halk Ana Haber (26 Kasım 2024).tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4676,
+      "removed_overlap_tokens": 23158,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Halk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Halk\\20241125_Ece Üner ile Halk Ana Haber (25 Kasım 2024).tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Halk\\20241125_Ece Üner ile Halk Ana Haber (25 Kasım 2024).tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4521,
+      "removed_overlap_tokens": 21680,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Halk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Halk\\20241122_Ece Üner ile Halk Ana Haber (22 Kasım 2024).tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Halk\\20241122_Ece Üner ile Halk Ana Haber (22 Kasım 2024).tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4849,
+      "removed_overlap_tokens": 23928,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Halk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Halk\\20241121_Ece Üner ile Halk Ana Haber (21 Kasım 2024).tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Halk\\20241121_Ece Üner ile Halk Ana Haber (21 Kasım 2024).tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4829,
+      "removed_overlap_tokens": 23838,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Halk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Halk\\20241120_Ece Üner ile Halk Ana Haber (20 Kasım 2024).tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Halk\\20241120_Ece Üner ile Halk Ana Haber (20 Kasım 2024).tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4781,
+      "removed_overlap_tokens": 23752,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Halk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Halk\\20241119_Ece Üner ile Halk Ana Haber (19 Kasım 2024).tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Halk\\20241119_Ece Üner ile Halk Ana Haber (19 Kasım 2024).tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4760,
+      "removed_overlap_tokens": 23672,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Halk",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Halk\\20241118_Ece Üner ile Halk Ana Haber (18 Kasım 2024).tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Halk\\20241118_Ece Üner ile Halk Ana Haber (18 Kasım 2024).tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4710,
+      "removed_overlap_tokens": 23246,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Kanal7",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Kanal7\\20241129_Kanal 7 Haber Saati ｜ 28 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Kanal7\\20241129_Kanal 7 Haber Saati ｜ 28 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1897,
+      "removed_overlap_tokens": 8614,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Kanal7",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Kanal7\\20241128_Kanal 7 Haber Saati ｜ 27 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Kanal7\\20241128_Kanal 7 Haber Saati ｜ 27 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2237,
+      "removed_overlap_tokens": 10602,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Kanal7",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Kanal7\\20241127_Kanal 7 Haber Saati ｜ 26 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Kanal7\\20241127_Kanal 7 Haber Saati ｜ 26 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1813,
+      "removed_overlap_tokens": 8202,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Kanal7",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Kanal7\\20241126_Kanal 7 Haber Saati ｜ 25 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Kanal7\\20241126_Kanal 7 Haber Saati ｜ 25 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2067,
+      "removed_overlap_tokens": 9220,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Kanal7",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Kanal7\\20241124_Kanal 7 Haftasonu Haberleri  ｜ 23 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Kanal7\\20241124_Kanal 7 Haftasonu Haberleri  ｜ 23 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1760,
+      "removed_overlap_tokens": 7770,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Kanal7",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Kanal7\\20241122_Kanal 7 Haber Saati ｜ 21 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Kanal7\\20241122_Kanal 7 Haber Saati ｜ 21 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1885,
+      "removed_overlap_tokens": 8498,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Kanal7",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Kanal7\\20241121_Kanal 7 Haber Saati ｜ 20 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Kanal7\\20241121_Kanal 7 Haber Saati ｜ 20 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1968,
+      "removed_overlap_tokens": 8818,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Kanal7",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Kanal7\\20241120_Kanal 7 Haber Saati ｜ 19 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Kanal7\\20241120_Kanal 7 Haber Saati ｜ 19 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2270,
+      "removed_overlap_tokens": 10738,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Kanal7",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Kanal7\\20241119_Kanal 7 Haber Saati ｜ 18 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Kanal7\\20241119_Kanal 7 Haber Saati ｜ 18 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1792,
+      "removed_overlap_tokens": 8172,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Kanal7",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Kanal7\\20241116_Kanal 7 Haber Saati ｜ 15 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Kanal7\\20241116_Kanal 7 Haber Saati ｜ 15 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1897,
+      "removed_overlap_tokens": 8858,
+      "word_corrections": {}
+    },
+    {
+      "channel": "KanalD",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250205_567050702_subtitle_tr-auto.txt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250205_567050702_subtitle_tr-auto.txt",
+      "mode": "copied_existing_txt"
+    },
+    {
+      "channel": "KanalD",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250204_566937482_subtitle_tr-auto.txt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250204_566937482_subtitle_tr-auto.txt",
+      "mode": "copied_existing_txt"
+    },
+    {
+      "channel": "KanalD",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250203_566850744_subtitle_tr-auto.txt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250203_566850744_subtitle_tr-auto.txt",
+      "mode": "copied_existing_txt"
+    },
+    {
+      "channel": "KanalD",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250131_566586348_subtitle_tr-auto.txt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250131_566586348_subtitle_tr-auto.txt",
+      "mode": "copied_existing_txt"
+    },
+    {
+      "channel": "KanalD",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250130_566515824_subtitle_tr-auto.txt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250130_566515824_subtitle_tr-auto.txt",
+      "mode": "copied_existing_txt"
+    },
+    {
+      "channel": "KanalD",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250129_566409786_subtitle_tr-auto.txt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250129_566409786_subtitle_tr-auto.txt",
+      "mode": "copied_existing_txt"
+    },
+    {
+      "channel": "KanalD",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250128_566313004_subtitle_tr-auto.txt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250128_566313004_subtitle_tr-auto.txt",
+      "mode": "copied_existing_txt"
+    },
+    {
+      "channel": "KanalD",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250127_566227234_subtitle_tr-auto.txt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250127_566227234_subtitle_tr-auto.txt",
+      "mode": "copied_existing_txt"
+    },
+    {
+      "channel": "KanalD",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250124_566010314_subtitle_tr-auto.txt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250124_566010314_subtitle_tr-auto.txt",
+      "mode": "copied_existing_txt"
+    },
+    {
+      "channel": "KanalD",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KanalD\\20250123_565894262_subtitle_tr-auto.txt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KanalD\\20250123_565894262_subtitle_tr-auto.txt",
+      "mode": "copied_existing_txt"
+    },
+    {
+      "channel": "KRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KRT\\20241201_#CANLI ｜ Çağla Atlı ile KRT Hafta Sonu Ana Haber ｜ 30.11.2024 ｜ #KRT.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KRT\\20241201_#CANLI ｜ Çağla Atlı ile KRT Hafta Sonu Ana Haber ｜ 30.11.2024 ｜ #KRT.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4485,
+      "removed_overlap_tokens": 20684,
+      "word_corrections": {}
+    },
+    {
+      "channel": "KRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KRT\\20241130_#CANLI ｜ Aslıhan Güvenilir ile KRT Haber ｜ 29.11.2024 ｜ #KRT.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KRT\\20241130_#CANLI ｜ Aslıhan Güvenilir ile KRT Haber ｜ 29.11.2024 ｜ #KRT.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1420,
+      "removed_overlap_tokens": 6680,
+      "word_corrections": {}
+    },
+    {
+      "channel": "KRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KRT\\20241129_#CANLI ｜ Gizem Çetin ile KRT Ana Haber ｜ 28.11.2024 ｜ #KRT.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KRT\\20241129_#CANLI ｜ Gizem Çetin ile KRT Ana Haber ｜ 28.11.2024 ｜ #KRT.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4535,
+      "removed_overlap_tokens": 21992,
+      "word_corrections": {}
+    },
+    {
+      "channel": "KRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KRT\\20241128_#CANLI ｜ Gizem Çetin ile KRT Ana Haber ｜ 27.11.2024 ｜ #KRT.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KRT\\20241128_#CANLI ｜ Gizem Çetin ile KRT Ana Haber ｜ 27.11.2024 ｜ #KRT.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4215,
+      "removed_overlap_tokens": 19602,
+      "word_corrections": {}
+    },
+    {
+      "channel": "KRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KRT\\20241127_#CANLI ｜ Gizem Çetin ile KRT Ana Haber ｜ 26.11.2024 ｜ #KRT.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KRT\\20241127_#CANLI ｜ Gizem Çetin ile KRT Ana Haber ｜ 26.11.2024 ｜ #KRT.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4397,
+      "removed_overlap_tokens": 21556,
+      "word_corrections": {}
+    },
+    {
+      "channel": "KRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KRT\\20241126_#CANLI ｜ Gizem Çetin ile KRT Ana Haber ｜ 25.11.2024 ｜ #KRT.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KRT\\20241126_#CANLI ｜ Gizem Çetin ile KRT Ana Haber ｜ 25.11.2024 ｜ #KRT.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4339,
+      "removed_overlap_tokens": 20960,
+      "word_corrections": {}
+    },
+    {
+      "channel": "KRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KRT\\20241125_#CANLI ｜ Çağla Atlı ile KRT Hafta Sonu Ana Haber ｜ 24.11.2024 ｜ #KRT.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KRT\\20241125_#CANLI ｜ Çağla Atlı ile KRT Hafta Sonu Ana Haber ｜ 24.11.2024 ｜ #KRT.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4655,
+      "removed_overlap_tokens": 22340,
+      "word_corrections": {}
+    },
+    {
+      "channel": "KRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KRT\\20241124_#CANLI ｜ Çağla Atlı ile KRT Hafta Sonu Ana Haber ｜ 23.11.2024 ｜ #KRT.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KRT\\20241124_#CANLI ｜ Çağla Atlı ile KRT Hafta Sonu Ana Haber ｜ 23.11.2024 ｜ #KRT.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4492,
+      "removed_overlap_tokens": 20856,
+      "word_corrections": {}
+    },
+    {
+      "channel": "KRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KRT\\20241123_#CANLI ｜ Gizem Çetin ile KRT Ana Haber ｜ 22.11.2024 ｜ #KRT.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KRT\\20241123_#CANLI ｜ Gizem Çetin ile KRT Ana Haber ｜ 22.11.2024 ｜ #KRT.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 5133,
+      "removed_overlap_tokens": 25090,
+      "word_corrections": {}
+    },
+    {
+      "channel": "KRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\KRT\\20241122_#CANLI ｜ Gizem Çetin ile KRT Ana Haber ｜ 21.11.2024 ｜ #KRT.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\KRT\\20241122_#CANLI ｜ Gizem Çetin ile KRT Ana Haber ｜ 21.11.2024 ｜ #KRT.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4584,
+      "removed_overlap_tokens": 22170,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Show",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Show\\20241130_Show Ana Haber 30 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Show\\20241130_Show Ana Haber 30 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1596,
+      "removed_overlap_tokens": 7860,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Show",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Show\\20241129_Show Ana Haber 29 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Show\\20241129_Show Ana Haber 29 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 856,
+      "removed_overlap_tokens": 4302,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Show",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Show\\20241128_Show Ana Haber 28 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Show\\20241128_Show Ana Haber 28 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 868,
+      "removed_overlap_tokens": 4162,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Show",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Show\\20241127_Show Ana Haber 27 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Show\\20241127_Show Ana Haber 27 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1031,
+      "removed_overlap_tokens": 5200,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Show",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Show\\20241126_Show Ana Haber 26 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Show\\20241126_Show Ana Haber 26 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1240,
+      "removed_overlap_tokens": 6204,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Show",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Show\\20241125_Show Ana Haber 25 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Show\\20241125_Show Ana Haber 25 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1162,
+      "removed_overlap_tokens": 5950,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Show",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Show\\20241124_Show Ana Haber 24 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Show\\20241124_Show Ana Haber 24 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1198,
+      "removed_overlap_tokens": 5784,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Show",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Show\\20241123_Show Ana Haber 23 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Show\\20241123_Show Ana Haber 23 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 844,
+      "removed_overlap_tokens": 3986,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Show",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Show\\20241122_Show Ana Haber 22 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Show\\20241122_Show Ana Haber 22 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 953,
+      "removed_overlap_tokens": 4856,
+      "word_corrections": {}
+    },
+    {
+      "channel": "Show",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\Show\\20241121_Show Ana Haber 21 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\Show\\20241121_Show Ana Haber 21 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 947,
+      "removed_overlap_tokens": 4656,
+      "word_corrections": {}
+    },
+    {
+      "channel": "SozcuTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\SozcuTV\\20241130_Gülinay Selçuk ile Hafta Sonu Ana Haber 30 Kasım.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\SozcuTV\\20241130_Gülinay Selçuk ile Hafta Sonu Ana Haber 30 Kasım.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2179,
+      "removed_overlap_tokens": 10582,
+      "word_corrections": {}
+    },
+    {
+      "channel": "SozcuTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\SozcuTV\\20241129_Fatih Portakal ile Sözcü Ana Haber 29 Kasım.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\SozcuTV\\20241129_Fatih Portakal ile Sözcü Ana Haber 29 Kasım.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2605,
+      "removed_overlap_tokens": 13404,
+      "word_corrections": {}
+    },
+    {
+      "channel": "SozcuTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\SozcuTV\\20241128_Fatih Portakal ile Sözcü Ana Haber 28 Kasım.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\SozcuTV\\20241128_Fatih Portakal ile Sözcü Ana Haber 28 Kasım.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2714,
+      "removed_overlap_tokens": 13778,
+      "word_corrections": {}
+    },
+    {
+      "channel": "SozcuTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\SozcuTV\\20241127_Fatih Portakal ile Sözcü Ana Haber 27 Kasım.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\SozcuTV\\20241127_Fatih Portakal ile Sözcü Ana Haber 27 Kasım.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2667,
+      "removed_overlap_tokens": 13692,
+      "word_corrections": {}
+    },
+    {
+      "channel": "SozcuTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\SozcuTV\\20241126_Fatih Portakal ile Sözcü Ana Haber 26 Kasım.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\SozcuTV\\20241126_Fatih Portakal ile Sözcü Ana Haber 26 Kasım.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2733,
+      "removed_overlap_tokens": 13962,
+      "word_corrections": {}
+    },
+    {
+      "channel": "SozcuTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\SozcuTV\\20241125_Fatih Portakal ile Sözcü Ana Haber 25 Kasım.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\SozcuTV\\20241125_Fatih Portakal ile Sözcü Ana Haber 25 Kasım.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2584,
+      "removed_overlap_tokens": 12856,
+      "word_corrections": {}
+    },
+    {
+      "channel": "SozcuTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\SozcuTV\\20241124_Damla Doğan Tuncel ile Hafta Sonu Ana Haber 24 Kasım.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\SozcuTV\\20241124_Damla Doğan Tuncel ile Hafta Sonu Ana Haber 24 Kasım.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2097,
+      "removed_overlap_tokens": 9798,
+      "word_corrections": {}
+    },
+    {
+      "channel": "SozcuTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\SozcuTV\\20241123_Damla Doğan Tuncel ile Hafta Sonu Ana Haber 23 Kasım.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\SozcuTV\\20241123_Damla Doğan Tuncel ile Hafta Sonu Ana Haber 23 Kasım.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2075,
+      "removed_overlap_tokens": 9986,
+      "word_corrections": {}
+    },
+    {
+      "channel": "SozcuTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\SozcuTV\\20241122_Fatih Portakal ile Sözcü Ana Haber 22 Kasım.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\SozcuTV\\20241122_Fatih Portakal ile Sözcü Ana Haber 22 Kasım.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2597,
+      "removed_overlap_tokens": 12982,
+      "word_corrections": {}
+    },
+    {
+      "channel": "SozcuTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\SozcuTV\\20241121_Fatih Portakal ile Sözcü Ana Haber 21 Kasım.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\SozcuTV\\20241121_Fatih Portakal ile Sözcü Ana Haber 21 Kasım.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2564,
+      "removed_overlap_tokens": 13208,
+      "word_corrections": {}
+    },
+    {
+      "channel": "StarTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\StarTV\\20241201_Star Ana Haber ｜ 30 Kasım 2024 Cumartesi.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\StarTV\\20241201_Star Ana Haber ｜ 30 Kasım 2024 Cumartesi.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2171,
+      "removed_overlap_tokens": 10550,
+      "word_corrections": {}
+    },
+    {
+      "channel": "StarTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\StarTV\\20241130_Star Ana Haber ｜ 29 Kasım 2024 Cuma.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\StarTV\\20241130_Star Ana Haber ｜ 29 Kasım 2024 Cuma.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2047,
+      "removed_overlap_tokens": 9588,
+      "word_corrections": {}
+    },
+    {
+      "channel": "StarTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\StarTV\\20241129_Star Ana Haber ｜ 28 Kasım 2024 Perşembe.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\StarTV\\20241129_Star Ana Haber ｜ 28 Kasım 2024 Perşembe.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2012,
+      "removed_overlap_tokens": 9744,
+      "word_corrections": {}
+    },
+    {
+      "channel": "StarTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\StarTV\\20241128_Star Ana Haber ｜ 27 Kasım 2024 Çarşamba.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\StarTV\\20241128_Star Ana Haber ｜ 27 Kasım 2024 Çarşamba.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2059,
+      "removed_overlap_tokens": 10050,
+      "word_corrections": {}
+    },
+    {
+      "channel": "StarTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\StarTV\\20241127_Star Ana Haber ｜ 26 Kasım 2024 Salı.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\StarTV\\20241127_Star Ana Haber ｜ 26 Kasım 2024 Salı.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2009,
+      "removed_overlap_tokens": 9354,
+      "word_corrections": {}
+    },
+    {
+      "channel": "StarTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\StarTV\\20241126_Star Ana Haber ｜ 25 Kasım 2024 Pazartesi.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\StarTV\\20241126_Star Ana Haber ｜ 25 Kasım 2024 Pazartesi.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2087,
+      "removed_overlap_tokens": 10106,
+      "word_corrections": {}
+    },
+    {
+      "channel": "StarTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\StarTV\\20241125_Star Ana Haber ｜ 24 Kasım 2024 Pazar.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\StarTV\\20241125_Star Ana Haber ｜ 24 Kasım 2024 Pazar.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1970,
+      "removed_overlap_tokens": 9386,
+      "word_corrections": {}
+    },
+    {
+      "channel": "StarTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\StarTV\\20241124_Star Ana Haber ｜ 23 Kasım 2024 Cumartesi.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\StarTV\\20241124_Star Ana Haber ｜ 23 Kasım 2024 Cumartesi.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1997,
+      "removed_overlap_tokens": 9214,
+      "word_corrections": {}
+    },
+    {
+      "channel": "StarTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\StarTV\\20241123_Star Ana Haber ｜ 22 Kasım 2024 Cuma.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\StarTV\\20241123_Star Ana Haber ｜ 22 Kasım 2024 Cuma.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2003,
+      "removed_overlap_tokens": 9578,
+      "word_corrections": {}
+    },
+    {
+      "channel": "StarTV",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\StarTV\\20241122_Star Ana Haber ｜ 21 Kasım 2024 Perşembe.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\StarTV\\20241122_Star Ana Haber ｜ 21 Kasım 2024 Perşembe.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2121,
+      "removed_overlap_tokens": 10118,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TRT\\20241130_30 Kasım 2024 Cumartesi   Işıl Açıkkar ile Trt1 Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TRT\\20241130_30 Kasım 2024 Cumartesi   Işıl Açıkkar ile Trt1 Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2332,
+      "removed_overlap_tokens": 10592,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TRT\\20241124_24 Kasım 2024 Pazar   Işıl Açıkkar ile Trt1 Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TRT\\20241124_24 Kasım 2024 Pazar   Işıl Açıkkar ile Trt1 Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2043,
+      "removed_overlap_tokens": 8922,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TRT\\20241123_23 Kasım 2024 Cumartesi   Işıl Açıkkar ile Trt1 Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TRT\\20241123_23 Kasım 2024 Cumartesi   Işıl Açıkkar ile Trt1 Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2045,
+      "removed_overlap_tokens": 9296,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TRT\\20241116_16 Kasım 2024 Cumartesi   Işıl Açıkkar ile Trt1 Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TRT\\20241116_16 Kasım 2024 Cumartesi   Işıl Açıkkar ile Trt1 Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2317,
+      "removed_overlap_tokens": 10578,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TRT\\20241113_13 Kasım 2024 Çarşamba   Işıl Açıkkar ile Trt1 Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TRT\\20241113_13 Kasım 2024 Çarşamba   Işıl Açıkkar ile Trt1 Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1848,
+      "removed_overlap_tokens": 8422,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TRT\\20241113_12 Kasım 2024 Salı   Işıl Açıkkar ile Trt1 Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TRT\\20241113_12 Kasım 2024 Salı   Işıl Açıkkar ile Trt1 Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2010,
+      "removed_overlap_tokens": 9242,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TRT\\20241111_11 Kasım 2024 Pazartesi   Işıl Açıkkar ile Trt1 Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TRT\\20241111_11 Kasım 2024 Pazartesi   Işıl Açıkkar ile Trt1 Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1950,
+      "removed_overlap_tokens": 8690,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TRT\\20241110_10 Kasım 2024 Pazar   Işıl Açıkkar ile Trt1 Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TRT\\20241110_10 Kasım 2024 Pazar   Işıl Açıkkar ile Trt1 Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 1873,
+      "removed_overlap_tokens": 8184,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TRT\\20241103_3 Kasım 2024 Pazar   Işıl Açıkkar ile Trt1 Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TRT\\20241103_3 Kasım 2024 Pazar   Işıl Açıkkar ile Trt1 Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2088,
+      "removed_overlap_tokens": 9354,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TRT",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TRT\\20241102_2 Kasım 2024 Cumartesi   Işıl Açıkkar ile Trt1 Ana Haber.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TRT\\20241102_2 Kasım 2024 Cumartesi   Işıl Açıkkar ile Trt1 Ana Haber.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2264,
+      "removed_overlap_tokens": 10540,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TV100",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TV100\\20241130_Nilüfer Özkan ile tv100 Ana Haber ｜ 30 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TV100\\20241130_Nilüfer Özkan ile tv100 Ana Haber ｜ 30 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2288,
+      "removed_overlap_tokens": 10658,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TV100",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TV100\\20241129_Kübra Par ile tv100 Ana Haber ｜ 29 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TV100\\20241129_Kübra Par ile tv100 Ana Haber ｜ 29 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4022,
+      "removed_overlap_tokens": 21036,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TV100",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TV100\\20241128_Kübra Par ile tv100 Ana Haber ｜ 28 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TV100\\20241128_Kübra Par ile tv100 Ana Haber ｜ 28 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 3426,
+      "removed_overlap_tokens": 17582,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TV100",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TV100\\20241127_Kübra Par ile tv100 Ana Haber ｜ 27 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TV100\\20241127_Kübra Par ile tv100 Ana Haber ｜ 27 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 3560,
+      "removed_overlap_tokens": 16946,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TV100",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TV100\\20241126_Kübra Par ile tv100 Ana Haber ｜ 26 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TV100\\20241126_Kübra Par ile tv100 Ana Haber ｜ 26 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 3951,
+      "removed_overlap_tokens": 19850,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TV100",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TV100\\20241125_Kübra Par ile tv100 Ana Haber ｜ 25 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TV100\\20241125_Kübra Par ile tv100 Ana Haber ｜ 25 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 4076,
+      "removed_overlap_tokens": 19674,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TV100",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TV100\\20241124_Nilüfer Özkan ile tv100 Ana Haber ｜ 24 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TV100\\20241124_Nilüfer Özkan ile tv100 Ana Haber ｜ 24 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2415,
+      "removed_overlap_tokens": 11210,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TV100",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TV100\\20241123_Nilüfer Özkan ile tv100 Ana Haber ｜ 23 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TV100\\20241123_Nilüfer Özkan ile tv100 Ana Haber ｜ 23 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 2225,
+      "removed_overlap_tokens": 9656,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TV100",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TV100\\20241122_Kübra Par ile tv100 Ana Haber ｜ 22 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TV100\\20241122_Kübra Par ile tv100 Ana Haber ｜ 22 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 3986,
+      "removed_overlap_tokens": 20224,
+      "word_corrections": {}
+    },
+    {
+      "channel": "TV100",
+      "source": "data\\Ekonomi\\-Ekonomi_Temiz\\TV100\\20241121_Kübra Par ile tv100 Ana Haber ｜ 21 Kasım 2024.tr.vtt",
+      "output": "data\\Ekonomi\\Bizim vtt-to-txt lerimiz\\TV100\\20241121_Kübra Par ile tv100 Ana Haber ｜ 21 Kasım 2024.tr.txt",
+      "mode": "converted_vtt",
+      "cue_count": 3819,
+      "removed_overlap_tokens": 18950,
+      "word_corrections": {}
+    }
+  ]
+}
