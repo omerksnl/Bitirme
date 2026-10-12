@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Generated website output
+dist/
+.vite/
+coverage/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Notebook checkpoints and logs
+.ipynb_checkpoints/
+*.log
+
+# Generated share archive
+/web-prototype-share.zip
