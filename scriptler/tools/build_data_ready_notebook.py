@@ -4,8 +4,8 @@ import json
 from pathlib import Path
 
 
-SOURCE = Path("QLoRA_Inflation_Classifier.ipynb")
-TARGET = Path("QLoRA_Inflation_Classifier_DATA_READY.ipynb")
+SOURCE = Path(__file__).resolve().parents[1] / "QLoRA_Inflation_Classifier.ipynb"
+TARGET = Path(__file__).resolve().parents[1] / "QLoRA_Inflation_Classifier_DATA_READY.ipynb"
 
 
 def markdown(text: str) -> dict:

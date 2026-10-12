@@ -8,7 +8,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 
-ROOT = Path("Ekonomi/-Ekonomi_Temiz_Text")
+ROOT = Path(__file__).resolve().parents[2] / "data" / "Ekonomi" / "-Ekonomi_Temiz_Text"
 DATE_RE = re.compile(r"^(20\d{6})")
 WORDS_RE = re.compile(r"\b[\wÇĞİÖŞÜçğıöşü]+\b", re.UNICODE)
 ECONOMY_TERMS = {
@@ -126,7 +126,7 @@ output = {
     "read_errors": errors,
 }
 
-Path("dataset_analysis.json").write_text(
+(Path(__file__).resolve().parents[2] / "dataset_analysis.json").write_text(
     json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8"
 )
 print(json.dumps(summary, ensure_ascii=False, indent=2))

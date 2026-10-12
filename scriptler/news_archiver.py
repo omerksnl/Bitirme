@@ -14,7 +14,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
-DATA_DIR = ROOT / "data"
+DATA_DIR = ROOT.parent / "data"
 DECISIONS_PATH = DATA_DIR / "decisions.csv"
 TRANSCRIPTION_QUEUE_PATH = DATA_DIR / "transcription_queue.csv"
 BASE_DATE = date(2026, 10, 1)
