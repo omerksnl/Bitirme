@@ -5,9 +5,9 @@ import json
 from pathlib import Path
 import re
 
-from gpt_news_review_batch import checked_manifest, quote_position, usage_cost_usd
-from global_news_time_trial import metrics
-from openai_news_batch import ROOT, load_json, save_json, response_payload, digest
+from scriptler.gpt_news_review_batch import checked_manifest, quote_position, usage_cost_usd
+from scriptler.lib.metrics import metrics
+from scriptler.lib.batch_io import ROOT, load_json, save_json, response_payload, digest
 
 DEFAULT = ROOT / 'data/denemeler/maliyet_optimizasyonu_01'
 

@@ -1,5 +1,5 @@
 import unittest
-from audit_news_cost_results import diagnose, source_matches
+from scriptler.denemeler.degerlendirme.audit_news_cost_results import diagnose, source_matches
 
 
 class CostOutputAuditTests(unittest.TestCase):

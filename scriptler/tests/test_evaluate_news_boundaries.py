@@ -1,5 +1,5 @@
 import unittest
-from evaluate_news_boundaries import match_boundaries
+from scriptler.lib.metrics import match_boundaries
 
 class BoundaryEvaluationTests(unittest.TestCase):
     def test_one_prediction_cannot_cover_two_reference_boundaries(self):

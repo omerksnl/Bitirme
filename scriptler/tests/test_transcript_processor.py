@@ -2,7 +2,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from transcript_processor import parse_vtt, split_stories
+from scriptler.lib.transcript_processor import parse_vtt, split_stories
 
 
 class TranscriptProcessorTests(unittest.TestCase):

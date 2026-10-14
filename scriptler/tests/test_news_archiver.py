@@ -4,7 +4,7 @@ from datetime import date
 from pathlib import Path
 from unittest.mock import patch
 
-import news_archiver as app
+import scriptler.news_archiver as app
 
 
 class NewsArchiverTests(unittest.TestCase):

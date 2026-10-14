@@ -3,8 +3,8 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from channel_news_bias import features,scored,select,convert_with_profile,evaluate
-from openai_news_batch import save_json
+from scriptler.denemeler.yerel.channel_news_bias import features, scored, select, convert_with_profile, evaluate
+from scriptler.lib.batch_io import save_json
 
 
 class ChannelBiasTests(unittest.TestCase):
@@ -36,7 +36,7 @@ class ChannelBiasTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             job=Path(temp); save_json(job/'profile.json',{'training_dates':['A'],'development_dates':['B']})
             labels={'annotation_author':'provisional'}; docs=[{'date':'C','split':'test','annotation_complete':False}]
-            with patch('channel_news_bias.dataset',return_value=(labels,docs)):
+            with patch("scriptler.denemeler.yerel.channel_news_bias.dataset",return_value=(labels,docs)):
                 with self.assertRaises(ValueError): evaluate(job)
 
     def test_plain_txt_works_without_invented_times(self):
@@ -50,7 +50,7 @@ class ChannelBiasTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             job=Path(temp); save_json(job/'profile.json',{'training_dates':['A'],'development_dates':['B']})
             docs=[{'date':'A','split':'test','annotation_complete':True}]
-            with patch('channel_news_bias.dataset',return_value=({},docs)):
+            with patch("scriptler.denemeler.yerel.channel_news_bias.dataset",return_value=({},docs)):
                 with self.assertRaises(ValueError): evaluate(job)
 
 

@@ -4,8 +4,8 @@ import json
 from pathlib import Path
 
 
-SOURCE = Path(__file__).resolve().parents[1] / "QLoRA_Inflation_Classifier.ipynb"
-TARGET = Path(__file__).resolve().parents[1] / "QLoRA_Inflation_Classifier_DATA_READY.ipynb"
+SOURCE = Path(__file__).resolve().parents[1] / "notebooks" / "QLoRA_Inflation_Classifier.ipynb"
+TARGET = Path(__file__).resolve().parents[1] / "notebooks" / "QLoRA_Inflation_Classifier_DATA_READY.ipynb"
 
 
 def markdown(text: str) -> dict:
@@ -41,7 +41,7 @@ Drive düzeni:
 ```text
 Benim_Colab_Projem/
 ├── veri/Ekonomi/-Ekonomi_Temiz_Text/
-├── scriptler/prepare_inflation_data.py
+├── scriptler/denemeler/siniflandirma/prepare_inflation_data.py
 ├── sonuclar/enflasyon_verisi/
 └── modeller/
 ```
@@ -57,7 +57,7 @@ import subprocess
 PROJE_DIZINI = Path('/content/drive/MyDrive/Benim_Colab_Projem')
 HAM_VERI = PROJE_DIZINI / 'veri' / 'Ekonomi' / '-Ekonomi_Temiz_Text'
 VERI_CIKTI = PROJE_DIZINI / 'sonuclar' / 'enflasyon_verisi'
-HAZIRLAMA_KODU = PROJE_DIZINI / 'scriptler' / 'prepare_inflation_data.py'
+HAZIRLAMA_KODU = PROJE_DIZINI / 'scriptler' / 'denemeler' / 'siniflandirma' / 'prepare_inflation_data.py'
 
 assert HAM_VERI.exists(), f'Ham veri klasörü bulunamadı: {HAM_VERI}'
 assert HAZIRLAMA_KODU.exists(), f'Hazırlama kodu bulunamadı: {HAZIRLAMA_KODU}'

@@ -1,13 +1,13 @@
 """OpenAI Batch ile ana haber bültenlerini orijinal metni koruyarak ayırır.
 
 Proje kökünden:
-  python scriptler/openai_news_batch.py prepare
-  python scriptler/openai_news_batch.py submit
-  python scriptler/openai_news_batch.py status
-  python scriptler/openai_news_batch.py collect
-  python scriptler/openai_news_batch.py submit --stage review
-  python scriptler/openai_news_batch.py status --stage review
-  python scriptler/openai_news_batch.py collect --stage review
+  python -m scriptler.denemeler.api.openai_news_batch prepare
+  python -m scriptler.denemeler.api.openai_news_batch submit
+  python -m scriptler.denemeler.api.openai_news_batch status
+  python -m scriptler.denemeler.api.openai_news_batch collect
+  python -m scriptler.denemeler.api.openai_news_batch submit --stage review
+  python -m scriptler.denemeler.api.openai_news_batch status --stage review
+  python -m scriptler.denemeler.api.openai_news_batch collect --stage review
 prepare/export internet ve API anahtarı gerektirmez; submit ücretli API işidir.
 İlk collect ikinci kontrol isteğini yerelde hazırlar; otomatik ücretli gönderim
 yapmaz. Haber TXT'leri ikinci collect sonrası inceleme bekleyen taslaklardır.
@@ -23,7 +23,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+from scriptler.lib.batch_io import ROOT, digest, save_json, load_json, api_client, submit, response_payload
 DEFAULT_INPUT = ROOT / "data/Ekonomi/Bizim vtt-to-txt lerimiz"
 DEFAULT_JOB = ROOT / "data/_openai_batch_runs/pilot-v3"
 DEFAULT_MODEL = "gpt-4.1-mini-2025-04-14"
@@ -79,43 +79,11 @@ SEGMENT_SCHEMA = {
 }
 
 
-def digest(data: bytes) -> str:
-    return hashlib.sha256(data).hexdigest()
 
 
-def save_json(path: Path, data: dict) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    temporary = path.with_suffix(path.suffix + ".tmp")
-    encoded=json.dumps(data, ensure_ascii=False, indent=2).encode('utf-8')
-    with temporary.open('wb') as handle:
-        handle.write(encoded)
-        handle.flush()
-        os.fsync(handle.fileno())
-    try:
-        temporary.replace(path)
-    except PermissionError:
-        # Some Windows folders allow writing but deny child deletion, which
-        # also prevents replacing an existing file. Keep a recovery journal
-        # and the previous valid value; do not change the folder ACL.
-        if path.exists():
-            backup=path.with_suffix(path.suffix+'.bak')
-            backup.write_bytes(path.read_bytes())
-        with path.open('wb') as handle:
-            handle.write(encoded)
-            handle.flush()
-            os.fsync(handle.fileno())
         # Keep .tmp: deletion may be denied by the same folder policy.
 
 
-def load_json(path: Path) -> dict:
-    try:
-        return json.loads(path.read_text(encoding="utf-8-sig"))
-    except (FileNotFoundError,json.JSONDecodeError):
-        # Recover an interrupted in-place write from its fully flushed journal.
-        journal=path.with_suffix(path.suffix+'.tmp')
-        if journal.exists():
-            return json.loads(journal.read_text(encoding='utf-8-sig'))
-        raise
 
 
 def numbered_text(text: str) -> str:
@@ -138,67 +106,12 @@ def make_request(custom_id: str, text: str, channel: str, model: str) -> dict:
 
 
 def prepare(args) -> int:
-    from news_batch_windows import prepare as prepare_windows
+    from scriptler.denemeler.api.news_batch_windows import prepare as prepare_windows
     return prepare_windows(args)
 
 
-def api_client():
-    if not os.environ.get("OPENAI_API_KEY"):
-        raise ValueError("OPENAI_API_KEY ortam değişkeni tanımlı değil. Anahtarı kod/GitHub içine yazma.")
-    try:
-        from openai import OpenAI
-    except ImportError as error:
-        raise ValueError("Önce python -m pip install -r scriptler/requirements-openai.txt çalıştır") from error
-    # No implicit SDK retries for billable batch creation.
-    return OpenAI(max_retries=0)
 
 
-def submit(args) -> int:
-    job = args.job.resolve()
-    if not (job / "manifest.json").exists():
-        if job.name == "review":
-            raise ValueError("İkinci kontrol henüz hazırlanmamış. Önce collect ile ilk aşamanın sonuçlarını topla.")
-        raise ValueError("İş hazırlanmış değil. Önce prepare çalıştır veya --job yolunu kontrol et.")
-    manifest = load_json(job / "manifest.json")
-    if manifest.get("version") not in (2, 3):
-        raise ValueError("Bu iş eski alıntı yöntemiyle hazırlanmış. prepare ile yeni --job altında numaralı kelime istekleri hazırla.")
-    raw = (job / "requests.jsonl").read_bytes()
-    if digest(raw) != manifest["requests_sha256"]:
-        raise ValueError("Hazırlanan istek dosyası değiştirilmiş; yeni iş hazırla")
-    state_path = job / "batch_state.json"
-    state = load_json(state_path) if state_path.exists() else {}
-    journal_path=state_path.with_suffix('.json.tmp')
-    if journal_path.exists():
-        journal=load_json(journal_path)
-        if journal.get('batch_id') and journal.get('input_file_id')==state.get('input_file_id'):
-            # A batch was created but final persistence was interrupted.
-            state=journal
-            save_json(state_path,state)
-    if state.get("batch_id"):
-        raise ValueError(f"Bu iş zaten gönderildi: {state['batch_id']}; status kullan")
-    # A previous interrupted creation must be reconciled in the platform,
-    # instead of blindly submitting a second paid batch.
-    if state.get("creation_pending"):
-        raise ValueError("Önceki gönderimin sonucu belirsiz. Platformdaki Batch listesini kontrol et; tekrar gönderme.")
-    client = api_client()
-    lock = job / "submit.lock"
-    with lock.open("x", encoding="utf-8") as handle:
-        handle.write(str(os.getpid()))
-    try:
-        if not state.get("input_file_id"):
-            with (job / "requests.jsonl").open("rb") as handle:
-                uploaded = client.files.create(file=handle, purpose="batch")
-            state["input_file_id"] = uploaded.id
-            save_json(state_path, state)
-        state["creation_pending"] = True
-        save_json(state_path, state)
-        batch = client.batches.create(input_file_id=state["input_file_id"], endpoint="/v1/responses", completion_window="24h", metadata={"task": "turkish_news_segmentation", "stage": manifest.get("stage", "legacy"), "requests_sha256": manifest["requests_sha256"]})
-        state.update(batch_id=batch.id, creation_pending=False, status=batch.status)
-        save_json(state_path, state)
-        print(f"Batch gönderildi: {batch.id}\nDurum: {batch.status}")
-    finally:
-        lock.unlink(missing_ok=True)
-    return 0
 
 
 def status(args) -> int:
@@ -268,25 +181,6 @@ def split_original(text: str, payload: dict) -> list[dict]:
     return segments
 
 
-def response_payload(line: dict) -> dict:
-    if line.get("error"):
-        raise ValueError(f"API istek hatası: {line['error']}")
-    response = line.get("response") or {}
-    if response.get("status_code") != 200:
-        raise ValueError(f"API HTTP durumu: {response.get('status_code')}")
-    body = response.get("body") or {}
-    if body.get("status") != "completed":
-        raise ValueError(f"Model yanıtı tamamlanmadı: {body.get('status')}")
-    texts = []
-    for item in body.get("output", []):
-        for content in item.get("content", []):
-            if content.get("type") == "refusal":
-                raise ValueError("Model bu kayıt için yanıt vermeyi reddetti")
-            if content.get("type") == "output_text":
-                texts.append(content["text"])
-    if not texts:
-        raise ValueError("JSON yanıtı bulunamadı")
-    return json.loads("".join(texts))
 
 
 def export_results(job: Path, results: Path, output: Path) -> int:
@@ -372,7 +266,7 @@ def collect(args) -> int:
     merged.write_text("\n".join(lines) + "\n", encoding="utf-8")
     manifest = load_json(job / "manifest.json")
     if manifest.get("version") == 3:
-        from news_batch_windows import collect_results
+        from scriptler.denemeler.api.news_batch_windows import collect_results
         return collect_results(job, merged, args.output.resolve())
     return export_results(job, merged, args.output.resolve())
 
@@ -380,7 +274,7 @@ def collect(args) -> int:
 def export_dispatch(args) -> int:
     job = args.job.resolve()
     if load_json(job / "manifest.json").get("version") == 3:
-        from news_batch_windows import collect_results
+        from scriptler.denemeler.api.news_batch_windows import collect_results
         return collect_results(job, args.results.resolve(), args.output.resolve())
     return export_results(job, args.results.resolve(), args.output.resolve())
 

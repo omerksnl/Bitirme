@@ -11,7 +11,7 @@ Sınır adayları altyazı başlangıçları, cümle başlangıçları, büyük 
 Tek bir yeni zamanlı VTT/SRT dosyası için:
 
 ```powershell
-python scriptler/global_news_time_trial.py apply --input "kaynak.vtt" --output "data/denemeler/butun_bulten_zamanli_02/yeni_taslaklar"
+python -m scriptler.denemeler.yerel.global_news_time_trial apply --input "kaynak.vtt" --output "data/denemeler/butun_bulten_zamanli_02/yeni_taslaklar"
 ```
 
 Aynı kaynak ve model yeniden çalıştırıldığında mevcut çıktı gösterilir. Değişen kaynak veya model yeni sürüm klasörü üretir. Her çıktı `transcript.txt`, `timeline.json`, `sections.json` ve kaynak metni eksiksiz koruyan taslak TXT dosyaları içerir. Bütün bölümler inceleme bekler. Aynı çıktıdaki yarım işlem otomatik olarak yeniden yazılmaz.
@@ -19,7 +19,7 @@ Aynı kaynak ve model yeniden çalıştırıldığında mevcut çıktı gösteri
 Tam denemeyi yeni klasöre kurmak için:
 
 ```powershell
-python scriptler/global_news_time_trial.py trial --job "data/denemeler/yeni_butun_bulten_deneyi"
+python -m scriptler.denemeler.yerel.global_news_time_trial trial --job "data/denemeler/yeni_butun_bulten_deneyi"
 ```
 
 Arşivdeki `align_editorial_evidence.py`, resmî klip sayfasından alınan kısa kanıt ifadelerini bir zamanlı kaynağa eşleştirir. Açıklama metninin haberin tamamını temsil ettiğini varsaymaz; otomatik başlangıç/bitiş etiketi üretmez. Tam klip transkriptiyle hizalama ve eğitim etiketi üretme aşaması tamamlanmadı; başarısız/eksik araştırma kanıtı olarak saklandı.

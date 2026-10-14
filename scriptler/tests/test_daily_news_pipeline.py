@@ -5,9 +5,8 @@ from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
 
-from daily_news_pipeline import (timeline,windows,validate,process_lock,database,ingest,
-                                 request_for,consume,prepare,verified_timeline)
-from openai_news_batch import save_json
+from scriptler.denemeler.api.daily_news_pipeline import timeline, windows, validate, process_lock, database, ingest, request_for, consume, prepare, verified_timeline
+from scriptler.lib.batch_io import save_json
 
 VTT='''WEBVTT
 

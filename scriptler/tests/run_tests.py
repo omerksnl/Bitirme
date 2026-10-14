@@ -6,7 +6,7 @@ import sys
 import tempfile
 import unittest
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 
 
 def main():
@@ -17,8 +17,8 @@ def main():
     work.mkdir(exist_ok=True)
     tempfile.tempdir = str(work)
     os.environ.setdefault('TIKTOKEN_CACHE_DIR', str(work / 'tiktoken_cache'))
-    sys.path.insert(0, str(ROOT / 'scriptler'))
-    suite = unittest.defaultTestLoader.discover(str(ROOT / 'scriptler/tests'), pattern=args.pattern)
+    sys.path.insert(0, str(ROOT))
+    suite = unittest.defaultTestLoader.discover(str(ROOT / 'scriptler/tests'), pattern=args.pattern, top_level_dir=str(ROOT))
     result = unittest.TextTestRunner(verbosity=1).run(suite)
     return 0 if result.wasSuccessful() else 1
 

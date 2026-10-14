@@ -5,7 +5,7 @@ import unittest
 
 import numpy as np
 
-from global_news_time_trial import ROOT, decode, export, metrics, source_axis
+from scriptler.denemeler.yerel.global_news_time_trial import ROOT, decode, export, metrics, source_axis
 
 
 class GlobalNewsTimeTests(unittest.TestCase):

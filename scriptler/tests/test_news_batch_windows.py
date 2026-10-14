@@ -5,9 +5,9 @@ import tempfile
 import unittest
 from unittest.mock import MagicMock, patch
 
-from news_batch_windows import assemble, collect_results, prepare, slices, validate_payload, window_text, windows, word_spans
-from openai_news_batch import load_json
-import openai_news_batch as cli
+from scriptler.denemeler.api.news_batch_windows import assemble, collect_results, prepare, slices, validate_payload, window_text, windows, word_spans
+from scriptler.lib.batch_io import load_json
+import scriptler.denemeler.api.openai_news_batch as cli
 
 
 def boundary(local, **extra):

@@ -1,2 +1,2 @@
-yt-dlp>=2025.9.26
-
+-r requirements/archiver.txt
+-r requirements/news.txt

@@ -8,12 +8,16 @@ from datetime import datetime, timezone
 import json
 import os
 from pathlib import Path
+import sys
 import re
 from types import SimpleNamespace
 
-from daily_news_pipeline import process_lock, timeline
-from global_news_time_trial import metrics
-from openai_news_batch import ROOT, api_client, digest, load_json, save_json, response_payload, submit as batch_submit
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from scriptler.lib.timeline import process_lock, timeline
+from scriptler.lib.metrics import metrics
+from scriptler.lib.batch_io import ROOT, api_client, digest, load_json, save_json, response_payload, submit as batch_submit
 
 DEFAULT = ROOT / 'data/denemeler/maliyet_optimizasyonu_01/compact_sol'
 BUNDLE = ROOT / 'data/haber_pipeline'
@@ -242,7 +246,7 @@ def pilot_sources():
     if config.get('version') != 1:
         raise ValueError('Pilot kaynak paketi sürümü farklı')
     sources = []
-    corrections = load_json(ROOT / 'scriptler/vtt_word_corrections.json')
+    corrections = load_json(ROOT / 'scriptler/config/vtt_word_corrections.json')
     for doc in config['documents']:
         source = (ROOT / doc['source']).resolve()
         if not source.is_relative_to(ROOT):

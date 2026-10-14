@@ -3,7 +3,7 @@
 Başlatmak için proje klasöründe:
 
 ```powershell
-python scriptler/news_labeler.py
+python -m scriptler.denemeler.etiketleme.news_labeler
 ```
 
 Tarayıcı: http://127.0.0.1:8765

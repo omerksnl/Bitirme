@@ -3,7 +3,7 @@ from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
-from openai_news_batch import load_json,save_json
+from scriptler.lib.batch_io import load_json, save_json
 
 class JsonPersistenceTests(unittest.TestCase):
     def test_replace_denied_keeps_new_value_journal_and_old_backup(self):

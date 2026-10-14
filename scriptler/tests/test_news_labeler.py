@@ -3,8 +3,8 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from news_labeler import validate_labels,persist,document
-from openai_news_batch import save_json,digest
+from scriptler.denemeler.etiketleme.news_labeler import validate_labels, persist, document
+from scriptler.lib.batch_io import save_json, digest
 
 
 class LabelerTests(unittest.TestCase):

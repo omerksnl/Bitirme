@@ -3,7 +3,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from openai_news_batch import digest, export_results, make_request, numbered_text, save_json, split_original
+from scriptler.denemeler.api.openai_news_batch import digest, export_results, make_request, numbered_text, save_json, split_original
 
 
 def segment(quote, kind="news", confidence=0.9):

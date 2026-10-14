@@ -7,10 +7,14 @@ import json
 import re
 import unicodedata
 from pathlib import Path
+import sys
 
 TIME = r"(?:\d{2,}:)?\d{2}:\d{2}[.,]\d{3}"
 TIMING = re.compile(rf"^({TIME})\s+-->\s+({TIME})(?:\s.*)?$")
 WORDS = re.compile(r"\w+(?:['’]\w+)*|[^\w\s]", re.UNICODE)
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -124,7 +128,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="VTT dosyalarını tekrarları temizleyerek UTF-8 TXT'ye dönüştürür.")
     parser.add_argument("--input", type=Path, default=ROOT / "data/Ekonomi/-Ekonomi_Temiz")
     parser.add_argument("--output", type=Path, default=ROOT / "data/Ekonomi/-Ekonomi_Temiz_Text_v2")
-    parser.add_argument("--corrections", type=Path, default=Path(__file__).with_name("vtt_word_corrections.json"))
+    parser.add_argument("--corrections", type=Path, default=ROOT / "scriptler/config/vtt_word_corrections.json")
     parser.add_argument("--overwrite", action="store_true", help="Var olan TXT dosyalarının üzerine yaz")
     args = parser.parse_args()
     corrections = json.loads(args.corrections.read_text(encoding="utf-8-sig"))

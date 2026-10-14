@@ -1,8 +1,8 @@
 import tempfile
 from pathlib import Path
 import unittest
-from same_event_merge import pairs,decisions,export_merged
-from openai_news_batch import load_json
+from scriptler.denemeler.yerel.same_event_merge import pairs, decisions, export_merged
+from scriptler.lib.batch_io import load_json
 
 
 class SameEventMergeTests(unittest.TestCase):

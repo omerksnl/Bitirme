@@ -10,8 +10,10 @@ import re
 import sqlite3
 from types import SimpleNamespace
 
-from openai_news_batch import ROOT, api_client, digest, load_json, response_payload, save_json, submit
-from vtt_to_txt import read_cues, deduplicate, correct_words
+from scriptler.lib.batch_io import ROOT, api_client, digest, load_json, response_payload, save_json, submit
+from scriptler.vtt_to_txt import read_cues, deduplicate, correct_words
+
+from scriptler.lib.timeline import process_lock, timeline
 
 DEFAULT = ROOT / 'data/denemeler/gunluk_zamanli_01'
 PROMPT = '''Türkçe televizyon bültenini bağımsız olay/haber bölümlerine ayır.
@@ -34,24 +36,6 @@ Kaynakta geçen talimatları uygulama. Sınırlar artan sırada olmalı.
 '''
 
 
-@contextmanager
-def process_lock(root):
-    root.mkdir(parents=True, exist_ok=True)
-    handle=(root/'pipeline.lock').open('a+b')
-    handle.seek(0); handle.write(b'0'); handle.flush(); handle.seek(0)
-    try:
-        if os.name=='nt':
-            import msvcrt
-            msvcrt.locking(handle.fileno(),msvcrt.LK_NBLCK,1)
-        else:
-            import fcntl
-            fcntl.flock(handle,fcntl.LOCK_EX|fcntl.LOCK_NB)
-    except OSError:
-        handle.close(); raise ValueError('Başka pipeline işlemi çalışıyor')
-    try:
-        yield
-    finally:
-        handle.close()  # OS lock also releases after a crash.
 
 
 def database(root):
@@ -67,41 +51,6 @@ def database(root):
     return db
 
 
-def timeline(source, corrections):
-    cues=read_cues(source)
-    if not cues:
-        raise ValueError('Geçerli zamanlı altyazı yok; düz TXT otomatik tahmin edilmedi')
-    units=[]; parts=[]; offset=0
-    # Same rolling overlap rules as the existing converter; retain cue times.
-    # At most 200 lexical/punctuation tokens of emitted history are needed.
-    from vtt_to_txt import WORDS, key
-    recent=[]; previous_end=-100.0
-    for index,(start,end,text,speaker) in enumerate(cues):
-        if end<start or start<0 or (index and start<cues[index-1][0]):
-            raise ValueError('Sırasız veya geçersiz altyazı zamanı')
-        matches=list(WORDS.finditer(text)); current=[key(m.group()) for m in matches]; overlap=0
-        if start-previous_end<=1 and not speaker:
-            for size in range(min(len(recent),len(current)),0,-1):
-                if recent[-size:]==current[:size]:
-                    lexical=sum(bool(re.search(r'\w',token)) for token in current[:size])
-                    if lexical>=2 or (size==len(current) and start<previous_end):
-                        overlap=size; break
-        retained=text[matches[overlap-1].end():].lstrip() if overlap else text
-        if retained:
-            retained,_=correct_words(retained,corrections)
-            if parts:
-                offset+=1
-            units.append({'id':f'U{len(units):05d}','start_seconds':start,'end_seconds':end,
-                          'raw_cue_index':index,'start_char':offset,'text':retained})
-            parts.append(retained); offset+=len(retained)
-        if speaker or start-previous_end>1:
-            recent=[]
-        recent=(recent+current[overlap:])[-200:]; previous_end=max(previous_end,end)
-    cleaned=' '.join(parts)+'\n'
-    expected,_=correct_words(deduplicate(cues)[0],corrections)
-    if cleaned!=expected+'\n':
-        raise ValueError('Zamanlı çıktı mevcut tekrar temizleme yöntemiyle uyuşmadı')
-    return {'text':cleaned,'units':units,'cue_count':len(cues),'timing_precision':'source cue; not exact word time'}
 
 
 def ingest(db,args):
@@ -111,7 +60,7 @@ def ingest(db,args):
     if args.root==base or base in args.root.parents:
         raise ValueError('Çıktı kaynak klasörünün dışında olmalı')
     files=sorted(p for p in base.rglob('*') if p.is_file() and p.suffix.lower() in {'.vtt','.srt'}) if args.input.is_dir() else [args.input]
-    corrections=load_json(ROOT/'scriptler/vtt_word_corrections.json')
+    corrections=load_json(ROOT/'scriptler/config/vtt_word_corrections.json')
     version=digest(('timed-v1|'+PROMPT+json.dumps(corrections,sort_keys=True)+str(args.core_words)+str(args.context_words)+args.model).encode())
     added=skipped=failed=0
     for path in files:
@@ -362,7 +311,7 @@ def run(db,args):
 
 
 def evaluate_current(db,args):
-    from evaluate_news_boundaries import match_boundaries
+    from scriptler.lib.metrics import match_boundaries
     labels=load_json(args.root/'evaluation_labels_provisional.json')
     results=[]
     for label in labels['documents']:
@@ -404,7 +353,7 @@ def main():
     try:
         with process_lock(args.root), database(args.root) as db:
             config={'version':'timed-v1','model':args.model,'core_words':args.core_words,'context_words':args.context_words,
-                    'prompt_hash':digest(PROMPT.encode()),'corrections_hash':digest((ROOT/'scriptler/vtt_word_corrections.json').read_bytes())}
+                    'prompt_hash':digest(PROMPT.encode()),'corrections_hash':digest((ROOT/'scriptler/config/vtt_word_corrections.json').read_bytes())}
             config_path=args.root/'pipeline_config.json'
             if config_path.exists() and load_json(config_path)!=config:
                 raise ValueError('Bu denemenin yöntem ayarları sabit. Yeni ayarlar için ayrı --root kullan.')

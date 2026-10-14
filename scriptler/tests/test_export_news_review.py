@@ -1,8 +1,8 @@
 from pathlib import Path
 import tempfile
 import unittest
-from export_news_review import export
-from openai_news_batch import digest,load_json
+from scriptler.denemeler.degerlendirme.export_news_review import export
+from scriptler.lib.batch_io import digest, load_json
 
 class ReviewExportTests(unittest.TestCase):
     def test_exact_source_preserved_and_wrong_source_rejected(self):

@@ -6,10 +6,10 @@ import math
 from pathlib import Path
 import re
 
-from daily_news_pipeline import timeline, process_lock
-from evaluate_news_boundaries import match_boundaries
-from openai_news_batch import ROOT, digest, load_json, save_json
-from vtt_to_txt import read_cues
+from scriptler.lib.timeline import timeline, process_lock
+from scriptler.lib.metrics import match_boundaries
+from scriptler.lib.batch_io import ROOT, digest, load_json, save_json
+from scriptler.vtt_to_txt import read_cues
 
 DEFAULT=ROOT/'data/denemeler/kanal_bias_01'
 NUMERIC=['cue_start','sentence_start','pause','novelty','uppercase','previous_question']
@@ -200,7 +200,7 @@ def main():
     elif args.command=='evaluate': evaluate(args.job)
     else:
         if not args.input or not args.output: parser.error('--input ve --output gerekli')
-        profile=load_json(args.job/'profile.json'); corrections=load_json(ROOT/'scriptler/vtt_word_corrections.json')
+        profile=load_json(args.job/'profile.json'); corrections=load_json(ROOT/'scriptler/config/vtt_word_corrections.json')
         return convert_directory(args,profile,corrections)
 
 

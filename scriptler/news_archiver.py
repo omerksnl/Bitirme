@@ -12,8 +12,11 @@ from pathlib import Path
 from typing import Any
 
 
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 ROOT = Path(__file__).resolve().parent
-CONFIG_PATH = ROOT / "config.json"
+CONFIG_PATH = ROOT / "config/config.json"
 DATA_DIR = ROOT.parent / "data"
 DECISIONS_PATH = DATA_DIR / "decisions.csv"
 TRANSCRIPTION_QUEUE_PATH = DATA_DIR / "transcription_queue.csv"
@@ -286,7 +289,7 @@ def archive_subtitles(channel: dict[str, Any], target: date, candidate: Candidat
         "processed_at": datetime.now().astimezone().isoformat(timespec="seconds"),
     }
     if vtt_files:
-        from transcript_processor import write_outputs
+        from scriptler.lib.transcript_processor import write_outputs
 
         splitter = channel.get("story_splitter", {})
         patterns = splitter.get("transition_patterns", [])

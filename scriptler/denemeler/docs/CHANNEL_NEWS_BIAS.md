@@ -1,6 +1,6 @@
 # Kanal profiliyle haber ayırma
 
-Bu belge ilk kısmi etiketli araştırma yöntemini anlatır. İlk `kanal_bias_01` denemesi ve sonuçları artık yerel `data/denemeler/akademik_arsiv/yontemler_ve_olcumler.zip` içinde. Sonraki tam bülten profili yerelde `data/denemeler/kanal_bias_tam_02` altında korunur. Aşağıdaki araştırma komutları uygun deney dosyaları geri açılmadan çalışmaz. Git'teki seçilen Sol pilotu [ayrı kullanım belgesindedir](GPT_NEWS_REVIEW_BATCH.md) ve bu özel deney klasörlerini gerektirmez.
+Bu belge ilk kısmi etiketli araştırma yöntemini anlatır. İlk `kanal_bias_01` denemesi ve sonuçları artık yerel `data/denemeler/akademik_arsiv/yontemler_ve_olcumler.zip` içinde. Sonraki tam bülten profili yerelde `data/denemeler/kanal_bias_tam_02` altında korunur. Aşağıdaki araştırma komutları uygun deney dosyaları geri açılmadan çalışmaz. Git'teki seçilen Sol pilotu [ayrı kullanım belgesindedir](../../docs/GPT_NEWS_REVIEW_BATCH.md) ve bu özel deney klasörlerini gerektirmez.
 
 Ortak motor, kanala özel öğrenilmiş profil. Kodda kanal adına göre ayrım veya geçiş sözcüğü listesi yok. İlk profil Kanal D için denendi; diğer kanalların profilleri henüz eğitilmedi.
 
@@ -19,9 +19,9 @@ Her tarihin ilk 9000 karakteri kesintisiz okunup etiketlendi. Tam bültenlerin t
 ## Kullanım
 
 ```powershell
-python -m pip install -r scriptler/requirements-channel-bias.txt
-python scriptler/channel_news_bias.py evaluate
-python scriptler/channel_news_bias.py convert --input "data/Ekonomi/-Ekonomi_Temiz/KanalD" --output "data/denemeler/kanal_bias_01/yeni_taslaklar"
+python -m pip install -r scriptler/requirements/local.txt
+python -m scriptler.denemeler.yerel.channel_news_bias evaluate
+python -m scriptler.denemeler.yerel.channel_news_bias convert --input "data/Ekonomi/-Ekonomi_Temiz/KanalD" --output "data/denemeler/kanal_bias_01/yeni_taslaklar"
 ```
 
 `--job` öğrenilmiş profilin ve etiketlerin dizinidir. Varsayılan `data/denemeler/kanal_bias_01`. `train` öğrenmeyi tekrar yapar; mevcut pilotta test sonucu görüldükten sonra train tekrar kullanılmamalı. Yeni yöntem veya etiketlerle yeni bir job ve yeni, görülmemiş test günleri gerekir.

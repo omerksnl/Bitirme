@@ -47,4 +47,4 @@ Yeni hazırlıkların tahmini üst maliyeti cache yazımını kapsar. Eski manif
 
 Yerel model/profil dosyaları, ana veri ve etiketler korunmuştur. Sol-Luna low ve medium karşılaştırmaları açık araştırma kayıtları olarak durur. Önceki uzun Sol, pencere, E5 ve diğer yerel yöntemlerin bilimsel kanıtları `data/denemeler/akademik_arsiv/` altında, özgün yollar ve SHA-256 envanteriyle saklanır. Aynı kaynaktan yeniden çıkarılabilir taslak TXT'ler ve önbellekler kaldırılmıştır. Arşiv kökündeki `TEMIZLIK_RAPORU.md` saklama/silme politikasını açıklar.
 
-Bu arşiv ve çalışma dizinleri Git dışındadır. Belgeler `scriptler/docs/`, testler `scriptler/tests/` altındadır. Çalıştırma: `python scriptler/run_tests.py`.
+Bu arşiv ve çalışma dizinleri Git dışındadır. Ana kullanım belgesi `scriptler/docs/`, araştırma belgeleri `scriptler/denemeler/docs/`, testler `scriptler/tests/` altındadır. Çalıştırma: `python scriptler/tests/run_tests.py`.

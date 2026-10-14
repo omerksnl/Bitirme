@@ -8,7 +8,7 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Iterable
 
-from news_archiver import CONFIG_PATH, DATA_DIR
+from scriptler.news_archiver import CONFIG_PATH, DATA_DIR
 
 
 TIMESTAMP_RE = re.compile(

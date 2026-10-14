@@ -1,7 +1,7 @@
 """İncelenmiş kaynak sınırlarını metni değiştirmeden haber TXT'lerine çıkarır."""
 import argparse
 from pathlib import Path
-from openai_news_batch import load_json,save_json,digest
+from scriptler.lib.batch_io import load_json, save_json, digest
 
 
 def export(source,review,output):

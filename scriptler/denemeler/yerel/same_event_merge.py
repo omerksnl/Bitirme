@@ -7,9 +7,9 @@ import os
 from pathlib import Path
 import re
 
-from channel_news_bias import features,scored,select,linear,sigmoid
-from evaluate_news_boundaries import match_boundaries
-from openai_news_batch import ROOT,load_json,save_json,digest
+from scriptler.denemeler.yerel.channel_news_bias import features, scored, select, linear, sigmoid
+from scriptler.lib.metrics import match_boundaries
+from scriptler.lib.batch_io import ROOT, load_json, save_json, digest
 
 DEFAULT=ROOT/'data/denemeler/olay_birlestirme_01'
 BASE=ROOT/'data/denemeler/kanal_bias_tam_02'

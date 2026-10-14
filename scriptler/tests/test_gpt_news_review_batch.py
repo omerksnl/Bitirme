@@ -4,8 +4,8 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from gpt_news_review_batch import ROOT, MODEL, make_request, split_payload, collect_records, reserve_budget, schema, usage_cost_usd, cost_bound, compact_timeline
-from openai_news_batch import save_json, digest, load_json
+from scriptler.gpt_news_review_batch import ROOT, MODEL, make_request, split_payload, collect_records, reserve_budget, schema, usage_cost_usd, cost_bound, compact_timeline
+from scriptler.lib.batch_io import save_json, digest, load_json
 
 
 class GptNewsReviewTests(unittest.TestCase):
@@ -77,7 +77,7 @@ class GptNewsReviewTests(unittest.TestCase):
             manifest = self.manifest(job)
             output = job / 'output.jsonl'
             output.write_text(json.dumps(self.record()), encoding='utf8')
-            with patch('gpt_news_review_batch.checked_manifest', return_value=manifest):
+            with patch("scriptler.gpt_news_review_batch.checked_manifest", return_value=manifest):
                 first = collect_records(job, output)
                 second = collect_records(job, output)
             self.assertEqual(first['exported'], 1)
@@ -94,7 +94,7 @@ class GptNewsReviewTests(unittest.TestCase):
             manifest = self.manifest(job)
             output = job / 'output.jsonl'
             output.write_text('\n'.join([json.dumps(self.record())] * 2), encoding='utf8')
-            with patch('gpt_news_review_batch.checked_manifest', return_value=manifest):
+            with patch("scriptler.gpt_news_review_batch.checked_manifest", return_value=manifest):
                 report = collect_records(job, output)
                 self.assertEqual(report['exported'], 0)
                 output.write_text(json.dumps(self.record(status='incomplete')), encoding='utf8')
@@ -111,7 +111,7 @@ class GptNewsReviewTests(unittest.TestCase):
             manifest['requests'] = [first, second]
             output = job / 'output.jsonl'
             output.write_text('\n'.join(json.dumps({**self.record(), 'custom_id': d['custom_id']}) for d in [first, second]), encoding='utf8')
-            with patch('gpt_news_review_batch.checked_manifest', return_value=manifest):
+            with patch("scriptler.gpt_news_review_batch.checked_manifest", return_value=manifest):
                 report = collect_records(job, output)
             self.assertEqual(report['exported'], 2)
             self.assertTrue((job / 'haberler/KanalD/test/sections.json').exists())
@@ -124,7 +124,7 @@ class GptNewsReviewTests(unittest.TestCase):
             manifest['model'] = 'gpt-6-luna'
             output = job / 'output.jsonl'
             output.write_text(json.dumps(self.record()), encoding='utf8')
-            with patch('gpt_news_review_batch.checked_manifest', return_value=manifest):
+            with patch("scriptler.gpt_news_review_batch.checked_manifest", return_value=manifest):
                 report = collect_records(job, output)
             self.assertEqual(report['model'], 'gpt-6-luna')
             self.assertAlmostEqual(report['usage_cost_usd_conservative'], .000025)
@@ -149,7 +149,7 @@ class GptNewsReviewTests(unittest.TestCase):
             job = Path(temp)
             ledger = job / 'ledger.json'
             manifest = {'requests_sha256': 'frozen', 'budget': {'estimated_max_usd': .12}}
-            with patch('gpt_news_review_batch.LEDGER', ledger):
+            with patch("scriptler.gpt_news_review_batch.LEDGER", ledger):
                 reserve_budget(job, manifest)
                 reserve_budget(job, manifest)
                 self.assertEqual(len(load_json(ledger)['jobs']), 1)

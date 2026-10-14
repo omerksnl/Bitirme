@@ -5,8 +5,8 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from gpt_news_review_batch import BUNDLE, pilot_sources, compact_timeline, make_request
-from openai_news_batch import ROOT, load_json, digest
+from scriptler.gpt_news_review_batch import BUNDLE, pilot_sources, compact_timeline, make_request
+from scriptler.lib.batch_io import ROOT, load_json, digest
 
 
 class PilotBundleTests(unittest.TestCase):
@@ -27,15 +27,15 @@ class PilotBundleTests(unittest.TestCase):
             mirror = Path(temp)
             bundle = mirror / 'data/haber_pipeline'
             shutil.copytree(BUNDLE, bundle)
-            corrections = mirror / 'scriptler/vtt_word_corrections.json'
-            corrections.parent.mkdir()
-            corrections.write_bytes((ROOT / 'scriptler/vtt_word_corrections.json').read_bytes())
+            corrections = mirror / 'scriptler/config/vtt_word_corrections.json'
+            corrections.parent.mkdir(parents=True)
+            corrections.write_bytes((ROOT / 'scriptler/config/vtt_word_corrections.json').read_bytes())
             for doc in docs:
                 target = mirror / doc['source']
                 target.parent.mkdir(parents=True, exist_ok=True)
                 raw = (ROOT / doc['source']).read_bytes().replace(b'\r\n', b'\n')
                 target.write_bytes(raw.replace(b'\n', b'\r\n'))
-            with patch('gpt_news_review_batch.ROOT', mirror), patch('gpt_news_review_batch.BUNDLE', bundle):
+            with patch("scriptler.gpt_news_review_batch.ROOT", mirror), patch("scriptler.gpt_news_review_batch.BUNDLE", bundle):
                 sources = pilot_sources()
             for doc, source in zip(docs, sources):
                 request = make_request(doc['channel'] + '_' + doc['date'], compact_timeline(source['data']),

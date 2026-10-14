@@ -10,7 +10,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-from openai_news_batch import KINDS, digest, load_json, response_payload, save_json
+from scriptler.denemeler.api.openai_news_batch import KINDS, digest, load_json, response_payload, save_json
 
 BOUNDARY_FIELDS = {
     "start_token": {"type": "integer"},
@@ -480,7 +480,7 @@ def collect_results(job: Path, results: Path, output: Path) -> int:
     if report["stage"] == "detect":
         print(f"Öneri aşaması: {report['successful_documents']} eksiksiz, {report['failed_documents']} eksik/hatalı bülten")
         prepare_review(job, report)
-        print(f'Sonraki adım: python scriptler/openai_news_batch.py submit --job "{job}" --stage review')
+        print(f'Sonraki adım: python -m scriptler.denemeler.api.openai_news_batch submit --job "{job}" --stage review')
         print("Haber TXT'leri ikinci kontrol tamamlandıktan sonra oluşturulacak.")
         return 1 if report["failed_documents"] else 0
     return export_review(job, report, output)

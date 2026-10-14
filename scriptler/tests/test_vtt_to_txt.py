@@ -1,5 +1,5 @@
 import unittest
-from vtt_to_txt import convert, correct_words
+from scriptler.vtt_to_txt import convert, correct_words
 
 
 def sample(*cues):

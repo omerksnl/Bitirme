@@ -8,8 +8,8 @@ import re
 import threading
 from urllib.parse import urlparse
 
-from daily_news_pipeline import timeline
-from openai_news_batch import ROOT,load_json,save_json,digest
+from scriptler.lib.timeline import timeline
+from scriptler.lib.batch_io import ROOT, load_json, save_json, digest
 
 DEFAULT=ROOT/'data/etiketleme/KanalD'
 UI=ROOT/'web-prototype/public/etiketleme/index.html'
@@ -26,7 +26,7 @@ def prepare(project,source,channel,count):
         dates.add(date); selected.append(f)
         if len(selected)>=count: break
     if not selected: raise ValueError('Kaynak altyazı bulunamadı')
-    corrections=load_json(ROOT/'scriptler/vtt_word_corrections.json'); docs=[]
+    corrections=load_json(ROOT/'scriptler/config/vtt_word_corrections.json'); docs=[]
     for f in sorted(selected):
         raw=f.read_bytes(); data=timeline(raw.decode('utf-8-sig'),corrections); identifier=digest(raw)[:20]
         folder=project/'documents'/identifier; folder.mkdir(parents=True,exist_ok=True)

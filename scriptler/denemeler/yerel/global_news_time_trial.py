@@ -1,5 +1,6 @@
 """Bütün bülten için yerel bölümleme: kaynak sınır puanı, süre öncülü ve anlam bütünlüğü."""
 from __future__ import annotations
+from scriptler.lib.metrics import match_boundaries, metrics
 import argparse
 import bisect
 import itertools
@@ -11,11 +12,11 @@ import time
 
 import numpy as np
 
-from channel_news_bias import features, scored, select
-from daily_news_pipeline import process_lock, timeline
-from evaluate_news_boundaries import match_boundaries
-from openai_news_batch import ROOT, digest, load_json, save_json
-from same_event_merge import Encoder, MODEL_REVISION
+from scriptler.denemeler.yerel.channel_news_bias import features, scored, select
+from scriptler.lib.timeline import process_lock, timeline
+from scriptler.lib.metrics import match_boundaries
+from scriptler.lib.batch_io import ROOT, digest, load_json, save_json
+from scriptler.denemeler.yerel.same_event_merge import Encoder, MODEL_REVISION
 
 BASE = ROOT / 'data/denemeler/kanal_bias_tam_02'
 DEFAULT = ROOT / 'data/denemeler/butun_bulten_zamanli_02'
@@ -160,29 +161,6 @@ def decode(document, duration, settings):
     return sorted(cuts), float(best[-1])
 
 
-def metrics(data, expected, cuts):
-    result = {'exact': match_boundaries(expected, cuts, 0), 'within_80_chars': match_boundaries(expected, cuts, 80)}
-    spans = list(re.finditer(r'\S+', data['text']))
-    positions = [s.start() for s in spans]
-    reference = np.searchsorted(positions, expected)
-    prediction = np.searchsorted(positions, cuts)
-    n = len(spans)
-    k = max(1, round(n / (2 * (len(expected) + 1))))
-    if n <= k:
-        result.update(pk=None, windowdiff=None)
-    else:
-        left = np.arange(n - k)
-        right = left + k
-        r = np.searchsorted(reference, right, side='right') - np.searchsorted(reference, left, side='right')
-        p = np.searchsorted(prediction, right, side='right') - np.searchsorted(prediction, left, side='right')
-        result.update(pk=float(np.mean((r > 0) != (p > 0))), windowdiff=float(np.mean(r != p)))
-    a = [0] + expected + [len(data['text'])]
-    b = [0] + cuts + [len(data['text'])]
-    def coverage(first, second):
-        return sum(max(max(0, min(y, v) - max(x, u)) for u, v in zip(second, second[1:]))
-                   for x, y in zip(first, first[1:])) / len(data['text'])
-    result.update(purity=coverage(b, a), coverage=coverage(a, b), cut_count=len(cuts))
-    return result
 
 
 def export(document, cuts, folder, model_hash, score):
@@ -284,7 +262,7 @@ def apply(source, model_path, output):
     if source.suffix == '.json':
         data = load_json(source)
     else:
-        corrections = load_json(ROOT / 'scriptler/vtt_word_corrections.json')
+        corrections = load_json(ROOT / 'scriptler/config/vtt_word_corrections.json')
         data = timeline(raw.decode('utf-8-sig'), corrections)
     identity = digest(raw + json.dumps(model, sort_keys=True).encode())[:20]
     with process_lock(output):
