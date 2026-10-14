@@ -1,0 +1,116 @@
+{
+  "source_sha256": "b30d09059ca4d89a66e57e513531fa6a569782ef00deee97603a999c6edf5bc9",
+  "human_approved": false,
+  "not_independent_gold": true,
+  "author": "Codex direct transcript review",
+  "sections": [
+    {
+      "start_char": 0,
+      "kind": "other"
+    },
+    {
+      "start_char": 92,
+      "kind": "news"
+    },
+    {
+      "start_char": 2600,
+      "kind": "news"
+    },
+    {
+      "start_char": 4647,
+      "kind": "news"
+    },
+    {
+      "start_char": 6952,
+      "kind": "news"
+    },
+    {
+      "start_char": 11436,
+      "kind": "news"
+    },
+    {
+      "start_char": 13399,
+      "kind": "news"
+    },
+    {
+      "start_char": 15355,
+      "kind": "news"
+    },
+    {
+      "start_char": 18097,
+      "kind": "other"
+    },
+    {
+      "start_char": 18401,
+      "kind": "news"
+    },
+    {
+      "start_char": 19312,
+      "kind": "news"
+    },
+    {
+      "start_char": 19976,
+      "kind": "news"
+    },
+    {
+      "start_char": 20244,
+      "kind": "news"
+    },
+    {
+      "start_char": 22226,
+      "kind": "news"
+    },
+    {
+      "start_char": 24476,
+      "kind": "news"
+    },
+    {
+      "start_char": 26941,
+      "kind": "other"
+    },
+    {
+      "start_char": 27235,
+      "kind": "news"
+    },
+    {
+      "start_char": 27650,
+      "kind": "news"
+    },
+    {
+      "start_char": 27898,
+      "kind": "news"
+    },
+    {
+      "start_char": 28524,
+      "kind": "news"
+    },
+    {
+      "start_char": 28776,
+      "kind": "news"
+    },
+    {
+      "start_char": 29021,
+      "kind": "news"
+    },
+    {
+      "start_char": 29256,
+      "kind": "news"
+    },
+    {
+      "start_char": 29427,
+      "kind": "news"
+    },
+    {
+      "start_char": 31882,
+      "kind": "news"
+    },
+    {
+      "start_char": 33970,
+      "kind": "news"
+    },
+    {
+      "start_char": 35560,
+      "kind": "other"
+    }
+  ]
+}

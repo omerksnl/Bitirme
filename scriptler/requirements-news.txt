@@ -1,0 +1,3 @@
+-r requirements-openai.txt
+tiktoken>=0.7
+numpy>=1.24,<3

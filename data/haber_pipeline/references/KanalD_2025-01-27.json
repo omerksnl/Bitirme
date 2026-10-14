@@ -1,0 +1,188 @@
+{
+  "source_sha256": "0bd43f3c707751039092cd586a9bee0a8d29f76f8bd726ce885cb73d56260544",
+  "human_approved": false,
+  "not_independent_gold": true,
+  "author": "Codex direct transcript review",
+  "sections": [
+    {
+      "start_char": 0,
+      "kind": "other"
+    },
+    {
+      "start_char": 105,
+      "kind": "news"
+    },
+    {
+      "start_char": 2390,
+      "kind": "news"
+    },
+    {
+      "start_char": 4262,
+      "kind": "news"
+    },
+    {
+      "start_char": 5643,
+      "kind": "news"
+    },
+    {
+      "start_char": 6778,
+      "kind": "news"
+    },
+    {
+      "start_char": 8385,
+      "kind": "news"
+    },
+    {
+      "start_char": 10836,
+      "kind": "news"
+    },
+    {
+      "start_char": 12893,
+      "kind": "news"
+    },
+    {
+      "start_char": 14349,
+      "kind": "news"
+    },
+    {
+      "start_char": 15281,
+      "kind": "news"
+    },
+    {
+      "start_char": 15921,
+      "kind": "news"
+    },
+    {
+      "start_char": 16123,
+      "kind": "news"
+    },
+    {
+      "start_char": 16383,
+      "kind": "news"
+    },
+    {
+      "start_char": 16769,
+      "kind": "news"
+    },
+    {
+      "start_char": 16946,
+      "kind": "news"
+    },
+    {
+      "start_char": 18836,
+      "kind": "other"
+    },
+    {
+      "start_char": 19098,
+      "kind": "news"
+    },
+    {
+      "start_char": 19299,
+      "kind": "news"
+    },
+    {
+      "start_char": 19838,
+      "kind": "news"
+    },
+    {
+      "start_char": 21099,
+      "kind": "news"
+    },
+    {
+      "start_char": 22790,
+      "kind": "other"
+    },
+    {
+      "start_char": 23046,
+      "kind": "news"
+    },
+    {
+      "start_char": 23652,
+      "kind": "news"
+    },
+    {
+      "start_char": 24204,
+      "kind": "news"
+    },
+    {
+      "start_char": 25635,
+      "kind": "news"
+    },
+    {
+      "start_char": 27342,
+      "kind": "news"
+    },
+    {
+      "start_char": 28285,
+      "kind": "other"
+    },
+    {
+      "start_char": 28406,
+      "kind": "news"
+    },
+    {
+      "start_char": 28990,
+      "kind": "news"
+    },
+    {
+      "start_char": 29134,
+      "kind": "news"
+    },
+    {
+      "start_char": 29306,
+      "kind": "news"
+    },
+    {
+      "start_char": 29889,
+      "kind": "news"
+    },
+    {
+      "start_char": 30329,
+      "kind": "news"
+    },
+    {
+      "start_char": 30606,
+      "kind": "news"
+    },
+    {
+      "start_char": 30927,
+      "kind": "news"
+    },
+    {
+      "start_char": 31226,
+      "kind": "news"
+    },
+    {
+      "start_char": 31452,
+      "kind": "news"
+    },
+    {
+      "start_char": 31888,
+      "kind": "news"
+    },
+    {
+      "start_char": 32426,
+      "kind": "news"
+    },
+    {
+      "start_char": 32534,
+      "kind": "news"
+    },
+    {
+      "start_char": 32856,
+      "kind": "news"
+    },
+    {
+      "start_char": 32954,
+      "kind": "news"
+    },
+    {
+      "start_char": 34696,
+      "kind": "news"
+    },
+    {
+      "start_char": 35982,
+      "kind": "news"
+    }
+  ]
+}

@@ -50,3 +50,10 @@ Desktop.ini
 
 # Local model weights, embedding caches and scratch files
 /work/
+
+# Local experiment archives, API responses and persistent worker state
+/data/denemeler/
+
+# Local transcript review and annotation sessions
+/data/incelemeler/
+/data/etiketleme/

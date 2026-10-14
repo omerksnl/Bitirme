@@ -86,12 +86,36 @@ def digest(data: bytes) -> str:
 def save_json(path: Path, data: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + ".tmp")
-    temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    temporary.replace(path)
+    encoded=json.dumps(data, ensure_ascii=False, indent=2).encode('utf-8')
+    with temporary.open('wb') as handle:
+        handle.write(encoded)
+        handle.flush()
+        os.fsync(handle.fileno())
+    try:
+        temporary.replace(path)
+    except PermissionError:
+        # Some Windows folders allow writing but deny child deletion, which
+        # also prevents replacing an existing file. Keep a recovery journal
+        # and the previous valid value; do not change the folder ACL.
+        if path.exists():
+            backup=path.with_suffix(path.suffix+'.bak')
+            backup.write_bytes(path.read_bytes())
+        with path.open('wb') as handle:
+            handle.write(encoded)
+            handle.flush()
+            os.fsync(handle.fileno())
+        # Keep .tmp: deletion may be denied by the same folder policy.
 
 
 def load_json(path: Path) -> dict:
-    return json.loads(path.read_text(encoding="utf-8-sig"))
+    try:
+        return json.loads(path.read_text(encoding="utf-8-sig"))
+    except (FileNotFoundError,json.JSONDecodeError):
+        # Recover an interrupted in-place write from its fully flushed journal.
+        journal=path.with_suffix(path.suffix+'.tmp')
+        if journal.exists():
+            return json.loads(journal.read_text(encoding='utf-8-sig'))
+        raise
 
 
 def numbered_text(text: str) -> str:
@@ -143,6 +167,13 @@ def submit(args) -> int:
         raise ValueError("Hazırlanan istek dosyası değiştirilmiş; yeni iş hazırla")
     state_path = job / "batch_state.json"
     state = load_json(state_path) if state_path.exists() else {}
+    journal_path=state_path.with_suffix('.json.tmp')
+    if journal_path.exists():
+        journal=load_json(journal_path)
+        if journal.get('batch_id') and journal.get('input_file_id')==state.get('input_file_id'):
+            # A batch was created but final persistence was interrupted.
+            state=journal
+            save_json(state_path,state)
     if state.get("batch_id"):
         raise ValueError(f"Bu iş zaten gönderildi: {state['batch_id']}; status kullan")
     # A previous interrupted creation must be reconciled in the platform,

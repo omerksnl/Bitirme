@@ -1,0 +1,64 @@
+{
+  "source_sha256": "622ac6947ee10a7637c0320f0d0f0249d866d5ce37e949ab55db8f169cab1e2b",
+  "human_approved": false,
+  "not_independent_gold": true,
+  "author": "Codex direct transcript review",
+  "sections": [
+    {
+      "start_char": 0,
+      "kind": "other"
+    },
+    {
+      "start_char": 187,
+      "kind": "news"
+    },
+    {
+      "start_char": 1347,
+      "kind": "news"
+    },
+    {
+      "start_char": 2566,
+      "kind": "news"
+    },
+    {
+      "start_char": 2855,
+      "kind": "news"
+    },
+    {
+      "start_char": 4659,
+      "kind": "news"
+    },
+    {
+      "start_char": 5845,
+      "kind": "news"
+    },
+    {
+      "start_char": 7381,
+      "kind": "news"
+    },
+    {
+      "start_char": 8869,
+      "kind": "news"
+    },
+    {
+      "start_char": 10753,
+      "kind": "news"
+    },
+    {
+      "start_char": 12235,
+      "kind": "news"
+    },
+    {
+      "start_char": 13691,
+      "kind": "news"
+    },
+    {
+      "start_char": 14554,
+      "kind": "news"
+    },
+    {
+      "start_char": 15335,
+      "kind": "other"
+    }
+  ]
+}

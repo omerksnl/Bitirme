@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "pricing_checked": "2026-10-15",
+  "not_independent_gold": true,
+  "scope": "Previously reviewed sources; one response per source and setting; no production/generalization claim",
+  "selected_configuration": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "low",
+    "format": "short numeric source IDs"
+  },
+  "cost_method": "Batch normal input + model-specific cache reads + 1.25x cache writes + output including reasoning",
+  "models": [
+    {
+      "name": "compact_sol",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "low",
+      "usage_cost_usd": 0.05685275,
+      "usage": {
+        "input_tokens": 36480,
+        "output_tokens": 2251,
+        "reasoning_tokens": 244,
+        "cached_input_tokens": 0,
+        "cache_write_tokens": 36471
+      },
+      "collection_exported": 3,
+      "collection_failed": 0,
+      "documents": [
+        {
+          "channel": "KanalD",
+          "date": "2025-01-27",
+          "payload_section_count": 45,
+          "payload_news_count": 41,
+          "format_failure_count": 0,
+          "metrics_are_diagnostic_only": false,
+          "boundary_metrics": {
+            "exact": {
+              "tp": 44,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "within_80_chars": {
+              "tp": 44,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            }
+          }
+        },
+        {
+          "channel": "Show",
+          "date": "2024-11-29",
+          "payload_section_count": 14,
+          "payload_news_count": 12,
+          "format_failure_count": 0,
+          "metrics_are_diagnostic_only": false,
+          "boundary_metrics": {
+            "exact": {
+              "tp": 12,
+              "fp": 1,
+              "fn": 1,
+              "f1": 0.9230769230769231
+            },
+            "within_80_chars": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            }
+          }
+        },
+        {
+          "channel": "ATV",
+          "date": "2025-01-27",
+          "payload_section_count": 27,
+          "payload_news_count": 23,
+          "format_failure_count": 0,
+          "metrics_are_diagnostic_only": false,
+          "boundary_metrics": {
+            "exact": {
+              "tp": 24,
+              "fp": 2,
+              "fn": 2,
+              "f1": 0.9230769230769231
+            },
+            "within_80_chars": {
+              "tp": 25,
+              "fp": 1,
+              "fn": 1,
+              "f1": 0.9615384615384616
+            }
+          }
+        }
+      ],
+      "batch_rates_usd_per_million": {
+        "input": 1.0,
+        "cache_read": 0.05,
+        "cache_write": 1.25,
+        "output": 5.0
+      }
+    },
+    {
+      "name": "compact_luna",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "low",
+      "usage_cost_usd": 0.0028711375000000003,
+      "usage": {
+        "input_tokens": 36480,
+        "output_tokens": 2365,
+        "reasoning_tokens": 474,
+        "cached_input_tokens": 0,
+        "cache_write_tokens": 36471
+      },
+      "collection_exported": 0,
+      "collection_failed": 3,
+      "documents": [
+        {
+          "channel": "KanalD",
+          "date": "2025-01-27",
+          "payload_section_count": 42,
+          "payload_news_count": 39,
+          "format_failure_count": 1,
+          "metrics_are_diagnostic_only": true,
+          "boundary_metrics": {
+            "exact": {
+              "tp": 39,
+              "fp": 2,
+              "fn": 5,
+              "f1": 0.9176470588235294
+            },
+            "within_80_chars": {
+              "tp": 39,
+              "fp": 2,
+              "fn": 5,
+              "f1": 0.9176470588235294
+            }
+          }
+        },
+        {
+          "channel": "Show",
+          "date": "2024-11-29",
+          "payload_section_count": 14,
+          "payload_news_count": 12,
+          "format_failure_count": 5,
+          "metrics_are_diagnostic_only": true,
+          "boundary_metrics": {
+            "exact": {
+              "tp": 11,
+              "fp": 2,
+              "fn": 2,
+              "f1": 0.8461538461538461
+            },
+            "within_80_chars": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            }
+          }
+        },
+        {
+          "channel": "ATV",
+          "date": "2025-01-27",
+          "payload_section_count": 29,
+          "payload_news_count": 24,
+          "format_failure_count": 2,
+          "metrics_are_diagnostic_only": true,
+          "boundary_metrics": {
+            "exact": {
+              "tp": 14,
+              "fp": 14,
+              "fn": 12,
+              "f1": 0.5185185185185185
+            },
+            "within_80_chars": {
+              "tp": 21,
+              "fp": 7,
+              "fn": 5,
+              "f1": 0.7777777777777778
+            }
+          }
+        }
+      ],
+      "batch_rates_usd_per_million": {
+        "input": 0.05,
+        "cache_read": 0.005000000000000001,
+        "cache_write": 0.0625,
+        "output": 0.25
+      }
+    },
+    {
+      "name": "luna_medium",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium",
+      "usage_cost_usd": 0.0043356375,
+      "usage": {
+        "input_tokens": 36480,
+        "output_tokens": 8223,
+        "reasoning_tokens": 6293,
+        "cached_input_tokens": 0,
+        "cache_write_tokens": 36471
+      },
+      "collection_exported": 1,
+      "collection_failed": 2,
+      "documents": [
+        {
+          "channel": "KanalD",
+          "date": "2025-01-27",
+          "payload_section_count": 45,
+          "payload_news_count": 41,
+          "format_failure_count": 0,
+          "metrics_are_diagnostic_only": false,
+          "boundary_metrics": {
+            "exact": {
+              "tp": 43,
+              "fp": 1,
+              "fn": 1,
+              "f1": 0.9772727272727273
+            },
+            "within_80_chars": {
+              "tp": 43,
+              "fp": 1,
+              "fn": 1,
+              "f1": 0.9772727272727273
+            }
+          }
+        },
+        {
+          "channel": "Show",
+          "date": "2024-11-29",
+          "payload_section_count": 13,
+          "payload_news_count": 11,
+          "format_failure_count": 5,
+          "metrics_are_diagnostic_only": true,
+          "boundary_metrics": {
+            "exact": {
+              "tp": 12,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.96
+            },
+            "within_80_chars": {
+              "tp": 12,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.96
+            }
+          }
+        },
+        {
+          "channel": "ATV",
+          "date": "2025-01-27",
+          "payload_section_count": 26,
+          "payload_news_count": 23,
+          "format_failure_count": 5,
+          "metrics_are_diagnostic_only": true,
+          "boundary_metrics": {
+            "exact": {
+              "tp": 15,
+              "fp": 10,
+              "fn": 11,
+              "f1": 0.5882352941176471
+            },
+            "within_80_chars": {
+              "tp": 21,
+              "fp": 4,
+              "fn": 5,
+              "f1": 0.8235294117647058
+            }
+          }
+        }
+      ],
+      "batch_rates_usd_per_million": {
+        "input": 0.05,
+        "cache_read": 0.005000000000000001,
+        "cache_write": 0.0625,
+        "output": 0.25
+      }
+    }
+  ],
+  "cancelled_high_excluded_from_quality_comparison": true
+}
